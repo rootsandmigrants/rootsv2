@@ -1,0 +1,201 @@
+[
+  {
+    "year": 1801,
+    "description": "First Peaceful Transfer of Power",
+    "story": "In 1801, Thomas Jefferson became the third President of the United States, marking the first peaceful transfer of power between political parties.",
+    "images": ["img/Louisiana-Purchase.png"],
+    "video": "https://www.youtube-nocookie.com/embed/xoRWcMSDhFU?si=_CKYkPp8bvZuhxYj",
+    "category": "historical"
+  },
+  {
+    "year": 1805,
+    "description": "Exploration of the American West",
+    "story": "The journey of Lewis and Clark continued, providing valuable information about the geography and resources of the American West.",
+    "images": [],
+    "video": "",
+    "category": "historical"
+  },
+  {
+    "year": 1807,
+    "description": "Embargo Act",
+    "story": "The Embargo Act of 1807 was enacted to restrict trade with Britain and France, aiming to protect American interests.",
+    "images": [],
+    "video": "",
+    "category": "historical"
+  },
+  {
+    "year": 1808,
+    "description": "Ban on Importation of Slaves",
+    "story": "The United States banned the importation of slaves in 1808, a significant step in the struggle over slavery.",
+    "images": [],
+    "video": "",
+    "category": "historical"
+  },
+  {
+    "year": 1811,
+    "description": "Construction of the Erie Canal Begins",
+    "story": "Construction on the Erie Canal began in 1811, significantly impacting trade and transportation.",
+    "images": [],
+    "video": "",
+    "category": "migration"
+  },
+
+  {
+    "year": 1822,
+    "description": "Establishment of Liberia",
+    "story": "The American Colonization Society founded Liberia as a colony for free African Americans.",
+    "images": [],
+    "video": "",
+    "resources": [
+      {
+        "label": "The White House and Slavery",
+        "url": "https://www.whitehousehistory.org/spn/timeline"
+      }
+    ]
+  },
+  {
+    "year": 1825,
+    "description": "Construction of the Erie Canal Completed",
+    "story": "The completion of the Erie Canal transformed trade in New York and across the Northeast.",
+    "images": [],
+    "video": "",
+    "category": "migration"
+  },
+  {
+    "year": 1831,
+    "description": "Nat Turner's Rebellion",
+    "story": "Nat Turner's Rebellion was a violent slave uprising in Virginia that heightened tensions over slavery.",
+    "images": [],
+    "video": "",
+    "category": "historical"
+  },
+  {
+    "year": 1833,
+    "description": "Abolition of Slavery in the British Empire",
+    "story": "The British Empire abolished slavery in 1833, impacting the movement for abolition in the United States.",
+    "images": [],
+    "video": "",
+    "category": "historical"
+  },
+  {
+    "year": 1835,
+    "description": "The Texas Revolution",
+    "story": "The Texas Revolution began as American settlers in Texas rebelled against Mexican rule.",
+    "images": [],
+    "video": "",
+    "category": "historical"
+  },
+  {
+    "year": 1846,
+    "description": "The Oregon Treaty",
+    "story": "The Oregon Treaty established the border between the U.S. and Canada, resolving territorial disputes.",
+    "images": [],
+    "video": "",
+    "category": "historical"
+  },
+  {
+    "year": 1853,
+    "description": "Gadsden Purchase",
+    "story": "The Gadsden Purchase expanded U.S. territory, facilitating the construction of a southern transcontinental railroad.",
+    "images": [],
+    "video": "",
+    "category": "historical"
+  },
+  {
+    "year": 1854,
+    "description": "Bleeding Kansas",
+    "story": "Bleeding Kansas was a series of violent confrontations between pro-slavery and anti-slavery forces.",
+    "images": [],
+    "video": "",
+    "category": "historical"
+  },
+  {
+    "year": 1858,
+    "description": "First Transcontinental Railroad Proposed",
+    "story": "The first transcontinental railroad was proposed to connect the eastern and western United States.",
+    "images": [],
+    "video": "",
+    "category": "migration"
+  },
+  {
+    "year": 1861,
+    "description": "Civil War Begins",
+    "story": "The Civil War began as Southern states seceded, leading to a conflict over slavery and states' rights.",
+    "images": [],
+    "video": "",
+    "category": "historical"
+  },
+
+  {
+    "year": 1863,
+    "description": "Emancipation Proclamation",
+    "story": "The Emancipation Proclamation declared the freedom of enslaved people in Confederate states.",
+    "images": [],
+    "video": "",
+    "category": "historical"
+  },
+  {
+    "year": 1865,
+    "description": "End of the Civil War",
+    "story": "The Civil War ended with the surrender of General Lee at Appomattox Court House.",
+    "images": [],
+    "video": "",
+    "category": "historical"
+  },
+  {
+    "year": 1867,
+    "description": "Reconstruction Act",
+    "story": "The Reconstruction Act aimed to rebuild the South and ensure rights for freed slaves.",
+    "images": [],
+    "video": "",
+    "category": "historical"
+  },
+  {
+    "year": 1868,
+    "description": "Fourteenth Amendment Ratified",
+    "story": "The Fourteenth Amendment granted citizenship to all persons born in the U.S., including former slaves.",
+    "images": [],
+    "video": "",
+    "category": "historical"
+  },
+  {
+    "year": 1869,
+    "description": "First Transcontinental Railroad Completed",
+    "story": "The completion of the first transcontinental railroad connected the eastern and western U.S.",
+    "images": [],
+    "video": "",
+    "category": "migration"
+  },
+  {
+    "year": 1870,
+    "description": "Fifteenth Amendment Ratified",
+    "story": "The Fifteenth Amendment granted African American men the right to vote.",
+    "images": [],
+    "video": "",
+    "category": "historical"
+  },
+  {
+    "year": 1876,
+    "description": "Battle of Little Bighorn",
+    "story": "The Battle of Little Bighorn was a significant conflict between U.S. forces and Native Americans.",
+    "images": [],
+    "video": "",
+    "category": "historical"
+  },
+  {
+    "year": 1877,
+    "description": "Reconstruction Ends",
+    "story": "The end of Reconstruction marked the return of Southern white Democrats to power.",
+    "images": [],
+    "video": "",
+    "category": "historical"
+  },
+  {
+    "year": 1882,
+    "description": "Chinese Exclusion Act",
+    "story": "The Chinese Exclusion Act was enacted, prohibiting Chinese laborers from immigrating to the U.S.",
+    "images": [],
+    "video": "",
+    "category": "historical"
+  }
+]

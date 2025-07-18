@@ -1,0 +1,32 @@
+{
+  "tears": {
+    "year": 1830,
+    "file": "assets/trails/trail.json",
+    "color": "#964B00",
+    "label": "Trail of Tears"
+  },
+  "OregonTrail": {
+    "year": 1840,
+    "file": "assets/trails/oreg_nht_100k_line.json",
+    "color": "#3498DB",
+    "label": "Oregon Trail"
+  },
+  "mormon": {
+    "year": 1840,
+    "file": "assets/trails/mormon.json",
+    "color": "#2ECC71",
+    "label": "Mormon Trail"
+  },
+  "cali-trails": {
+    "year": 1841,
+    "file": "assets/trails/cali_trail.json",
+    "color": "#F39C12",
+    "label": "California Trail"
+  },
+  "sante-fe-trail": {
+    "year": 1820,
+    "file": "assets/trails/SAFE_trail.json",
+    "color": "#9B59B6",
+    "label": "Santa Fe Trail"
+  }
+}

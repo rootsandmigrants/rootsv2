@@ -1,0 +1,86 @@
+{
+  "1790": {
+    "shapefile": "states/US_state_1790.json",
+    "csv": "assets/subset/1790.csv"
+  },
+  "1800": {
+    "shapefile": "states/US_state_1800.json",
+    "csv": "assets/subset/1800.csv"
+  },
+  "1810": {
+    "shapefile": "states/US_state_1810.json",
+    "csv": "assets/subset/1810.csv"
+  },
+  "1820": {
+    "shapefile": "states/US_state_1820.json",
+    "csv": "assets/subset/1820.csv"
+  },
+  "1830": {
+    "shapefile": "states/US_state_1830.json",
+    "csv": "assets/subset/1830.csv"
+  },
+  "1840": {
+    "shapefile": "states/US_state_1840.json",
+    "csv": "assets/subset/1840.csv"
+  },
+  "1850": {
+    "shapefile": "states/US_state_1850.json",
+    "csv": "assets/subset/1850.csv"
+  },
+  "1860": {
+    "shapefile": "states/US_state_1860.json",
+    "csv": "assets/subset/1860.csv"
+  },
+  "1870": {
+    "shapefile": "states/US_state_1870.json",
+    "csv": "assets/subset/1870.csv"
+  },
+  "1880": {
+    "shapefile": "states/US_state_1880.json",
+    "csv": "assets/subset/1880.csv"
+  },
+  "1890": {
+    "shapefile": "states/US_state_1890.json",
+    "csv": "assets/subset/1890.csv"
+  },
+  "1900": {
+    "shapefile": "states/US_state_1900.json",
+    "csv": "assets/subset/1900.csv"
+  },
+  "1910": {
+    "shapefile": "states/US_state_1910.json",
+    "csv": "assets/subset/1910.csv"
+  },
+  "1920": {
+    "shapefile": "states/US_state_1920.json",
+    "csv": "assets/subset/1920.csv"
+  },
+  "1930": {
+    "shapefile": "states/US_state_1930.json",
+    "csv": "assets/subset/1930.csv"
+  },
+  "1940": {
+    "shapefile": "states/US_state_1930.json",
+    "csv": "assets/subset/1940.csv"
+  },
+  "1950": {
+    "shapefile": "states/US_state_1930.json",
+    "csv": "assets/subset/1950.csv"
+  },
+  "1960": {
+    "shapefile": "states/US_state_1960.json",
+    "csv": "assets/subset/1960.csv"
+  },
+  "1970": {
+    "shapefile": "states/US_state_1960.json",
+    "csv": "assets/subset/1970.csv"
+  },
+  "1980": {
+    "shapefile": "states/US_state_1960.json",
+    "csv": "assets/subset/1980.csv"
+  },
+  "1990": {
+    "shapefile": "states/US_state_1960.json",
+    "csv": "assets/subset/1990.csv"
+  }
+}

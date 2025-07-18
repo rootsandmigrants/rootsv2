@@ -1,0 +1,41 @@
+/* external stylesheet (e.g., styles.css) */
+
+/* Styling for the legend container */
+#overlay-legend-container {
+  position: absolute;
+  top: 20px;
+  left: 22%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  z-index: 1000;
+  visibility: hidden;
+}
+
+/* Styling for each legend item */
+.overlay-legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+/* Styling for solid line items */
+.overlay-legend-color {
+  width: 30px;
+  height: 2px;
+  margin-right: 8px;
+  display: inline-block;
+  background-color: currentColor; /* Uses the current line color */
+  border: none;
+}
+.overlay-legend-dashed {
+  display: inline-block;
+  width: 20px;
+  height: 0;
+  border-top: 3px dashed;
+  margin-right: 8px;
+  vertical-align: middle;
+}

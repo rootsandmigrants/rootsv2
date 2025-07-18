@@ -1,0 +1,7 @@
+{
+  "file": "states/us_territories.geojson",
+  "sourceId": "native-territories",
+  "fillId": "native-territories-fill",
+  "lineId": "native-territories-outline",
+  "label": "Native Territories (static)"
+}

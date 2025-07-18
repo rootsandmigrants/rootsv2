@@ -1,0 +1,44 @@
+{
+  "Arizona-NewMexico": {
+    "year": 1848,
+    "file": "assets/cession/AriNewMex.json",
+    "color": "#FF5733",
+    "label": "Arizona-NewMexico"
+  },
+  "Oregon": {
+    "year": 1846,
+    "file": "assets/cession/Oregon.json",
+    "color": "#3498DB",
+    "label": "The treaty of Oregon"
+  },
+  "florida": {
+    "year": 1819,
+    "file": "assets/cession/florida.json",
+    "color": "#2ECC71",
+    "label": "Adams-Onis Treaty"
+  },
+  "purchase": {
+    "year": 1803,
+    "file": "assets/cession/purchase.json",
+    "color": "#F39C12",
+    "label": "Louisiana Purchase"
+  },
+  "Gadsden": {
+    "year": 1854,
+    "file": "assets/cession/Gadsden.json",
+    "color": "#9B59B6",
+    "label": "Gadsden Purchase"
+  },
+  "Texas": {
+    "year": 1845,
+    "file": "assets/cession/Texas.json",
+    "color": "#9604d1",
+    "label": "Texas annexation"
+  },
+  "Mexican": {
+    "year": 1848,
+    "file": "assets/cession/Mexican.json",
+    "color": "#9604d1",
+    "label": "Mexican Cession"
+  }
+}

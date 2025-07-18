@@ -1,0 +1,226 @@
+[
+  {
+    "year": 1607,
+    "type": "DBQ",
+    "target": "event",
+    "description": "Arrival of the British",
+    "prompt": "",
+    "questions": [],
+    "sources": [{ "image": "assets/images/DBQ/native.png" }]
+  },
+  {
+    "year": 1607,
+    "type": "Long Essay",
+    "target": "event",
+    "description": "Arrival of the British",
+    "prompt": "",
+    "questions": [
+      "Evaluate the extent to which settler expansion influenced North America from 1754 to 1800.",
+      "Evaluate the extent to which migration influenced the western United States from 1820 to 1898",
+      "Evaluate the extent to which migration influenced the western United States from 1820 to 1898",
+      "Briefly describe how agrocultrue influenced migration to North America from 1607 to 1776"
+    ],
+    "sources": []
+  },
+  {
+    "year": 1609,
+    "type": "Long Essay",
+    "target": "event",
+    "description": "Indian War",
+    "prompt": "What does the conflict between settlers and the Powhatan reveal about early colonial relations?",
+    "questions": [
+      "Evaluate the relative importance of the causes of conflict among Europeans and Native Americans from 1500 to 1763",
+      "Why did tensions escalate in 1609?",
+      "How did both sides respond to each other\u2019s actions?"
+    ]
+  },
+  {
+    "year": 1609,
+    "type": "Long Essay",
+    "target": "event",
+    "description": "Indian War",
+    "prompt": "Evaluate the relative importance of the causes of conflict among Europeans and Native Americans from 1500 to 1763",
+
+    "questions": []
+  },
+  {
+    "year": 1620,
+    "type": "FRQ",
+    "target": "event",
+    "description": "Puritans",
+    "prompt": "",
+    "questions": [],
+    "sources": [{ "image": "assets/images/DBQ/Puritans.png" }]
+  },
+  {
+    "year": 1763,
+    "type": "DBQ",
+    "target": "event",
+    "description": "War to Revolution",
+    "prompt": "To what extent did the French and Indian War set the stage for revolution?",
+    "questions": [
+      "How did British policy change after 1763?",
+      "What grievances did colonists express in response to new policies?"
+    ]
+  },
+  {
+    "year": 1775,
+    "type": "DBQ",
+    "target": "event",
+    "description": "The American Revolution",
+    "prompt": "",
+    "questions": [],
+    "sources": [{ "image": "assets/images/DBQ/revolution.png" }]
+  },
+  {
+    "year": 1776,
+    "type": "FRQ",
+    "target": "story",
+    "description": "Independence",
+    "prompt": "Explain the political philosophy behind the Declaration of Independence.",
+    "questions": [
+      "How did Enlightenment ideas influence the Declaration?",
+      "What were the core arguments for breaking from Britain?"
+    ]
+  },
+  {
+    "year": 1801,
+    "description": "First Peaceful Transfer of Power",
+    "type": "DBQ",
+    "target": "story",
+    "prompt": "How did the peaceful transfer of power in 1801 demonstrate the strength of the U.S. democratic system?",
+    "questions": [
+      "What documents or evidence reflect how Americans responded to the transfer of power?",
+      "How did Thomas Jefferson’s inaugural address frame the political transition?",
+      "How does this event compare to transitions of power in other countries at the time?"
+    ]
+  },
+
+  {
+    "year": 1803,
+    "type": "Discussion Prompts",
+    "target": "event",
+    "description": "Louisiana Purchase",
+    "prompt": "What were the long-term consequences of the Louisiana Purchase?",
+    "questions": [
+      "How did it impact Native American communities?",
+      "Did it increase or reduce national unity?"
+    ]
+  },
+  {
+    "year": 1810,
+    "type": "DBQ",
+    "target": "event",
+    "description": "The Second Middle Passage",
+    "prompt": "Evaluate the extent to which the institution of slavery shaped United States society between 1783 and 1840.",
+    "task": "In your response, you should:\n• Respond to the prompt with a historically defensible thesis or claim.\n• Describe a broader historical context relevant to the prompt.\n• Support an argument using at least four documents.\n• Use at least one additional piece of specific historical evidence (beyond that found in the documents).\n• For at least two documents, explain how or why the document’s point of view, purpose, historical situation, and/or audience is relevant.\n• Demonstrate a complex understanding of a historical development related to the prompt through sophisticated argumentation and/or effective use of evidence.",
+    "questions": [],
+    "sources": [
+      { "image": "assets/images/DBQ/DOC1.png" },
+      { "image": "assets/images/DBQ/DOC2.png" },
+      { "image": "assets/images/DBQ/DOC3.png" },
+      { "image": "assets/images/DBQ/DOC4.png" },
+      { "image": "assets/images/DBQ/DOC5.png" },
+      { "image": "assets/images/DBQ/DOC6.png" },
+      { "image": "assets/images/DBQ/DOC7.png" }
+    ]
+  },
+
+  {
+    "year": 1830,
+    "type": "DBQ",
+    "target": "event",
+    "description": "Indian Removal Act",
+    "prompt": "Analyze the causes and consequences of the Indian Removal Act.",
+    "questions": [
+      "What arguments did President Jackson and others use to justify removal?",
+      "How did Native communities respond?",
+      "Examine maps and documents to trace changes in land ownership."
+    ]
+  },
+
+  {
+    "year": 1830,
+    "type": "FRQ",
+    "target": "event",
+    "description": "Underground Railroad",
+    "prompt": "Evaluate the risks and motivations of those involved in the Underground Railroad.",
+    "questions": [
+      "What role did abolitionists play?",
+      "Why did people risk their lives to help others escape slavery?"
+    ]
+  },
+  {
+    "year": 1830,
+    "type": "Discussion Prompts",
+    "target": "event",
+    "description": "Underground Railroad",
+    "prompt": "Discuss the long-term legacy of the Underground Railroad in American memory.",
+    "questions": [
+      "How is the Underground Railroad remembered today?",
+      "What lessons can be drawn from this resistance network?"
+    ]
+  },
+  {
+    "year": 1848,
+    "type": "Discussion Prompts",
+    "target": "event",
+    "description": "Treaty of Guadalupe",
+    "prompt": "How did the Treaty of Guadalupe Hidalgo shape the American West?",
+    "questions": [
+      "Who gained and who lost from U.S. expansion?",
+      "What migration patterns changed after 1848?"
+    ]
+  },
+  {
+    "year": 1848,
+    "type": "FRQ",
+    "target": "event",
+    "description": "California Gold Rush",
+    "prompt": "How much gold was found",
+    "questions": ["Who  lost from california gold rush?"]
+  },
+  {
+    "year": 1861,
+    "type": "FRQ",
+    "target": "event",
+    "description": "American Civil War Begins",
+    "prompt": "Assess the root causes of the American Civil War.",
+    "questions": [
+      "How did economic, political, and social tensions lead to war?",
+      "What role did slavery play in sparking the conflict?"
+    ]
+  },
+  {
+    "year": 1910,
+    "type": "DBQ",
+    "target": "event",
+    "description": "The Great Migration",
+    "prompt": "What factors contributed to the Great Migration of African Americans?",
+    "questions": [
+      "What push and pull factors influenced movement from South to North?",
+      "How did the migration reshape cities in the North?",
+      "Use maps or photographs to explain changes in demographics."
+    ]
+  },
+  {
+    "year": 1930,
+    "type": "FRQ",
+    "target": "event",
+    "description": "Dust Bowl Migration",
+    "prompt": "How did the Dust Bowl affect migration and settlement patterns?",
+    "questions": [
+      "Why did so many farmers leave the Great Plains?",
+      "How did the federal government respond?"
+    ]
+  },
+  {
+    "year": 1994,
+    "type": "FRQ",
+    "target": "event",
+    "description": "North American Free Trade Agreement",
+    "prompt": "",
+    "questions": [],
+    "sources": [{ "image": "assets/images/DBQ/trade.png" }]
+  }
+]

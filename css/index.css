@@ -1,0 +1,664 @@
+/* Entire body - full viewport */
+/* Entire body - full viewport - FIXED */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  font-family: Arial, sans-serif;
+  background-color: rgb(230, 229, 229);
+  overflow: hidden; /* Prevent ALL scrolling - both horizontal and vertical */
+  position: fixed; /* Additional fix to prevent any document scrolling */
+  top: 0;
+  left: 0;
+}
+
+.nav-tabs {
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, #353a3f 0%, #2d3238 100%);
+  padding: 0 20px;
+  height: 60px;
+  border-bottom: 1px solid #2a2e33;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.nav-tabs::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.05),
+    transparent
+  );
+  transition: left 0.6s ease;
+}
+
+.nav-tabs:hover::before {
+  left: 100%;
+}
+
+.nav-tabs .nav-item .nav-link {
+  color: #dfe8ee;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  padding: 18px 16px;
+  margin: 0 4px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 4px;
+  z-index: 1;
+}
+
+.nav-tabs .nav-item .nav-link::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 3px;
+  background: #ffffff;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateX(-50%);
+  border-radius: 3px 3px 0 0;
+}
+
+.nav-tabs .nav-item .nav-link::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.03);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+  color: #ffffff;
+  font-weight: 500;
+  background: rgba(255, 255, 255, 0.04);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(79, 156, 249, 0.2);
+}
+
+.nav-tabs .nav-item .nav-link.active::before {
+  width: 80%;
+}
+
+.nav-tabs .nav-item .nav-link:hover {
+  color: #ffffff;
+  transform: translateY(-1px);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.nav-tabs .nav-item .nav-link:hover::before {
+  width: 60%;
+}
+
+.nav-tabs .nav-item .nav-link:hover::after {
+  opacity: 1;
+}
+
+.nav-tabs .nav-item .nav-link:active {
+  transform: translateY(0);
+  transition: transform 0.1s ease;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item.ml-auto {
+  margin-left: auto;
+  display: flex;
+}
+
+.nav-item.ml-auto .logo:last-child {
+  margin-right: 0;
+}
+
+ul.nav-tabs {
+  border-bottom: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+ul.nav-tabs li.nav-item {
+  margin-bottom: 0;
+}
+
+ul.nav-tabs li.nav-item a.nav-link {
+  border: none;
+}
+
+/* Map body container - positioned below nav bar */
+#container {
+  position: absolute;
+  top: 50px; /* Account for nav bar height */
+  left: 0;
+  width: 100vw;
+  height: calc(100vh - 50px); /* Subtract nav bar height */
+  z-index: 1;
+}
+
+/* Sidebar/Major Events Panel - ensure it stays visible */
+.sidebar,
+.major-events-panel,
+[class*="sidebar"],
+[class*="events"] {
+  position: relative;
+  z-index: 1500; /* Higher than map but lower than nav */
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+/* Text on the top left of nav-bar */
+
+#roots {
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: Arial, sans-serif;
+  letter-spacing: -0.025em;
+  margin-left: 1.5rem;
+  margin-right: 3rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  position: relative;
+  z-index: 10;
+}
+
+#roots:hover {
+  color: #f8fafc;
+  transform: translateY(-1px);
+  text-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
+}
+
+#roots:active {
+  transform: translateY(0);
+  transition: all 0.1s ease;
+}
+/* Logo on the top right of nav-bar */
+.logo {
+  height: 30px;
+  margin-right: 10px;
+  position: relative;
+}
+
+/* CSS */
+.custom-link {
+  color: #2171b5;
+  text-decoration: none;
+}
+
+.custom-link:hover {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+/* Text in the story panel */
+p {
+  text-align: justify;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  font-family: Arial, sans-serif;
+}
+
+/* Maps take available space */
+#map,
+#mapDen,
+#mapMig,
+#mapImmigration {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Content tabs - positioned below nav */
+#animation-content,
+#population-content,
+#migration-content,
+#compare-content,
+#immigration-content {
+  display: none;
+  position: absolute;
+  top: 0; /* Relative to container which is already below nav */
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Active tab: Visible content */
+#animation-content.active,
+#population-content.active,
+#migration-content.active,
+#compare-content.active,
+#immigration-content.active {
+  display: block;
+}
+
+.tooltip {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+  z-index: 2500; /* Above sidebar */
+}
+
+.dragging {
+  cursor: grabbing;
+}
+
+/* Misc styles */
+.white-popup {
+  position: relative;
+  background: #ccc;
+  padding: 10px;
+  width: 90%;
+  height: 95vh;
+  margin: 0 auto;
+  top: 5vh;
+  background: rgb(232, 232, 232);
+  align-content: center;
+  border-radius: 5px;
+  z-index: 3000; /* Above everything for popups */
+}
+
+.info-button {
+  margin-left: 40%; /* Adjust as needed */
+  margin-top: 190%; /* Adjust as needed to use percentage */
+  font-size: 10px; /* Smaller font size */
+  padding: 2px 4px; /* Smaller padding */
+  background-color: #353a3f; /* Keep the same background color */
+  border-color: #353a3f; /* Keep the same border color */
+  border-radius: 5px; /* Adjusted to make edges more rounded */
+  color: white; /* Ensure text color is white for contrast */
+  cursor: default;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  background-color: #f8f9fa;
+  padding: 10px;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  text-align: justify;
+  font-family: Arial, sans-serif;
+}
+
+#SkipTutorial-Btn {
+  top: 65%;
+  position: absolute;
+  right: 5.8%;
+  font-family: Arial, sans-serif;
+  font-size: 1.3vw;
+  z-index: 3000;
+}
+
+#GetStarted-Btn {
+  top: 65%;
+  position: absolute;
+  right: 22%;
+  font-family: Arial, sans-serif;
+  font-size: 1.3vw;
+  z-index: 3000;
+}
+
+.info-blocks {
+  height: auto;
+}
+
+.text-left {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+/* Video tutorial functionality */
+#VideoTutorial-Block {
+  width: 67%;
+  height: 70vh;
+  position: fixed; /* Changed from relative to fixed for full-screen centering */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centers the block */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* Ensure it's on top of everything */
+  background: white; /* Optional: gives it a visible background */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Optional for elevation */
+  border-radius: 12px; /* Optional for rounded corners */
+  padding: 20px; /* Optional: gives breathing room inside */
+}
+
+#VideoTutorial-Block iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+#VideoTutorial-Block .btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+}
+
+#VideoTutorial-Block h1 {
+  margin: 0;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+@media screen and (max-width: 1200px) {
+  #VideoTutorial-Block {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #VideoTutorial-Block {
+    width: 100%;
+  }
+}
+
+div[contenteditable="true"] {
+  outline: none; /* Remove the default blue outline */
+  border: none; /* Remove any border */
+  padding: 0; /* Adjust padding if needed */
+  margin: 0; /* Adjust margin if needed */
+  background-color: transparent; /* Ensure the background is transparent */
+  max-height: 250px; /* Set the maximum height */
+  overflow-y: auto; /* Enable vertical scrolling */
+  cursor: grab; /* Change the cursor style to indicate scrollability */
+  /* Add any additional styling you want */
+}
+
+/* CSS styles for button box */
+.button-box {
+  width: 150px; /* Fixed width */
+  height: 100px; /* Fixed height */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #ddd;
+  display: flex;
+  flex-direction: column; /* Arrange buttons vertically */
+  justify-content: space-around; /* Space out buttons */
+  align-items: center; /* Center align buttons */
+  position: absolute; /* Absolute positioning */
+  top: 70px; /* Position from the top of the map container */
+  left: 28%; /* Position from the left of the map container */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add some shadow for depth */
+  z-index: 1100;
+}
+
+.button-box button {
+  background-color: #a8aaac;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  width: 80%; /* Adjust width to fit inside the box */
+}
+
+.button-box button:hover {
+  background-color: #353a3f;
+}
+
+.button-box input[type="file"] {
+  display: none;
+}
+
+/* maplibregl control functionality */
+.maplibregl-ctrl button {
+  outline: none; /* Remove the default outline */
+  border: none; /* Remove the default border */
+}
+
+.maplibregl-ctrl button:hover {
+  box-shadow: none; /* Remove any box shadow on hover */
+}
+
+/* Zoom to extent functionality */
+.zoom-to-extent-button {
+  position: absolute;
+  bottom: 20vh; /* Adjust as needed */
+  right: 8px; /* Adjust as needed */
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px; /* Rounded corners */
+  border: 1.5px solid #a1a0a0; /* Light grey border */
+  padding: 5px;
+  z-index: 1200;
+}
+
+.zoom-to-extent-button img {
+  width: 20px; /* Adjust size as needed */
+  height: 20px; /* Maintain aspect ratio */
+}
+
+.zoom-to-extent-button:focus {
+  outline: none; /* Ensures the blue outline is removed on focus */
+}
+
+.zoom-to-extent-button:hover {
+  background-color: #e8e8e8; /* Light grey on hover */
+}
+
+.zoom-to-extent-tooltip {
+  position: absolute;
+  bottom: 0.5vh; /* Position above the button */
+  right: 9vh; /* Center horizontally */
+  transform: translateX(50%); /* Center the tooltip */
+  background-color: rgba(0, 0, 0, 0.8); /* Dark background */
+  color: white; /* White text */
+  border-radius: 4px; /* Rounded corners */
+  padding: 5px;
+  font-size: 12px; /* Smaller font size */
+  white-space: nowrap; /* Prevent text wrapping */
+  z-index: 1000; /* Ensure it appears above other elements */
+  visibility: hidden; /* Hide by default */
+  opacity: 0; /* Start fully transparent */
+  transition: opacity 0.3s ease; /* Smooth fade-in/out */
+}
+
+.zoom-to-extent-button:hover .zoom-to-extent-tooltip {
+  visibility: visible; /* Show on hover */
+  opacity: 1; /* Make fully visible */
+}
+
+.hidden {
+  display: none;
+}
+
+.popup-custom {
+  /* Popup styles */
+  position: fixed;
+  z-index: 1000;
+  left: 30%;
+  top: 30%;
+  width: 50%;
+  height: 100%;
+  background-color: transparent;
+  display: none; /* Hidden by default */
+}
+
+.popup-content-custom {
+  /* Popup content styles */
+  background-color: white;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close-button-custom {
+  /* Close button styles */
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close-button-custom:hover,
+.close-button-custom:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#race-overlay-tooltip {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+  z-index: 2000;
+}
+
+/* No Data Tooltip Style */
+.no-data-tooltip {
+  background-color: white !important;
+  color: black !important;
+}
+
+#search-wrapper {
+  position: absolute;
+  top: 65%;
+  right: 0.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  z-index: 1600; /* Above sidebar but below nav */
+}
+
+#county-search-icon-button {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+#county-search-icon-button:hover {
+  background-color: #bab6b6;
+}
+
+#county-search-icon-button i {
+  font-size: 16px;
+  color: #333;
+}
+
+#search-wrapper input {
+  width: 150px;
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 1%;
+}
+
+#search-wrapper:not(.expanded) input {
+  display: none;
+}
+
+#search-wrapper.hidden {
+  display: none;
+}
+
+#county-suggestions {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 100%;
+  background: white;
+  border: 1px solid #ccc;
+  list-style: none;
+  padding: 0;
+  margin-top: 4px;
+  max-height: 150px;
+  overflow-y: auto;
+  z-index: 10000; /* Very high for dropdown */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+#county-suggestions li {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+#county-suggestions li:hover {
+  background-color: #f2f2f2;
+}
+
+#search-wrapper input:focus,
+#county-search-icon-button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* Responsive adjustments for nav layout */
+@media screen and (max-width: 768px) {
+  .nav-tabs {
+    padding: 0 10px;
+    height: 45px;
+  }
+
+  #container {
+    top: 45px;
+    height: calc(100vh - 45px);
+  }
+
+  .nav-tabs .nav-item .nav-link {
+    padding: 12px 15px;
+    font-size: 13px;
+    height: 45px;
+  }
+}

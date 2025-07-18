@@ -1,0 +1,50 @@
+STATENAM,Percent-White,Percent-Black,Percent-API,Percent-Asian,Percent-Other
+Maine,99.7,0.1,0.2,0,0
+New Hampshire,99.8,0.1,0,0,0
+Vermont,99.9,0.1,0,0,0
+Massachusetts,98.3,1.6,0,0.1,0
+Rhode Island,98.1,1.8,0,0.1,0
+Connecticut,97.3,2.7,0,0.1,0
+New York,93.5,6.2,0.1,0.2,0
+New Jersey,93.3,6.6,0,0.1,0
+Pennsylvania,93.9,6.1,0,0,0
+Ohio,93.5,6.5,0,0,0
+Indiana,95.5,4.4,0,0,0
+Illinois,92.4,7.4,0,0.2,0
+Michigan,92.9,6.9,0.1,0.1,0
+Wisconsin,98.8,0.8,0.4,0,0
+Minnesota,99,0.5,0.4,0.1,0
+Iowa,99.2,0.8,0,0,0
+Missouri,92.4,7.5,0,0,0
+North Dakota,98.2,0,1.7,0,0
+South Dakota,96.3,0.1,3.6,0,0
+Nebraska,98.2,1.5,0.3,0.1,0
+Kansas,96,3.8,0.1,0,0
+Delaware,86.1,13.7,0,0,0.1
+Maryland,83.4,16.5,0,0.1,0
+District of Columbia,64.6,35,0,0.4,0
+Virginia,77.8,22.1,0,0,0
+West Virginia,94.3,5.7,0,0,0
+North Carolina,73.4,25.8,0.1,0,0.7
+South Carolina,61.1,38.8,0,0,0
+Georgia,69.1,30.9,0,0,0
+Florida,78.2,21.8,0,0,0
+Kentucky,93.1,6.9,0,0,0
+Tennessee,83.9,16.1,0,0,0
+Alabama,67.9,32,0,0,0
+Mississippi,54.6,45.3,0.1,0.1,0
+Arkansas,77.6,22.3,0,0,0
+Louisiana,67,32.9,0,0,0.1
+Oklahoma,91,6.5,2.4,0,0
+Texas,87.2,12.7,0,0.1,0
+Montana,96.8,0.2,2.8,0.2,0
+Idaho,98.8,0.2,0.6,0.4,0
+Wyoming,97.8,0.9,1.1,0.2,0
+Colorado,97.9,1.5,0.1,0.5,0
+New Mexico,92.5,1.2,6.2,0.1,0
+Arizona,87.3,3.5,8.8,0.4,0
+Utah,98.3,0.4,0.6,0.7,0
+Nevada,93.6,2.7,3.1,0.5,0
+Washington,97.4,1.3,0.6,0.7,0
+Oregon,98.4,0.8,0.4,0.4,0
+California,93.7,4.4,0.2,1.7,0

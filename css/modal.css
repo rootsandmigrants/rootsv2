@@ -1,0 +1,135 @@
+.modal-dialog {
+  max-width: 50%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+/* --- Modal Content (Glass Effect) --- */
+.modal-content {
+  font-family: Arial, sans-serif;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+/* --- Header --- */
+.modal-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  flex-shrink: 0;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* --- Title --- */
+.modal-title {
+  margin: 0;
+  line-height: 1.5;
+  color: #2171b5;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+/* --- Custom Close Button --- */
+.custom-close-btn {
+  font-weight: 600;
+  margin-left: 10px;
+  color: #4682b4;
+  transition: color 0.2s ease;
+  cursor: pointer;
+  transition: transform 0.15s ease, color 0.3s ease;
+}
+
+.custom-close-btn:focus {
+  outline: none;
+}
+
+.custom-close-btn:hover {
+  color: #5a9bd4;
+}
+
+.custom-close-btn:active {
+  transform: scale(0.95);
+}
+
+/* --- Modal Body --- */
+.modal-body {
+  overflow-y: auto;
+  max-height: 70vh;
+  padding: 1.5rem;
+  flex-grow: 1;
+  color: #333;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+.modal-body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+/* --- Highlight Box --- */
+.highlight-box {
+  background: #f1f5f9;
+  border-left: 4px solid #2171b5;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+/* --- Modal Footer --- */
+.modal-footer {
+  flex-shrink: 0;
+  padding: 1rem 1.5rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+/* --- Footer Buttons --- */
+.modal-footer button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #2171b5;
+  color: white;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.modal-footer button:hover {
+  background: #165a96;
+}
+
+/* --- Custom Scrollbar Styling for Modal Body --- */
+.modal-body::-webkit-scrollbar {
+  width: 8px;
+}
+
+.modal-body::-webkit-scrollbar-track {
+  background: #e0e0e0;
+  border-radius: 10px;
+}
+
+.modal-body::-webkit-scrollbar-thumb {
+  background: #999;
+  border-radius: 10px;
+}
+
+.modal-body::-webkit-scrollbar-thumb:hover {
+  background: #666;
+}

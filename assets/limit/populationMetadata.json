@@ -1,0 +1,149 @@
+{
+  "1790": {
+    "fullCount": true,
+    "raceLimited": true,
+    "sample": false,
+    "note": "Enumeration was conducted by U.S. Marshals in counties or judicial districts. Vermont was not yet included until 1791. Indian lands were generally excluded unless considered taxable.",
+    "source": ""
+  },
+  "1800": {
+    "fullCount": true,
+    "raceLimited": true,
+    "sample": false,
+    "note": "Enumeration was conducted within counties or territorial districts where applicable. Coverage expanded with the inclusion of new states like Kentucky and Tennessee. Indian lands were excluded unless under civil jurisdiction.",
+    "source": ""
+  },
+  "1810": {
+    "fullCount": true,
+    "raceLimited": true,
+    "sample": false,
+    "note": "Enumeration occurred by county or local districts, including newly acquired Orleans Territory from the Louisiana Purchase. Indian lands were typically excluded.",
+    "source": ""
+  },
+  "1820": {
+    "fullCount": true,
+    "raceLimited": true,
+    "sample": false,
+    "note": "Enumeration was done by counties, districts, and settlements. Missouri and Arkansas territories were included. Indian lands remained outside of enumeration unless settled.",
+    "source": ""
+  },
+  "1830": {
+    "fullCount": true,
+    "raceLimited": true,
+    "sample": false,
+    "note": "Enumeration was standardized using printed forms and conducted by counties, parishes, and other civil divisions. Indian territories were not fully enumerated.",
+    "source": ""
+  },
+  "1840": {
+    "fullCount": true,
+    "raceLimited": true,
+    "sample": false,
+    "note": "Enumeration was conducted by counties or equivalent civil divisions, using standardized forms. Institutional populations were included through special inquiries. Indian lands were excluded unless individuals lived under state jurisdiction.",
+    "source": ""
+  },
+  "1850": {
+    "fullCount": true,
+    "raceLimited": true,
+    "sample": false,
+    "note": "Enumeration done by counties and townships. Slave schedules used in slave states. Indian reservations were not systematically included.",
+    "source": ""
+  },
+  "1860": {
+    "fullCount": true,
+    "raceLimited": true,
+    "sample": false,
+    "note": "Enumeration units were counties and townships. Frontier areas included as states and territories expanded westward. Indian lands were not enumerated unless integrated into states.",
+    "source": ""
+  },
+  "1870": {
+    "fullCount": true,
+    "raceLimited": true,
+    "sample": false,
+    "note": "Enumeration occurred by counties and districts. Challenges existed in Southern states due to Reconstruction. Indian lands were included only if under civil authority.",
+    "source": ""
+  },
+  "1880": {
+    "fullCount": true,
+    "raceLimited": true,
+    "sample": false,
+    "note": "Enumeration conducted by trained census agents using counties and subdivisions. Indian lands were still generally excluded unless under U.S. jurisdiction.",
+    "source": ""
+  },
+  "1890": {
+    "fullCount": true,
+    "raceLimited": true,
+    "sample": false,
+    "note": "Enumeration units were counties, reservations, and federal jurisdictions. Indian lands were enumerated separately using special Indian schedules. Most data lost due to 1921 fire.",
+    "source": ""
+  },
+  "1900": {
+    "fullCount": true,
+    "raceLimited": true,
+    "sample": false,
+    "note": "Enumeration conducted in all states and territories, including newly annexed Hawaii and Puerto Rico. Enumeration units were counties, parishes, and reservations. Indian lands covered by distinct enumeration procedures.",
+    "source": ""
+  },
+  "1910": {
+    "fullCount": true,
+    "raceLimited": true,
+    "sample": false,
+    "note": "Enumeration was organized by counties, wards, reservations, and special areas. Indian lands were included through separate schedules and designated agents.",
+    "source": ""
+  },
+  "1920": {
+    "fullCount": true,
+    "raceLimited": true,
+    "sample": false,
+    "note": "Enumeration based on counties, cities, and districts. Indian lands included through targeted enumeration methods.",
+    "source": ""
+  },
+  "1930": {
+    "fullCount": true,
+    "raceLimited": true,
+    "sample": false,
+    "note": "Enumeration organized by counties, reservations, and civil districts. Indian lands systematically included using specialized forms.",
+    "source": ""
+  },
+  "1940": {
+    "fullCount": true,
+    "raceLimited": false,
+    "sample": true,
+    "note": "Enumeration based on counties and enumeration districts. Indian lands were included through assigned field agents.",
+    "source": ""
+  },
+  "1950": {
+    "fullCount": false,
+    "raceLimited": false,
+    "sample": true,
+    "note": "Enumeration based on counties, cities, and census tracts. Indian lands included under federal oversight using local agents.",
+    "source": ""
+  },
+  "1960": {
+    "fullCount": true,
+    "raceLimited": false,
+    "sample": true,
+    "note": "Continued use of census tracts and enumeration districts. Coverage extended to Indian lands under federal administration.",
+    "source": ""
+  },
+  "1970": {
+    "fullCount": false,
+    "raceLimited": false,
+    "sample": true,
+    "note": "Enumeration conducted via mailed questionnaires with follow-up interviews. Indian lands included via local enumeration districts.",
+    "source": ""
+  },
+  "1980": {
+    "fullCount": false,
+    "raceLimited": false,
+    "sample": true,
+    "note": "Enumeration used mail-back forms, field visits, and outreach for hard-to-count areas. Indian reservations and trust lands included in dedicated enumeration areas.",
+    "source": ""
+  },
+  "1990": {
+    "fullCount": false,
+    "raceLimited": false,
+    "sample": true,
+    "note": "Enumeration conducted primarily through mailed surveys and in-person follow-up. Geographic units included counties, reservations, census blocks. Indian lands covered through designated enumeration areas.",
+    "source": ""
+  }
+}

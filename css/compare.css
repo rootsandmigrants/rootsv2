@@ -1,0 +1,864 @@
+/* Fix the compare content layout to stack maps above table */
+#compare-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  gap: 0; /* NO gap between containers */
+}
+
+/* Maps container - should take FULL space initially */
+#container-compare {
+  display: flex;
+  width: 100%;
+  height: 100%; /* Maps take FULL height initially */
+  margin: 0;
+  padding: 0; /* Remove any padding */
+  flex-shrink: 0;
+  order: 1;
+  transition: height 0.3s ease;
+}
+
+/* When table is shown, adjust maps height */
+#container-compare.with-table {
+  height: 65%; /* Maps take exactly 70% when table is visible */
+}
+
+#map1,
+#map2 {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  margin: 0 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Table container - hidden by default */
+#tables-container {
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  display: none;
+  flex-direction: row;
+  gap: 2px; /* Minimal gap */
+  width: 100%;
+  height: 0; /* Start with 0 height */
+  padding: 0; /* No padding */
+  margin: 0; /* No margin */
+  background: rgba(255, 255, 255, 0.95);
+  overflow: hidden;
+  order: 2;
+  flex-shrink: 0;
+}
+
+/* Show table when button is clicked */
+#tables-container.show {
+  display: flex !important;
+  opacity: 1;
+  pointer-events: auto;
+  height: 30%; /* Table takes exactly 30% when visible */
+  padding: 2px; /* Minimal padding */
+}
+
+.table-container {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden; /* Keep hidden for container */
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Critical: Force DataTable wrapper to fit container */
+.table-container .dataTables_wrapper {
+  height: 100% !important;
+  max-height: 100% !important;
+  overflow: hidden !important;
+  padding: 2px !important; /* Reduced from 3px */
+  display: flex !important;
+  flex-direction: column !important;
+  box-sizing: border-box !important;
+}
+
+/* DataTable controls styling - FIXED to be on same line with minimal spacing */
+.table-container .dataTables_wrapper .dataTables_length,
+.table-container .dataTables_wrapper .dataTables_filter {
+  margin: 0 !important; /* Remove all margins */
+  padding: 0 !important; /* Remove all padding */
+  display: inline-block !important; /* Force inline layout */
+  width: auto !important; /* Auto width instead of full width */
+}
+
+/* Top row container - force horizontal layout */
+.table-container .dataTables_wrapper .top {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  margin: 0 !important; /* Remove margin */
+  padding: 2px 0 !important; /* Minimal vertical padding only */
+  height: 20px !important; /* Fixed height to prevent expansion */
+  min-height: 20px !important;
+  max-height: 20px !important;
+  flex-shrink: 0 !important;
+}
+
+/* Length (show entries) control */
+.table-container .dataTables_wrapper .dataTables_length {
+  float: left !important;
+  margin-right: 10px !important;
+}
+
+.table-container .dataTables_wrapper .dataTables_length label {
+  font-size: 8px !important;
+  color: #666;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 3px !important; /* Small gap between text and dropdown */
+}
+
+.table-container .dataTables_wrapper .dataTables_length select {
+  font-size: 8px !important;
+  height: 16px !important; /* Reduced height */
+  width: 40px !important; /* Fixed narrow width */
+  padding: 0 1px !important;
+  margin: 0 !important;
+  border: 1px solid #ccc !important;
+}
+
+/* Search control */
+.table-container .dataTables_wrapper .dataTables_filter {
+  float: right !important;
+  margin-left: 10px !important;
+}
+
+.table-container .dataTables_wrapper .dataTables_filter label {
+  font-size: 10px !important;
+  color: #666;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 3px !important; /* Small gap between "Search:" and input */
+}
+
+.table-container .dataTables_wrapper .dataTables_filter input {
+  font-size: 8px !important;
+  height: 20px !important; /* Match select height */
+  width: 60px !important; /* Reduced width */
+  padding: 0 2px !important;
+  margin: 0 !important;
+  border: 1px solid #ccc !important;
+}
+
+/* Bottom row (info and pagination) */
+.table-container .dataTables_wrapper .bottom {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  margin: 0 !important;
+  padding: 2px 0 !important; /* Minimal vertical padding */
+  height: 18px !important; /* Fixed height */
+  min-height: 18px !important;
+  max-height: 18px !important;
+  flex-shrink: 0 !important;
+}
+
+.table-container .dataTables_wrapper .dataTables_info {
+  font-size: 7px !important; /* Even smaller font */
+  color: #666;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.table-container .dataTables_wrapper .dataTables_paginate {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.table-container .dataTables_wrapper .dataTables_paginate .paginate_button {
+  padding: 0 2px !important; /* Minimal padding */
+  margin: 0 1px !important;
+  height: 16px !important; /* Reduced height */
+  line-height: 16px !important;
+  font-size: 7px !important; /* Smaller font */
+  border: none !important;
+  min-width: 15px !important; /* Minimum width for buttons */
+}
+
+/* Main scrollable table area with HIDDEN SCROLLBARS */
+.table-container .dataTables_wrapper .dataTables_scroll {
+  flex: 1 1 auto !important;
+  overflow: hidden !important;
+  height: auto !important;
+  max-height: 100% !important;
+}
+
+.table-container .dataTables_wrapper .dataTables_scrollBody {
+  max-height: calc(100% - 45px) !important; /* Reduced from previous calc */
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+
+  /* HIDE SCROLLBARS */
+  scrollbar-width: none !important; /* Firefox */
+  -ms-overflow-style: none !important; /* IE and Edge */
+}
+
+/* Hide scrollbars for Webkit browsers (Chrome, Safari, etc.) */
+.table-container .dataTables_wrapper .dataTables_scrollBody::-webkit-scrollbar {
+  display: none !important;
+}
+
+/* Force table to fit width */
+.table-container table.dataTable {
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+.table-container table.dataTable thead,
+.table-container table.dataTable tbody {
+  width: 100% !important;
+}
+
+/* Critical DataTable overrides to prevent overflow */
+.table-container .dataTables_wrapper .dataTables_scrollHead,
+.table-container .dataTables_wrapper .dataTables_scrollHeadInner,
+.table-container .dataTables_wrapper .dataTables_scrollHeadInner table {
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+.table-container .dataTables_wrapper .dataTables_scrollBody table {
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+/* Force DataTable to respect container boundaries */
+.table-container .dataTables_wrapper,
+.table-container .dataTables_wrapper > div,
+.table-container .dataTables_wrapper table {
+  box-sizing: border-box !important;
+}
+
+/* Prevent any horizontal overflow */
+.table-container * {
+  box-sizing: border-box !important;
+}
+
+.table-container .dataTables_wrapper .dataTables_scroll > div {
+  overflow-x: hidden !important;
+}
+
+/* Control box positioning - keep over maps */
+.control-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  z-index: 10000;
+  width: 30%;
+}
+
+.control-box.collapsed {
+  background-color: transparent;
+  box-shadow: none;
+  width: auto;
+  padding: 4px;
+}
+
+.control-box.collapsed .control-box-content {
+  display: none;
+}
+
+.control-box-content label,
+.control-box-content select,
+.control-box-content button {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.slider-compare {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#map1-year,
+#map2-year {
+  display: inline-block;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.info-box {
+  position: absolute;
+  top: 10px;
+  left: 70%;
+  background: rgba(233, 232, 232, 0.7);
+  padding: 8px;
+  opacity: 0.9;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 1.5);
+  pointer-events: none;
+  z-index: 1000;
+  display: none;
+}
+
+/* Legend positioning - adjusted to not cover attribution */
+.legend-container-absolute {
+  position: absolute;
+  bottom: 70px; /* Moved further up from 25px */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  pointer-events: none;
+}
+
+.legend-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  text-align: center;
+  margin-top: 0;
+  z-index: 10000;
+
+  /* 🪟 Glassy/Glassmorphism Effect */
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.legend-title-bar {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+
+/* Updated legend subtitle - hidden since we're moving year to left side */
+.legend-subtitle {
+  display: none; /* Hide the original subtitle */
+}
+
+/* Updated legend ramp row to accommodate year on the left */
+.legend-ramp-row {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Reduced gap for better spacing */
+  margin-top: 6px;
+}
+
+/* Year display on the left side of ramp */
+.legend-year-left {
+  font-size: 13px;
+  font-weight: 500;
+  color: #333;
+  min-width: 35px; /* Reduced from 40px */
+  text-align: right;
+  margin-right: 5px; /* Add margin for separation */
+}
+
+/* Adjust ramp container to take remaining space */
+.legend-ramp {
+  display: flex;
+  justify-content: space-between;
+  width: 320px; /* Keep original width */
+  gap: 2px;
+}
+
+.legend-tick {
+  flex: 1;
+  height: 12px;
+  margin-right: 2px;
+  border-radius: 2px;
+}
+
+.legend-tick:last-child {
+  margin-right: 0;
+}
+
+.legend-null-inline {
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+}
+
+.null-color-box {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #000;
+  margin-right: 4px;
+}
+
+.legend-labels {
+  position: relative;
+  width: 320px; /* Match the ramp width */
+  height: 20px;
+  margin-top: -4px;
+}
+
+.legend-tick-label {
+  font-size: 11px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.toggle-compare-legend {
+  background-color: transparent;
+  color: black;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-size: 20px;
+  margin-right: 5px;
+  outline: none;
+}
+
+.toggle-compare-legend:hover {
+  color: grey;
+}
+
+.toggle-compare-legend:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.legend-compare-content {
+  display: none;
+}
+
+/* Table styling - Improved and more specific with better readability */
+.table-container td {
+  padding: 6px 8px !important; /* Increased padding for better readability */
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 10px !important; /* Slightly larger font */
+  white-space: nowrap; /* Prevent text wrapping */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Show ellipsis for long text */
+  line-height: 1.5 !important; /* Better line height for readability */
+  height: auto !important; /* Allow natural height */
+  min-height: 24px !important; /* Increased minimum height for legibility */
+  vertical-align: middle !important; /* Center content vertically */
+}
+
+.table-container th {
+  text-align: left;
+  background-color: #cdcece !important; /* Light grey instead */
+  border-right: none !important;
+  border-left: none !important;
+  border-top: none !important;
+  font-size: 9px !important; /* Smaller font */
+  white-space: nowrap;
+  overflow: hidden !important; /* Prevent overflow */
+  text-overflow: ellipsis; /* Show ellipsis for long text */
+  line-height: 1.3 !important; /* Tighter line height */
+  height: auto !important; /* Allow natural height */
+  min-height: 20px !important; /* Smaller minimum height */
+  vertical-align: middle !important; /* Center content vertically */
+  box-sizing: border-box !important; /* Ensure proper box sizing */
+  margin: 0 !important; /* Remove any margins */
+}
+
+/* MapLibre zoom controls positioning - move them up */
+#map1 .maplibregl-ctrl-bottom-right,
+#map2 .maplibregl-ctrl-bottom-right {
+  bottom: 80px !important; /* Move zoom controls up more to avoid legend overlap */
+}
+
+#map1 .maplibregl-ctrl-top-right,
+#map2 .maplibregl-ctrl-top-right {
+  top: 10px !important; /* Ensure top controls are properly positioned */
+}
+
+/* Alternative: Move zoom controls to top-right if needed */
+/*
+#map1 .maplibregl-ctrl-group,
+#map2 .maplibregl-ctrl-group {
+  position: absolute !important;
+  top: 10px !important;
+  right: 10px !important;
+  bottom: auto !important;
+}
+*/
+
+/* Map attribution positioning - ensure it's visible */
+#map1 .maplibregl-ctrl-attrib,
+#map2 .maplibregl-ctrl-attrib {
+  bottom: 5px !important;
+  right: 5px !important;
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  font-size: 10px !important;
+  z-index: 500 !important; /* Lower than legend but visible */
+}
+
+/* Additional table styling to prevent header overflow */
+.table-container table.dataTable thead th {
+  background-clip: padding-box !important; /* Prevent background from overflowing */
+  border: 1px solid #aaa !important; /* Add consistent borders */
+}
+
+.table-container table.dataTable tbody td {
+  border-right: 1px solid #eee !important; /* Add subtle cell borders */
+}
+
+/* Ensure table header row doesn't have overflow issues */
+.table-container .dataTables_wrapper .dataTables_scrollHead {
+  overflow: hidden !important;
+  border-bottom: none !important;
+}
+
+.table-container .dataTables_wrapper .dataTables_scrollHeadInner {
+  overflow: hidden !important;
+}
+
+.clickable-row:hover {
+  cursor: pointer;
+  background-color: #f1f1f1;
+}
+
+.custom-dropdown {
+  width: 75% !important;
+  min-width: unset;
+  font-size: small;
+  padding: 3px 5px;
+}
+
+.inline-group {
+  display: flex;
+  align-items: center;
+  gap: 0px;
+}
+
+.inline-group label {
+  display: inline-block;
+  width: 50px;
+  min-width: unset;
+}
+
+#show-table,
+#hide-table {
+  margin: 5px auto; /* Reduced margin */
+  display: block;
+  color: #ddd;
+  font-size: 12px;
+  background-color: #666;
+  border: none;
+}
+
+#show-table:hover,
+#hide-table:hover {
+  background-color: #555;
+}
+
+#toggle-control-box {
+  background-color: transparent;
+  border: none;
+  padding: 4px 6px;
+  font-size: 15px;
+  border-radius: 3px;
+  position: relative;
+  top: 1px;
+  right: 1px;
+  z-index: 2;
+  outline: none;
+}
+
+#toggle-control-box:hover {
+  background-color: #eeecec;
+  outline: none;
+}
+
+/* Slider styling */
+input[type="range"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  height: 8px;
+  background: #666;
+  border-radius: 4px;
+  outline: none;
+  margin: 10px 0;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  background: #fff;
+  border: 2px solid #666;
+  border-radius: 50%;
+  margin-top: -3px;
+  cursor: pointer;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  transition: background 0.3s ease;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  background: #fff;
+  border: 2px solid #666;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  transition: background 0.3s ease;
+}
+
+input[type="range"]::-ms-thumb {
+  width: 18px;
+  height: 18px;
+  background: #fff;
+  border: 2px solid #666;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  transition: background 0.3s ease;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover,
+input[type="range"]::-moz-range-thumb:hover,
+input[type="range"]::-ms-thumb:hover {
+  background: #ccc;
+}
+
+input[type="range"]:focus {
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+input[type="range"]::-moz-range-track {
+  background: #666;
+  height: 8px;
+  border-radius: 4px;
+}
+
+input[type="range"]::-ms-track {
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+  height: 8px;
+}
+
+input[type="range"]::-ms-fill-lower {
+  background: #5e5b5b;
+  border-radius: 4px;
+}
+
+input[type="range"]::-ms-fill-upper {
+  background: #5e5b5b;
+  border-radius: 4px;
+}
+
+.highlighted-row td,
+.highlighted-row th {
+  background-color: rgb(138, 135, 135) !important;
+}
+
+.compare-zoom-to-extent {
+  position: absolute;
+  top: 1%;
+  right: 48%;
+  left: auto;
+  transform: none;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+  border: 1.5px solid #a1a0a0;
+  padding: 5px;
+  z-index: 1200;
+  cursor: pointer;
+}
+
+.compare-zoom-to-extent img {
+  width: 20px;
+  height: 20px;
+}
+
+.compare-zoom-to-extent:focus {
+  outline: none;
+}
+
+.compare-zoom-to-extent:hover {
+  background-color: #e8e8e8;
+}
+
+#modal-compare-message {
+  font-size: 18px;
+  color: #333;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.close-button-compare {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  top: -20px;
+}
+
+/* Modal styling */
+.modal-immigration {
+  display: none;
+  position: fixed;
+  z-index: 5000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content-immigration {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 60%;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  #container-compare {
+    height: 100%; /* Full height on mobile initially */
+  }
+
+  #container-compare.with-table {
+    height: 65%; /* 65% when table shows on mobile */
+  }
+
+  #tables-container.show {
+    height: 35%; /* 35% for table on mobile */
+  }
+
+  .legend-wrapper {
+    margin-top: 0; /* Reset for mobile since we're using bottom positioning */
+  }
+
+  .legend-container-absolute {
+    bottom: 20px; /* Slightly lower on mobile */
+  }
+
+  .control-box {
+    width: 40%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  #container-compare {
+    height: 100%; /* Full height on small mobile initially */
+  }
+
+  #container-compare.with-table {
+    height: 60%; /* 60% when table shows on small mobile */
+  }
+
+  #tables-container.show {
+    height: 40%; /* 40% for table on small mobile */
+    flex-direction: column; /* Stack tables vertically */
+    gap: 5px;
+  }
+
+  .table-container {
+    width: 100%; /* Full width when stacked */
+    height: 48%; /* Split height between two tables */
+  }
+}
+
+.initial-message {
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+  padding: 20px;
+  display: block;
+}
+/* Sync Toggle Button Styles */
+.sync-toggle-button {
+  position: absolute;
+  top: 6%;
+  right: 48%; /* Position next to zoom button */
+  left: auto;
+  transform: none;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+  border: 1.5px solid #a1a0a0;
+  padding: 5px;
+  z-index: 1200;
+  cursor: pointer;
+}
+
+.sync-toggle-button svg {
+  width: 20px;
+  height: 20px;
+}
+
+.sync-toggle-button:focus {
+  outline: none;
+}
+
+.sync-toggle-button:hover {
+  background-color: #e8e8e8;
+}
+
+/* Visual states for sync button */
+.sync-toggle-button.synced {
+  background-color: #d3d3d3; /* Light grey instead of green */
+  border-color: #b0b0b0;
+}
+
+.sync-toggle-button.synced:hover {
+  background-color: #c0c0c0;
+}
+
+.sync-toggle-button.synced svg {
+  stroke: #666;
+}
+
+.sync-toggle-button.unsynced {
+  background-color: rgb(255, 255, 255);
+  border-color: #a1a0a0;
+}
+.sync-toggle-tooltip {
+  position: absolute;
+  bottom: 1px;
+  right: 40px; /* Use pixels instead of % */
+  /* Remove transform: translateX(-50%); */
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  pointer-events: none;
+}

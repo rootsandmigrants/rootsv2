@@ -1,0 +1,17 @@
+{
+  "popDensity": "Population Density(people/km²)",
+  "STATENAM": "STATE NAME",
+  "LABEL": "STATE NAME",
+
+  "POP_TOTAL": "Total Population",
+  "NHGISNAM": "County Name",
+  "Netflow_Ratio": "Net Flow Ratio",
+  "TOTAL": "TOTAL POPULATION",
+  "Total": "TOTAL_POPULATION",
+  "NATIVE": "NATIVE BORN",
+  "FOREIGN": "FOREIGN BORN",
+  "FOREIGNBORN": "TOTAL FOREIGN BORN ",
+  "PERCENT": "FOREIGN BORN %",
+  "description": "Description",
+  "Netflow_Percentage": "Netflow (%)"
+}

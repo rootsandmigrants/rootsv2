@@ -1,0 +1,2021 @@
+{
+  "colonies": {
+    "Virginia": {
+      "founded": 1607,
+      "reason_for_founding": "Economic (profit via joint-stock company)",
+      "economic_focus": "Tobacco plantations",
+      "cultural_religious_makeup": "Anglican; English settlers",
+      "political_structure": "House of Burgesses (1619), first elected assembly",
+      "key_figures": [
+        "John Smith",
+        "John Rolfe",
+        "George Washington",
+        "Thomas Jefferson",
+        "Patrick Henry",
+        "James Madison",
+        "George Mason"
+      ],
+      "events": [
+        {
+          "year": 1607,
+          "title": "Founding of Jamestown",
+          "description": "First permanent English colony in North America, established by the Virginia Company.",
+          "coordinates": [-78.2794, 37.2104],
+          "category": "settlement"
+        },
+        {
+          "year": 1619,
+          "title": "House of Burgesses & Arrival of Africans",
+          "description": "First legislative assembly and The first documented arrival of enslaved Africans in the English colonies that would become the United States was in late August 1619. Around 20-30 Africans, initially taken from a Portuguese slave ship by English privateers, were traded for supplies in the colony of Virginia at Point Comfort (present-day Fort Monroe). These individuals were then dispersed throughout the colony, marking the beginning of a system of slavery that would last for over two centuries.",
+          "coordinates": [-78.2794, 37.2104],
+          "category": "political"
+        },
+        {
+          "year": 1676,
+          "title": "Bacon's Rebellion",
+          "description": "Colonial uprising against Governor Berkeley and Native policies.",
+          "coordinates": [-78.2794, 37.2104],
+          "category": "conflict"
+        },
+        {
+          "year": 1776,
+          "title": "Creation of Kentucky County, Virginia",
+          "description": "Virginia organized its western lands into Kentucky County to manage frontier settlement during the Revolutionary War.",
+          "coordinates": [-86.3701, 37.8393],
+          "category": "political"
+        },
+        {
+          "year": 1788,
+          "title": "Statehood",
+          "description": "Virginia becomes the 10th official state.",
+          "coordinates": [-80.1569, 37.4316],
+          "category": "political"
+        }
+      ]
+    },
+    "Massachusetts": {
+      "founded": 1620,
+      "reason_for_founding": "Religious freedom for Pilgrims and Puritans",
+      "economic_focus": "Farming, fishing, shipbuilding",
+      "cultural_religious_makeup": "Puritan, highly religious society",
+      "political_structure": "Town meetings, theocratic influence",
+      "key_figures": [
+        "William Bradford",
+        "John Winthrop",
+        "John Adams",
+        "Samuel Adams",
+        "John Hancock"
+      ],
+      "events": [
+        {
+          "year": 1620,
+          "title": "Mayflower Compact Signed",
+          "description": "Pilgrims establish Plymouth Colony (Present Day Massachusetts) and sign a self-governing agreement.",
+          "coordinates": [-72.1678, 41.9584],
+          "category": "settlement"
+        },
+        {
+          "year": 1630,
+          "title": "Massachusetts Bay Founded",
+          "description": "Puritans establish a major colony under John Winthrop.",
+          "coordinates": [-72.5275, 42.2352],
+          "category": "settlement"
+        },
+        {
+          "year": 1692,
+          "title": "Salem Witch Trials",
+          "description": "Series of hearings and executions for alleged witchcraft.",
+          "coordinates": [-72.3967, 42.5195],
+          "category": "social"
+        },
+        {
+          "year": 1770,
+          "title": "Boston Massacre",
+          "description": "British soldiers kill five colonists, inflaming tensions.",
+          "coordinates": [-72.5595, 42.3601],
+          "category": "conflict"
+        },
+        {
+          "year": 1773,
+          "title": "Boston Tea Party",
+          "description": "Colonists protest British taxes by dumping tea into harbor.",
+          "coordinates": [-72.5532, 42.3541],
+          "category": "protest"
+        },
+        {
+          "year": 1788,
+          "title": "Statehood",
+          "description": "Massachusetts becomes the 6th official state.",
+          "coordinates": [-73.3083, 42.2373],
+          "category": "political"
+        }
+      ]
+    },
+    "New Hampshire": {
+      "founded": 1623,
+      "reason_for_founding": "Economic (fishing, trade); offshoot of Massachusetts",
+      "economic_focus": "Fishing, timber, trade",
+      "cultural_religious_makeup": "Puritan influence but more diverse",
+      "political_structure": "Initially controlled by Massachusetts; royal colony in 1679",
+      "key_figures": [
+        "Josiah Bartlett",
+        "John Mason",
+        "Benning Wentworth",
+        "John Wheelwright"
+      ],
+      "events": [
+        {
+          "year": 1623,
+          "title": "First Settlement at Odiorne's Point",
+          "description": "Fishing village marks the beginning of New Hampshire.",
+          "coordinates": [-72.2215, 43.0389],
+          "category": "settlement"
+        },
+        {
+          "year": 1776,
+          "title": "Independent Constitution Adopted",
+          "description": "First colony to draft a constitution after separating from Britain.",
+          "coordinates": [-73.0376, 43.2081],
+          "category": "political"
+        },
+        {
+          "year": 1788,
+          "title": "Statehood",
+          "description": "New Hampshire becomes the 9th official state.",
+          "coordinates": [-73.0376, 43.2081],
+          "category": "political"
+        }
+      ]
+    },
+    "Maryland": {
+      "founded": 1634,
+      "reason_for_founding": "Catholic refuge (Lord Baltimore)",
+      "economic_focus": "Tobacco plantations",
+      "cultural_religious_makeup": "Catholic elite, Protestant majority",
+      "political_structure": "Proprietary colony; Act of Toleration 1649",
+      "key_figures": [
+        "Cecil Calvert (Lord Baltimore)",
+        "Charles Carroll",
+        "Leonard Calvert",
+        "Margaret Brent"
+      ],
+      "events": [
+        {
+          "year": 1640,
+          "title": "Maryland Founded 1634",
+          "description": "Catholic haven established by Lord Baltimore.",
+          "coordinates": [-78.0019, 38.9717],
+          "category": "settlement"
+        },
+        {
+          "year": 1650,
+          "title": "Maryland Toleration Act 1649",
+          "description": "Grants religious freedom to all Christians.",
+          "coordinates": [-78.0019, 38.9717],
+          "category": "religious"
+        },
+        {
+          "year": 1790,
+          "title": "Statehood 1788",
+          "description": "Maryland becomes the 7th official state.",
+          "coordinates": [-78.3021, 39.0458],
+          "category": "political"
+        }
+      ]
+    },
+    "Connecticut": {
+      "founded": 1636,
+      "reason_for_founding": "Expansion and religious freedom for Puritans",
+      "economic_focus": "Farming, trade",
+      "cultural_religious_makeup": "Puritan, but more liberal than Mass. Bay",
+      "political_structure": "Early democracy (Fundamental Orders 1639)",
+      "key_figures": [
+        "Thomas Hooker",
+        "Roger Sherman",
+        "John Davenport",
+        "John Haynes"
+      ],
+      "events": [
+        {
+          "year": 1636,
+          "title": "Hartford Founded",
+          "description": "Thomas Hooker, also for religious and political reasons, leads settlers and founds the town of Hartford.",
+          "coordinates": [-74.1851, 41.7658],
+          "category": "settlement"
+        },
+        {
+          "year": 1639,
+          "title": "Fundamental Orders Adopted",
+          "description": "Considered the first written constitution in America.",
+          "coordinates": [-74.1851, 41.7658],
+          "category": "political"
+        },
+        {
+          "year": 1788,
+          "title": "Statehood",
+          "description": "Connecticut joins statehood as the 5th state",
+          "coordinates": [-74.1851, 41.7658],
+          "category": "political"
+        }
+      ]
+    },
+    "Rhode Island": {
+      "founded": 1636,
+      "reason_for_founding": "Religious freedom (Roger Williams)",
+      "economic_focus": "Farming, trade, rum",
+      "cultural_religious_makeup": "Most religiously tolerant (Baptists, Jews, Quakers)",
+      "political_structure": "Self-governing; separation of church and state",
+      "key_figures": [
+        "Roger Williams",
+        "Anne Hutchinson",
+        "Stephen Hopkins",
+        "William Coddington"
+      ],
+      "events": [
+        {
+          "year": 1636,
+          "title": "Roger Williams Founds Providence",
+          "description": "Colony based on separation of church and state. Roger Williams seeks religious freedom after being banished from Massachusetts Bay Colony. It was one of several settlements that would later unite to form Rhode Island.",
+          "coordinates": [-72.9128, 41.824],
+          "category": "settlement"
+        },
+        {
+          "year": 1644,
+          "title": "The colony of Rhode Island and the Providence Plantation",
+          "description": "Colony comprising of Providence, Portsmouth, Newport and Warwick.",
+          "coordinates": [-72.9128, 41.824],
+          "category": "political"
+        },
+        {
+          "year": 1776,
+          "title": "Declaration of Independence",
+          "description": "Rhode Island was the first of the thirteen British colonies to declare independence from Great Britain. On May 4, 1776, the Rhode Island General Assembly passed an act renouncing allegiance to King George III, effectively declaring independence. This was two months before the other colonies declared independence with the signing of the Declaration of Independence on July 4, 1776.",
+          "coordinates": [-72.9128, 41.824],
+          "category": "political"
+        },
+        {
+          "year": 1790,
+          "title": "Statehood",
+          "description": "Rhode Island becomes the 7th official state.",
+          "coordinates": [-72.9128, 41.824],
+          "category": "political"
+        }
+      ]
+    },
+    "Delaware": {
+      "founded": 1638,
+      "reason_for_founding": "Swedish/Dutch trade and farming",
+      "economic_focus": "Grain, ironworks",
+      "cultural_religious_makeup": "Mixed: Swedish, Dutch, English",
+      "political_structure": "Shared governor with Pennsylvania, own assembly",
+      "key_figures": [
+        "Peter Minuit",
+        "Caesar Rodney",
+        "Johan Printz",
+        "William Penn"
+      ],
+      "events": [
+        {
+          "year": 1638,
+          "title": "Swedish Settlement at Fort Christina",
+          "description": "Founded as New Sweden, becoming Delaware.",
+          "coordinates": [-77.0277, 39.7391],
+          "category": "settlement"
+        },
+        {
+          "year": 1790,
+          "title": "First to Ratify Constitution 1787",
+          "description": "Becomes the first state of the United States.",
+          "coordinates": [-77.0277, 39.7391],
+          "category": "political"
+        }
+      ]
+    },
+    "New York": {
+      "founded": 1664,
+      "reason_for_founding": "Trade and control of Hudson River",
+      "economic_focus": "Fur trade, shipping",
+      "cultural_religious_makeup": "Dutch, English, Jews, Huguenots",
+      "political_structure": "Royal colony, appointed governors",
+      "key_figures": [
+        "Peter Stuyvesant",
+        "Alexander Hamilton",
+        "John Jay",
+        "Giovanni da Verrazzano",
+        "James Duke of York"
+      ],
+      "events": [
+        {
+          "year": 1630,
+          "title": "New Amsterdam",
+          "description": "Founded by the Dutch as a trading post.",
+          "coordinates": [-75.5059, 40.7128],
+          "category": "settlement"
+        },
+        {
+          "year": 1664,
+          "title": "New Amsterdam Becomes New York",
+          "description": "English seized control from the Dutch and renamed the colony to New York.",
+          "coordinates": [-75.5059, 40.7128],
+          "category": "political"
+        },
+        {
+          "year": 1735,
+          "title": "Zenger Trial",
+          "description": "Landmark case for freedom of the press.",
+          "coordinates": [-75.5059, 40.7128],
+          "category": "political"
+        },
+        {
+          "year": 1788,
+          "title": "Statehood",
+          "description": "New York becomes the 11th official state.",
+          "coordinates": [-75.5059, 40.7128],
+          "category": "political"
+        }
+      ]
+    },
+    "New Jersey": {
+      "founded": 1664,
+      "reason_for_founding": "Expansion and profit; land grants",
+      "economic_focus": "Agriculture, trade",
+      "cultural_religious_makeup": "Religious diversity: Quakers, Presbyterians",
+      "political_structure": "Initially divided into East/West; later royal colony",
+      "key_figures": [
+        "John Witherspoon",
+        "John Berkeley",
+        "George Carteret",
+        "Philip Carteret"
+      ],
+      "events": [
+        {
+          "year": 1664,
+          "title": "Founded New Jersey",
+          "description": "New Jersey was initially part of the larger New Netherland colony claimed by the Dutch, but it became an English colony in 1664 after the English took control. King Charles II granted the land between the Hudson and Delaware Rivers to two friends, Lord John Berkeley and Sir George Carteret, who named it New Jersey after the Isle of Jersey.",
+          "coordinates": [-76.2429, 40.0583],
+          "category": "settlement"
+        },
+        {
+          "year": 1776,
+          "title": "Battle of Trenton",
+          "description": "Surprise Continental Army victory after crossing the Delaware.",
+          "coordinates": [-76.2429, 40.2206],
+          "category": "military"
+        },
+        {
+          "year": 1787,
+          "title": "Statehood",
+          "description": "New Jersey becomes the offical 3rd state.",
+          "coordinates": [-76.2429, 40.0583],
+          "category": "political"
+        }
+      ]
+    },
+    "South Carolina": {
+      "founded": 1670,
+      "reason_for_founding": "Economic: plantation model",
+      "economic_focus": "Rice, indigo, slave labor",
+      "cultural_religious_makeup": "Anglican; wealthy English planters",
+      "political_structure": "Aristocratic, elite-controlled government",
+      "key_figures": [
+        "Anthony Ashley Cooper",
+        "John Rutledge",
+        "Charles Pinckney",
+        "Eliza Lucas Pinckney"
+      ],
+      "events": [
+        {
+          "year": 1663,
+          "title": "South Carolina Colony Founded",
+          "description": "With North Carolina as one colony",
+          "coordinates": [-82.4342, 33.8361],
+          "category": "settlement"
+        },
+        {
+          "year": 1670,
+          "title": "Charleston Founded",
+          "description": "Established as a key southern colonial port.",
+          "coordinates": [-81.4311, 32.7765],
+          "category": "settlement"
+        },
+        {
+          "year": 1712,
+          "title": "Carolina splits",
+          "description": "By 1710, the Lords Proprietors recognized that the northern and southern sections of the Carolina colony were operating separately and successfully petitioned the crown to divide the colony by 1712",
+          "coordinates": [-82.4342, 33.8361],
+          "category": "political"
+        },
+        {
+          "year": 1739,
+          "title": "Stono Rebellion",
+          "description": "Largest slave uprising in colonial British America.",
+          "coordinates": [-81.734, 32.7765],
+          "category": "conflict"
+        },
+        {
+          "year": 1788,
+          "title": "Statehood",
+          "description": "South Carolina becomes the 8th official state.",
+          "coordinates": [-82.4342, 33.8361],
+          "category": "political"
+        }
+      ]
+    },
+    "Pennsylvania": {
+      "founded": 1681,
+      "reason_for_founding": "Quaker refuge (William Penn)",
+      "economic_focus": "Farming, trade",
+      "cultural_religious_makeup": "Quakers, religiously diverse (Germans, Mennonites)",
+      "political_structure": "Representative assembly; liberal policies",
+      "key_figures": [
+        "William Penn",
+        "Benjamin Franklin",
+        "James Logan",
+        "David Lloyd"
+      ],
+      "events": [
+        {
+          "year": 1681,
+          "title": "Charter to William Penn",
+          "description": "Quaker colony founded promoting religious tolerance.",
+          "coordinates": [-76.6652, 39.9526],
+          "category": "settlement"
+        },
+        {
+          "year": 1701,
+          "title": "Charter of Privileges",
+          "description": "Early document granting religious liberty and democratic rule.",
+          "coordinates": [-76.6652, 39.9526],
+          "category": "political"
+        },
+        {
+          "year": 1787,
+          "title": "Constitutional Convention and statehood",
+          "description": "U.S. Constitution drafted in Philadelphia and Pennsylvania becomes the 2nd official state.",
+          "coordinates": [-76.6652, 39.9526],
+          "category": "political"
+        }
+      ]
+    },
+    "North Carolina": {
+      "founded": 1663,
+      "reason_for_founding": "Economic opportunity, small farmers",
+      "economic_focus": "Tobacco, rice, naval stores",
+      "cultural_religious_makeup": "Anglican, decentralized population",
+      "political_structure": "Weak gov't; many settlers from Virginia",
+      "key_figures": [
+        "William Hooper",
+        "Joseph Hewes",
+        "John Penn",
+        "Richard Caswell"
+      ],
+      "events": [
+        {
+          "year": 1653,
+          "title": "Carolina",
+          "description": "Settled by Virginians and then part of Carolina; officially chartered as a colony in 1663.",
+          "coordinates": [-80.1382, 35.7711],
+          "category": "settlement"
+        },
+        {
+          "year": 1663,
+          "title": "North Carolina",
+          "description": "Around 1663, North Carolina became a colony: Carolina, settled by the English and chartered by King Charles II.",
+          "coordinates": [-80.1382, 35.7711],
+          "category": "political"
+        },
+        {
+          "year": 1776,
+          "title": "Halifax Resolves",
+          "description": "First formal call for independence by a colony.",
+          "coordinates": [-79.4447, 36.2277],
+          "category": "political"
+        },
+        {
+          "year": 1789,
+          "title": "Statehood",
+          "description": "North Carolina becomes the 12th official state.",
+          "coordinates": [-80.1382, 35.7711],
+          "category": "political"
+        }
+      ]
+    },
+    "Georgia": {
+      "founded": 1732,
+      "reason_for_founding": "Debtor haven & buffer from Spanish Florida",
+      "economic_focus": "Rice, indigo, trade",
+      "cultural_religious_makeup": "Originally anti-slavery; later plantation society",
+      "political_structure": "Initially ruled by trustees, then royal colony",
+      "key_figures": [
+        "James Oglethorpe",
+        "Button Gwinnett",
+        "Lyman Hall",
+        "George Walton"
+      ],
+      "events": [
+        {
+          "year": 1732,
+          "title": "Founding of Georgia",
+          "description": "Last of the 13 colonies; founded by James Oglethorpe as a debtor's colony and buffer against Spanish Florida.",
+          "coordinates": [-85.243, 32.1656],
+          "category": "settlement"
+        },
+        {
+          "year": 1776,
+          "title": "Joins the Revolution",
+          "description": "Last of the 13 colonies to join the fight for independence.",
+          "coordinates": [-85.243, 32.1656],
+          "category": "political"
+        },
+        {
+          "year": 1788,
+          "title": "Statehood",
+          "description": "Georgia joins statehood as the 4th state",
+          "coordinates": [-85.243, 32.1656],
+          "category": "political"
+        }
+      ]
+    },
+    "Vermont": {
+      "founded": 1777,
+      "reason_for_founding": "Independence from New York and New Hampshire claims",
+      "economic_focus": "Agriculture, lumber, maple syrup",
+      "cultural_religious_makeup": "Congregationalist, independent settlers",
+      "political_structure": "Independent republic, then state",
+      "key_figures": ["Ethan Allen", "Ira Allen", "Thomas Chittenden"],
+      "events": [
+        {
+          "year": 1777,
+          "title": "Vermont Republic Declared",
+          "description": "Vermont declares independence as an independent republic.",
+          "coordinates": [-74.2317, 44.0459],
+          "category": "political"
+        },
+        {
+          "year": 1790,
+          "title": "Vermont Becomes 14th State in 1791",
+          "description": "Vermont joins the Union as the first state after the original 13 colonies.",
+          "coordinates": [-74.2317, 44.0459],
+          "category": "political"
+        }
+      ]
+    },
+    "Kentucky": {
+      "founded": 1792,
+      "reason_for_founding": "Originally part of Virginia, Kentucky became the first U.S. state west of the Appalachian Mountains, formed to represent the interests of frontier settlers seeking more localized governance.",
+      "economic_focus": "Tobacco, hemp, horse breeding, and frontier agriculture",
+      "cultural_religious_makeup": "Predominantly Protestant settlers of Scots-Irish, English, and German descent; frontier culture with ties to Virginia",
+      "political_structure": "Part of Virginia until 1792; then an independent U.S. state with its own constitution and legislature",
+      "key_figures": ["Isaac Shelby", "Daniel Boone", "George Rogers Clark"],
+      "events": [
+        {
+          "year": 1800,
+          "title": "Prior Statehood",
+          "description": "Kentucky separated from Virginia and was admitted to the Union as the 15th state, becoming the first state west of the Appalachians.",
+          "coordinates": [-86.3701, 37.8393],
+          "category": "political"
+        }
+      ]
+    },
+    "Tennessee": {
+      "founded": 1790,
+      "reason_for_founding": "Formed from North Carolina's western lands, Tennessee became the Southwest Territory in 1790 to organize frontier settlement and governance before achieving statehood in 1796.",
+      "economic_focus": "Agriculture, cotton, livestock",
+      "cultural_religious_makeup": "Protestant, Scots-Irish settlers",
+      "political_structure": "Originally part of North Carolina, then a U.S. federal territory, then statehood in 1796",
+      "key_figures": ["John Sevier", "James Robertson", "Andrew Jackson"],
+      "events": [
+        {
+          "year": 1796,
+          "title": "Tennessee Becomes 16th State",
+          "description": "The Southwest Territory is admitted to the Union as the state of Tennessee, the first U.S. territory to become a state.",
+          "coordinates": [-88.2816, 35.7796],
+          "category": "political"
+        }
+      ]
+    },
+    "Ohio": {
+      "founded": 1788,
+      "reason_for_founding": "Northwest Territory settlement",
+      "economic_focus": "Agriculture, manufacturing, trade",
+      "cultural_religious_makeup": "Mixed Protestant denominations",
+      "political_structure": "Northwest Territory, then state",
+      "key_figures": [
+        "Rufus Putnam",
+        "Arthur St. Clair",
+        "William Henry Harrison"
+      ],
+      "events": [
+        {
+          "year": 1810,
+          "title": "Ohio Becomes 17th State in 1803",
+          "description": "Ohio becomes the first state created from the Northwest Territory.",
+          "coordinates": [-84.2649, 40.3888],
+          "category": "political"
+        }
+      ]
+    },
+    "Louisiana": {
+      "founded": 1718,
+      "reason_for_founding": "French colonial expansion and trade",
+      "economic_focus": "Sugar, cotton, shipping",
+      "cultural_religious_makeup": "Catholic, French, Spanish, African influences",
+      "political_structure": "French colony, Spanish colony, then U.S. territory",
+      "key_figures": ["Jean-Baptiste Le Moyne", "William C.C. Claiborne"],
+      "events": [
+        {
+          "year": 1803,
+          "title": "Louisiana Purchase",
+          "description": "United States purchases Louisiana Territory from France.",
+          "coordinates": [-93.3318, 29.7755],
+          "category": "political"
+        },
+        {
+          "year": 1820,
+          "title": "Louisiana Becomes 18th State in 1812",
+          "description": "Louisiana becomes the first state created from the Louisiana Purchase.",
+          "coordinates": [-93.3318, 29.7755],
+          "category": "political"
+        }
+      ]
+    },
+    "Indiana Territory": {
+      "founded": 1800,
+      "reason_for_founding": "Northwest Territory organization",
+      "economic_focus": "Agriculture, fur trade",
+      "cultural_religious_makeup": "Protestant, diverse European settlers",
+      "political_structure": "Federal territory",
+      "key_figures": ["William Henry Harrison"],
+      "events": [
+        {
+          "year": 1800,
+          "title": "Indiana Territory Created",
+          "description": "Indiana Territory separated from Northwest Territory.",
+          "coordinates": [-87.7604, 39.7817],
+          "category": "political"
+        },
+        {
+          "year": 1811,
+          "title": "Battle of Tippecanoe",
+          "description": "A major conflict between U.S. forces under William Henry Harrison and a Native American confederacy led by Tecumseh, helping define territorial boundaries before statehood.",
+          "coordinates": [-88.5024, 40.4167],
+          "category": "military"
+        }
+      ]
+    },
+    "Indiana": {
+      "founded": 1816,
+      "reason_for_founding": "Created from the eastern portion of the Indiana Territory as settlers pushed westward; Indiana became the 19th state admitted to the Union.",
+      "economic_focus": "Agriculture, land development, fur trade, transportation (canals and roads)",
+      "cultural_religious_makeup": "Primarily Protestant Anglo-American settlers, with remnants of French Catholic influence and diverse Native American populations",
+      "political_structure": "Became a U.S. state with its own constitution and elected government, transitioning from federally governed territory",
+      "key_figures": [
+        "Jonathan Jennings",
+        "William Henry Harrison",
+        "Tecumseh"
+      ],
+      "events": [
+        {
+          "year": 1820,
+          "title": "Indiana Becomes a State in 1816",
+          "description": "Indiana was admitted to the Union as the 19th state following the drafting of its state constitution in Corydon.",
+          "coordinates": [-87.7604, 39.7817],
+          "category": "political"
+        },
+        {
+          "year": 1825,
+          "title": "Indianapolis Becomes Capital",
+          "description": "The state capital moved from Corydon to Indianapolis to accommodate central growth and settlement.",
+          "coordinates": [-87.6581, 39.7684],
+          "category": "political"
+        }
+      ]
+    },
+    "Illinois Territory": {
+      "founded": 1809,
+      "reason_for_founding": "Indiana Territory organization",
+      "economic_focus": "Agriculture, trade",
+      "cultural_religious_makeup": "Protestant, diverse immigrants",
+      "political_structure": "Federal territory",
+      "key_figures": ["Ninian Edwards"],
+      "events": [
+        {
+          "year": 1810,
+          "title": "Illinois Territory Created 1809",
+          "description": "Illinois Territory separated from Indiana Territory.",
+          "coordinates": [-91.1501, 39.8647],
+          "category": "political"
+        }
+      ]
+    },
+    "Illinois": {
+      "founded": 1809,
+      "reason_for_founding": "Northwest Territory expansion",
+      "economic_focus": "Agriculture, trade, manufacturing",
+      "cultural_religious_makeup": "Protestant, diverse immigrants",
+      "political_structure": "Part of Indiana Territory, then Illinois Territory",
+      "key_figures": ["Ninian Edwards", "Nathaniel Pope"],
+      "events": [
+        {
+          "year": 1820,
+          "title": "Illinois Becomes 21st State 1818",
+          "description": "Illinois becomes a state.",
+          "coordinates": [-91.1501, 39.8647],
+          "category": "political"
+        }
+      ]
+    },
+    "Mississippi Territory": {
+      "founded": 1798,
+      "reason_for_founding": "Territorial organization of southern lands",
+      "economic_focus": "Cotton cultivation, plantation development",
+      "cultural_religious_makeup": "Protestant, plantation society",
+      "political_structure": "Federal territory",
+      "key_figures": ["Winthrop Sargent", "David Holmes"],
+      "events": [
+        {
+          "year": 1800,
+          "title": "Mississippi Territory Created",
+          "description": "Mississippi Territory organized from lands ceded by Georgia.",
+          "coordinates": [-90.6165, 32.7673],
+          "category": "political"
+        }
+      ]
+    },
+    "Michigan Territory": {
+      "founded": 1805,
+      "reason_for_founding": "Created to organize the northwestern lands of the United States after Ohio became a state and to manage increasing settler populations around Detroit and the Great Lakes.",
+      "economic_focus": "Fur trade, lumber, Great Lakes shipping, agriculture",
+      "cultural_religious_makeup": "French Catholic settlers, Native American tribes (e.g., Ojibwe, Potawatomi), and Protestant Anglo-American settlers",
+      "political_structure": "Organized U.S. territory with a federally appointed governor and judges",
+      "key_figures": ["William Hull", "Lewis Cass", "Tecumseh"],
+      "events": [
+        {
+          "year": 1810,
+          "title": "Territory Established 1805",
+          "description": "Congress created the Michigan Territory from the northern portion of the Indiana Territory, with Detroit as its capital.",
+          "coordinates": [-86.5242, 44.3467],
+          "category": "political"
+        },
+        {
+          "year": 1812,
+          "title": "British Capture of Detroit",
+          "description": "During the War of 1812, British forces captured Detroit, a major setback for the territory.",
+          "coordinates": [-84.5458, 42.3314],
+          "category": "military"
+        }
+      ]
+    },
+    "Northwest Territory": {
+      "founded": 1787,
+      "reason_for_founding": "The Northwest Territory was founded primarily to organize and govern the vast lands ceded to the United States by Great Britain after the Revolutionary War",
+      "economic_focus": "Resource extraction, Land sale",
+      "cultural_religious_makeup": "",
+      "political_structure": "Federal territory",
+      "key_figures": [
+        "Arthur St. Clair",
+        "Nathan Dane",
+        "Manasseh Cutler",
+        "Rufus King."
+      ],
+      "events": [
+        {
+          "year": 1790,
+          "title": "Northwest Ordiance",
+          "description": "Established in 1787 by the Congress of the Confederation through the Northwest Ordinance, it was the nation's first post-colonial organized incorporated territory.The territory included land that would eventually become the states of Ohio, Indiana, Illinois, Michigan, Wisconsin, and a portion of Minnesota.",
+          "coordinates": [-84.5, 40.0],
+          "category": "political"
+        }
+      ]
+    },
+    "Southwest Territory": {
+      "founded": 1790,
+      "reason_for_founding": "The Southwest Territory was created to organize the land ceded by North Carolina to the federal government and to provide governance for settlers in the western frontier.",
+      "economic_focus": "Agriculture, frontier trade, land speculation",
+      "cultural_religious_makeup": "Predominantly Protestant settlers of Scots-Irish and English descent",
+      "political_structure": "Federal territory with a governor appointed by the President of the United States",
+      "key_figures": ["William Blount", "John Sevier", "James White"],
+      "events": [
+        {
+          "year": 1790,
+          "title": "Formation of the Southwest Territory",
+          "description": "The territory was officially created after North Carolina ceded its western lands to the federal government. Congress organized it as the Territory South of the River Ohio, commonly called the Southwest Territory.",
+          "coordinates": [-88.2816, 35.7796],
+          "category": "political"
+        },
+        {
+          "year": 1796,
+          "title": "Tennessee Statehood",
+          "description": "The Southwest Territory was admitted to the Union as the state of Tennessee, becoming the 16th state.",
+          "coordinates": [-88.2816, 35.7796],
+          "category": "political"
+        }
+      ]
+    },
+    "Mississippi": {
+      "founded": "",
+      "reason_for_founding": "Cotton cultivation and territorial expansion",
+      "economic_focus": "Cotton plantations, slavery",
+      "cultural_religious_makeup": "Protestant, plantation society",
+      "political_structure": "Mississippi Territory, then state",
+      "key_figures": ["David Holmes", "Walter Leake"],
+      "events": [
+        {
+          "year": 1820,
+          "title": "Mississippi Becomes 20th State in 1817",
+          "description": "Mississippi Territory becomes a state.",
+          "coordinates": [-90.6165, 32.7673],
+          "category": "political"
+        }
+      ]
+    },
+    "Maine": {
+      "founded": 1607,
+      "reason_for_founding": "Fishing, lumber, and separation from Massachusetts",
+      "economic_focus": "Fishing, lumber, shipbuilding",
+      "cultural_religious_makeup": "Protestant, New England culture",
+      "political_structure": "Part of Massachusetts, then separate state",
+      "key_figures": ["William King", "John Holmes"],
+      "events": [
+        {
+          "year": 1820,
+          "title": "Maine Becomes 23rd State",
+          "description": "Maine separates from Massachusetts as part of the Missouri Compromise.",
+          "coordinates": [-70.7795, 45.3695],
+          "category": "political"
+        }
+      ]
+    },
+    "Alabama": {
+      "founded": 1817,
+      "reason_for_founding": "Cotton cultivation and expansion",
+      "economic_focus": "Cotton plantations, slavery",
+      "cultural_religious_makeup": "Protestant, plantation society",
+      "political_structure": "Part of Mississippi Territory, then Alabama Territory",
+      "key_figures": ["William Wyatt Bibb", "Israel Pickens"],
+      "events": [
+        {
+          "year": 1819,
+          "title": "Alabama Becomes 22nd State",
+          "description": "After Alabama Territory separated from Mississippi Territory in 1817, Alabama Territory become a state.",
+          "coordinates": [-88.4023, 32.7794],
+          "category": "political"
+        }
+      ]
+    },
+    "Missouri Territory": {
+      "founded": 1812,
+      "reason_for_founding": "Louisiana Territory organization",
+      "economic_focus": "Fur trade, agriculture",
+      "cultural_religious_makeup": "Protestant, French Catholic influences",
+      "political_structure": "Federal territory",
+      "key_figures": ["Benjamin Howard", "William Clark"],
+      "events": [
+        {
+          "year": 1820,
+          "title": "Missouri Territory Created 1812",
+          "description": "Missouri Territory created from Louisiana Territory.",
+          "coordinates": [-93.7846, 38.5816],
+          "category": "political"
+        }
+      ]
+    },
+    "Arkansas Territory": {
+      "founded": 1819,
+      "reason_for_founding": "Formed to organize the southwestern portion of the Missouri Territory as population increased and settlers expanded into the Mississippi River Valley.",
+      "economic_focus": "Cotton agriculture, land speculation, small-scale farming, fur trade",
+      "cultural_religious_makeup": "Predominantly Protestant settlers of Scots-Irish and Anglo-American descent, enslaved African Americans, and Native American tribes (e.g., Quapaw, Cherokee, Choctaw)",
+      "political_structure": "Organized U.S. territory governed by federally appointed officials, with a territorial legislature",
+      "key_figures": ["James Miller", "William Woodruff", "Henry Conway"],
+      "events": [
+        {
+          "year": 1820,
+          "title": "Establishment of Arkansas Territory 1819",
+          "description": "The Arkansas Territory was carved out of the southern portion of the Missouri Territory to manage increasing settlement in the region.",
+          "coordinates": [-93.8731, 34.9513],
+          "category": "political"
+        },
+        {
+          "year": 1821,
+          "title": "Little Rock Becomes Capital",
+          "description": "Little Rock was chosen as the territorial capital due to its central location and river access.",
+          "coordinates": [-93.7896, 34.7465],
+          "category": "political"
+        }
+      ]
+    },
+    "Louisiana Territory": {
+      "founded": 1805,
+      "reason_for_founding": "Established to organize the northern portion of the Louisiana Purchase after the United States acquired the land from France in 1803.",
+      "economic_focus": "Fur trade, agriculture, river commerce, land speculation",
+      "cultural_religious_makeup": "French and Spanish Creoles, Native American tribes, American settlers, Roman Catholic and Protestant communities",
+      "political_structure": "U.S. organized incorporated territory governed by federally appointed officials",
+      "key_figures": ["Meriwether Lewis", "William Clark", "James Wilkinson"],
+      "events": [
+        {
+          "year": 1810,
+          "title": "Louisiana Territory Established 1805",
+          "description": "The northern portion of the Louisiana Purchase was officially designated the Louisiana Territory, with St. Louis as its capital.",
+          "coordinates": [-91.9125, 38.8339],
+          "category": "political"
+        }
+      ]
+    },
+    "Orleans Territory": {
+      "founded": 1804,
+      "reason_for_founding": "Created to govern the southern portion of the Louisiana Purchase, particularly the settled areas around New Orleans, following the U.S. acquisition from France.",
+      "economic_focus": "Plantation agriculture (sugar, cotton), port trade, slavery-based economy",
+      "cultural_religious_makeup": "French and Spanish Creoles, free and enslaved Africans, Native Americans, Roman Catholic majority",
+      "political_structure": "Organized U.S. territory with a governor appointed by the president; legal system blended civil (Napoleonic) and U.S. common law",
+      "key_figures": [
+        "William C. C. Claiborne",
+        "Jean Lafitte",
+        "Julien Poydras"
+      ],
+      "events": [
+        {
+          "year": 1810,
+          "title": "Creation of Orleans Territory 1804",
+          "description": "The U.S. divided the Louisiana Purchase, forming the Orleans Territory to govern the more developed southern portion around New Orleans.",
+          "coordinates": [-91.5715, 29.9511],
+          "category": "political"
+        },
+        {
+          "year": 1811,
+          "title": "German Coast Uprising",
+          "description": "One of the largest slave revolts in U.S. history took place near New Orleans, highlighting tensions in the plantation economy.",
+          "coordinates": [-91.9071, 29.9584],
+          "category": "conflict"
+        }
+      ]
+    },
+    "Missouri": {
+      "founded": 1764,
+      "reason_for_founding": "Louisiana Purchase expansion and fur trade",
+      "economic_focus": "Agriculture, trade, slavery",
+      "cultural_religious_makeup": "Protestant, French Catholic influences",
+      "political_structure": "Part of Louisiana Territory, then Missouri Territory",
+      "key_figures": ["Alexander McNair", "Thomas Hart Benton"],
+      "events": [
+        {
+          "year": 1830,
+          "title": "Missouri Becomes 24th State in 1821",
+          "description": "Missouri becomes a state as part of the Missouri Compromise.",
+          "coordinates": [-93.7846, 38.5816],
+          "category": "political"
+        }
+      ]
+    },
+    "Arkansas": {
+      "founded": 1686,
+      "reason_for_founding": "Louisiana Purchase expansion",
+      "economic_focus": "Agriculture, cotton, rice",
+      "cultural_religious_makeup": "Protestant, southern culture",
+      "political_structure": "Part of Louisiana Territory, then Arkansas Territory",
+      "key_figures": ["James Sevier Conway", "Ambrose Sevier"],
+      "events": [
+        {
+          "year": 1840,
+          "title": "Arkansas Becomes 25th State 1836",
+          "description": "Arkansas Territory becomes a state.",
+          "coordinates": [-93.8731, 34.9513],
+          "category": "political"
+        }
+      ]
+    },
+    "Michigan": {
+      "founded": 1701,
+      "reason_for_founding": "Fur trade and Great Lakes expansion",
+      "economic_focus": "Fur trade, lumber, mining",
+      "cultural_religious_makeup": "Protestant, French Catholic, Native American",
+      "political_structure": "Part of Northwest Territory, then Michigan Territory",
+      "key_figures": ["Lewis Cass", "Stevens T. Mason"],
+      "events": [
+        {
+          "year": 1837,
+          "title": "Michigan Becomes 26th State",
+          "description": "Michigan Territory becomes a state after the Toledo War.",
+          "coordinates": [-86.5242, 44.3467],
+          "category": "political"
+        }
+      ]
+    },
+    "Florida": {
+      "founded": 1565,
+      "reason_for_founding": "Spanish colonization and territorial acquisition",
+      "economic_focus": "Agriculture, citrus, tourism",
+      "cultural_religious_makeup": "Catholic, Protestant, diverse",
+      "political_structure": "Spanish colony, then U.S. territory",
+      "key_figures": ["Andrew Jackson", "William Pope Duval"],
+      "events": [
+        {
+          "year": 1845,
+          "title": "Florida Becomes 27th State",
+          "description": "Florida Territory becomes a state.",
+          "coordinates": [-83.9572, 27.7663],
+          "category": "political"
+        }
+      ]
+    },
+    "Florida Territory": {
+      "founded": 1822,
+      "reason_for_founding": "Established to govern the lands ceded by Spain to the United States in 1819 under the Adams-Onís Treaty, and to formalize U.S. control over East and West Florida.",
+      "economic_focus": "Plantation agriculture (cotton, sugar), cattle ranching, timber, slave labor economy",
+      "cultural_religious_makeup": "Spanish and French Creole influence, Protestant settlers from the American South, Native American tribes (e.g., Seminole), and enslaved Africans",
+      "political_structure": "Organized U.S. territory with federally appointed governor and legislature",
+      "key_figures": ["Andrew Jackson", "William Pope Duval", "Osceola"],
+      "events": [
+        {
+          "year": 1830,
+          "title": "Florida Territory Established 1822",
+          "description": "After possession of East and West Florida, Congress formally organized Florida as a U.S. territory to manage settlement and administration.",
+          "coordinates": [-83.9572, 27.7663],
+          "category": "political"
+        },
+        {
+          "year": 1835,
+          "title": "Second Seminole War Begins",
+          "description": "A long and costly conflict between U.S. forces and the Seminole Nation resisting removal from Florida.",
+          "coordinates": [-82.6637, 26.1224],
+          "category": "military"
+        },
+        {
+          "year": 1850,
+          "title": "Florida Becomes a State",
+          "description": "Florida was admitted to the Union in 1845 as the 27th state following decades of territorial governance and conflict.",
+          "coordinates": [-83.9572, 27.7663],
+          "category": "political"
+        }
+      ]
+    },
+    "Unorganized Territory": {
+      "founded": null,
+      "reason_for_founding": "Not formally organized by the U.S. government; referred to areas west of the Mississippi River, especially in the Louisiana Purchase, that were not part of any official state or territory. Designated for Native American resettlement under the Indian Removal Act of 1830.",
+      "economic_focus": "Limited Euro-American settlement; primarily used for fur trade and designated as Indian Territory for Native relocation",
+      "cultural_religious_makeup": "Home to numerous Native American tribes (e.g., Osage, Sioux, Cheyenne, Comanche); some U.S. military and fur trade outposts; few American settlers",
+      "political_structure": "No formal territorial government; administered loosely by federal policies, military forts, and Indian agents",
+      "key_figures": ["Andrew Jackson", "Lewis Cass", "Henry Clay"],
+      "events": [
+        {
+          "year": 1830,
+          "title": "Indian Removal Act",
+          "description": "Authorized the relocation of Native American tribes to lands in the unorganized western territories beyond the Mississippi River.",
+          "coordinates": [-100.0795, 36.4613],
+          "category": "political"
+        },
+        {
+          "year": 1834,
+          "title": "Indian Intercourse Act",
+          "description": "Formally designated lands west of the Mississippi not in states or organized territories as Indian Territory. The Indian Intercourse Act refers to a series of six laws passed by the U.S. Congress between 1790 and 1834. These acts, also known as the Nonintercourse Acts, primarily regulated trade and interactions between European Americans and Native American tribes. A key aspect of these acts was establishing boundaries for Indian reservations and regulating the sale of tribal lands.",
+          "coordinates": [-97.2129, 37.0902],
+          "category": "political"
+        }
+      ]
+    },
+    "Texas": {
+      "founded": 1836,
+      "reason_for_founding": "Independence from Mexico",
+      "economic_focus": "Cotton, cattle, oil",
+      "cultural_religious_makeup": "Protestant, Mexican Catholic, diverse",
+      "political_structure": "Independent republic, then state",
+      "key_figures": ["Sam Houston", "Stephen F. Austin", "Anson Jones"],
+      "events": [
+        {
+          "year": 1850,
+          "title": "Texas Becomes 28th State in 1845",
+          "description": "Republic of Texas annexed by the United States.",
+          "coordinates": [-99.0164, 31.2504],
+          "category": "political"
+        }
+      ]
+    },
+    "Iowa Territory": {
+      "founded": 1838,
+      "reason_for_founding": "Formed from the western portion of the Wisconsin Territory to manage increasing settlement in the region and to prepare for eventual statehood.",
+      "economic_focus": "Frontier agriculture, lead mining, land speculation, river trade",
+      "cultural_religious_makeup": "Primarily Protestant settlers from the Upper South and Midwest; displaced Native American tribes including the Sauk and Meskwaki",
+      "political_structure": "Organized U.S. territory with a federally appointed governor and territorial legislature",
+      "key_figures": ["Robert Lucas", "Ansel Briggs", "Henry Dodge"],
+      "events": [
+        {
+          "year": 1840,
+          "title": "Creation of Iowa Territory 1838",
+          "description": "Congress separated Iowa from the Wisconsin Territory due to population growth and the need for more localized governance.",
+          "coordinates": [-94.7105, 42.0046],
+          "category": "political"
+        },
+        {
+          "year": 1844,
+          "title": "First Constitutional Convention",
+          "description": "Delegates met to draft a constitution in anticipation of statehood, but the proposed boundaries were rejected by Congress.",
+          "coordinates": [-94.7105, 42.0046],
+          "category": "political"
+        }
+      ]
+    },
+    "Iowa": {
+      "founded": "",
+      "reason_for_founding": "Agricultural expansion and settlement",
+      "economic_focus": "Agriculture, corn, livestock",
+      "cultural_religious_makeup": "Protestant, European immigrants",
+      "political_structure": "Part of Wisconsin Territory, then Iowa Territory",
+      "key_figures": ["Robert Lucas", "Ansel Briggs"],
+      "events": [
+        {
+          "year": 1850,
+          "title": "Iowa Becomes 29th State 1846",
+          "description": "Iowa becomes a state.",
+          "coordinates": [-94.7105, 42.0046],
+          "category": "political"
+        }
+      ]
+    },
+    "Wisconsin": {
+      "founded": 1634,
+      "reason_for_founding": "Fur trade and Great Lakes expansion",
+      "economic_focus": "Agriculture, lumber, manufacturing",
+      "cultural_religious_makeup": "Protestant, Catholic, German immigrants",
+      "political_structure": "Part of Northwest Territory, then Wisconsin Territory",
+      "key_figures": ["Henry Dodge", "Nelson Dewey"],
+      "events": [
+        {
+          "year": 1850,
+          "title": "Wisconsin Becomes 30th State 1848",
+          "description": "Wisconsin Territory becomes a state.",
+          "coordinates": [-91.1385, 44.2619],
+          "category": "political"
+        }
+      ]
+    },
+    "Wisconsin Territory": {
+      "founded": 1836,
+      "reason_for_founding": "Created from the western portion of the Michigan Territory to govern the expanding population in the upper Midwest after Michigan pursued statehood.",
+      "economic_focus": "Lead mining, lumber, agriculture, fur trade, frontier commerce",
+      "cultural_religious_makeup": "Primarily Protestant Anglo-American settlers, French-Canadian Catholics, Native American tribes (e.g., Ho-Chunk, Ojibwe, Menominee)",
+      "political_structure": "Organized U.S. territory with a federally appointed governor and territorial legislature",
+      "key_figures": ["Henry Dodge", "James Duane Doty", "Henry Schoolcraft"],
+      "events": [
+        {
+          "year": 1840,
+          "title": "Wisconsin Territory Established 1836",
+          "description": "Congress formed Wisconsin Territory from the remaining land of Michigan Territory not included in the new state of Michigan.",
+          "coordinates": [-91.1385, 44.2619],
+          "category": "political"
+        },
+        {
+          "year": 1840,
+          "title": "Iowa Territory Split Off 1838",
+          "description": "The Iowa Territory was separated from Wisconsin Territory to accommodate growing settlement west of the Mississippi River.",
+          "coordinates": [-91.1385, 44.2619],
+          "category": "political"
+        }
+      ]
+    },
+    "California": {
+      "founded": 1769,
+      "reason_for_founding": "Spanish missions and Gold Rush",
+      "economic_focus": "Gold mining, agriculture, trade",
+      "cultural_religious_makeup": "Catholic, Protestant, diverse immigrants",
+      "political_structure": "Spanish colony, Mexican territory, then U.S. territory",
+      "key_figures": ["John C. Frémont", "Peter Burnett"],
+      "events": [
+        {
+          "year": 1850,
+          "title": "California Becomes 31st State",
+          "description": "California becomes a state as part of the Compromise of 1850.",
+          "coordinates": [-121.2871, 36.1716],
+          "category": "political"
+        }
+      ]
+    },
+    "Minnesota Territory": {
+      "founded": 1849,
+      "reason_for_founding": "Organization of northwestern lands",
+      "economic_focus": "Lumber, agriculture, fur trade",
+      "cultural_religious_makeup": "Protestant, Scandinavian and German immigrants",
+      "political_structure": "Federal territory",
+      "key_figures": ["Alexander Ramsey", "Henry Hastings Sibley"],
+      "events": [
+        {
+          "year": 1850,
+          "title": "Minnesota Territory Created 1849",
+          "description": "Minnesota Territory organized from Iowa and Wisconsin territorial lands.",
+          "coordinates": [-96.1859, 46.3298],
+          "category": "political"
+        }
+      ]
+    },
+    "Minnesota": {
+      "founded": 1849,
+      "reason_for_founding": "Northwestern expansion and settlement",
+      "economic_focus": "Lumber, agriculture, mining",
+      "cultural_religious_makeup": "Protestant, Scandinavian and German immigrants",
+      "political_structure": "Minnesota Territory, then state",
+      "key_figures": ["Alexander Ramsey", "Henry Hastings Sibley"],
+      "events": [
+        {
+          "year": 1858,
+          "title": "Minnesota Becomes 32nd State",
+          "description": "Minnesota Territory becomes a state.",
+          "coordinates": [-96.1859, 46.3298],
+          "category": "political"
+        }
+      ]
+    },
+    "Oregon Territory": {
+      "founded": 1848,
+      "reason_for_founding": "Established to govern the jointly occupied lands of the Pacific Northwest after the Oregon Treaty with Britain, and to organize increasing American settlement along the Oregon Trail.",
+      "economic_focus": "Fur trade, agriculture, logging, land claims through homesteading",
+      "cultural_religious_makeup": "Anglo-American Protestant settlers, French-Canadian trappers, Native American tribes (e.g., Chinook, Nez Perce, Cayuse), some Catholic missionaries",
+      "political_structure": "Organized U.S. territory with a federally appointed governor and territorial legislature",
+      "key_figures": ["Joseph Lane", "John McLoughlin", "Marcus Whitman"],
+      "events": [
+        {
+          "year": 1850,
+          "title": "Territory Established 1848",
+          "description": "The U.S. Congress formally created the Oregon Territory, which originally included present-day Oregon, Washington, Idaho, and parts of Montana and Wyoming.",
+          "coordinates": [-122.0542, 43.8041],
+          "category": "political"
+        }
+      ]
+    },
+    "Idaho Territory": {
+      "founded": 1863,
+      "reason_for_founding": "Carved out of parts of Washington and Dakota Territories to manage the influx of settlers and miners after gold was discovered in the region during westward expansion.",
+      "economic_focus": "Gold and silver mining, logging, agriculture, and later rail transport",
+      "cultural_religious_makeup": "Anglo-American settlers, Native American tribes (e.g., Nez Perce, Shoshone, Bannock), Chinese miners, and Mormon communities",
+      "political_structure": "Organized U.S. territory with a federally appointed governor and territorial legislature; subject to federal military oversight due to conflicts with Native tribes",
+      "key_figures": ["William H. Wallace", "Chief Joseph", "George L. Shoup"],
+      "events": [
+        {
+          "year": 1870,
+          "title": "Idaho Territory Created 1863",
+          "description": "Congress created the Idaho Territory from parts of Washington, Dakota, and Nebraska Territories to govern the growing mining population.",
+          "coordinates": [-115.743, 44.2394],
+          "category": "political"
+        },
+        {
+          "year": 1877,
+          "title": "Nez Perce War",
+          "description": "A major conflict between the U.S. Army and the Nez Perce tribe, led by Chief Joseph, over forced removal from ancestral lands in Idaho.",
+          "coordinates": [-115.743, 44.2394],
+          "category": "military"
+        }
+      ]
+    },
+    "Idaho": {
+      "founded": 1863,
+      "reason_for_founding": "Carved out of parts of Washington and Dakota Territories to manage the influx of settlers and miners after gold was discovered in the region during westward expansion.",
+      "economic_focus": "Gold and silver mining, logging, agriculture, and later rail transport",
+      "cultural_religious_makeup": "Anglo-American settlers, Native American tribes (e.g., Nez Perce, Shoshone, Bannock), Chinese miners, and Mormon communities",
+      "political_structure": "Organized U.S. territory with a federally appointed governor and territorial legislature; subject to federal military oversight due to conflicts with Native tribes",
+      "key_figures": ["William H. Wallace", "Chief Joseph", "George L. Shoup"],
+      "events": [
+        {
+          "year": 1890,
+          "title": "Idaho Achieves Statehood",
+          "description": "Idaho was admitted to the Union as the 43rd state following population growth and political organization.",
+          "coordinates": [-115.743, 44.2394],
+          "category": "political"
+        }
+      ]
+    },
+    "Washington Territory": {
+      "founded": 1853,
+      "reason_for_founding": "Created from the northern portion of the Oregon Territory to provide more localized governance for settlers north of the Columbia River as the region's population increased.",
+      "economic_focus": "Logging, fishing, agriculture, fur trade, maritime commerce",
+      "cultural_religious_makeup": "Anglo-American Protestant settlers, Native American tribes (e.g., Duwamish, Yakama, Nez Perce), Chinese laborers, and remaining French-Canadian trappers",
+      "political_structure": "Organized U.S. territory with federally appointed governors and a territorial legislature",
+      "key_figures": ["Isaac Stevens", "Chief Seattle", "George B. McClellan"],
+      "events": [
+        {
+          "year": 1860,
+          "title": "Washington Territory Established 1853",
+          "description": "Formed from the northern part of the Oregon Territory, it included present-day Washington and parts of Idaho and Montana.",
+          "coordinates": [-122.3328, 47.0379],
+          "category": "political"
+        },
+        {
+          "year": 1860,
+          "title": "Treaties and Conflicts 1855",
+          "description": "Several treaties with Native tribes were signed, leading to land cessions but also violent conflicts such as the Yakama War.",
+          "coordinates": [-122.3328, 47.0379],
+          "category": "military"
+        },
+        {
+          "year": 1889,
+          "title": "Washington Statehood",
+          "description": "Washington was admitted to the Union as the 42nd state following rapid population growth and settlement.",
+          "coordinates": [-122.3328, 47.0379],
+          "category": "political"
+        }
+      ]
+    },
+    "Montana Territory": {
+      "founded": 1864,
+      "reason_for_founding": "Created from the eastern portion of Idaho Territory to better manage the gold rush population and expand U.S. governance across the northern Rocky Mountains.",
+      "economic_focus": "Gold and silver mining, ranching, logging, railroads",
+      "cultural_religious_makeup": "Anglo-American miners and settlers, Native American tribes (e.g., Crow, Blackfeet, Assiniboine), Chinese laborers, Catholic missionaries",
+      "political_structure": "Organized U.S. territory with a federally appointed governor and territorial legislature",
+      "key_figures": ["Sidney Edgerton", "Nelson Story", "Sitting Bull"],
+      "events": [
+        {
+          "year": 1870,
+          "title": "Montana Territory Created 1864",
+          "description": "Congress carved Montana Territory out of Idaho Territory in response to rapid population growth and the need for localized governance.",
+          "coordinates": [-110.3626, 46.9219],
+          "category": "political"
+        },
+        {
+          "year": 1876,
+          "title": "Battle of the Little Bighorn",
+          "description": "One of the most famous conflicts in U.S. history occurred in eastern Montana between the U.S. Army and a coalition of Lakota, Northern Cheyenne, and Arapaho warriors.",
+          "coordinates": [-107.7294, 45.5647],
+          "category": "military"
+        },
+        {
+          "year": 1889,
+          "title": "Montana Achieves Statehood",
+          "description": "Montana was admitted to the Union as the 41st state, following population growth and political organization.",
+          "coordinates": [-110.3626, 46.9219],
+          "category": "political"
+        }
+      ]
+    },
+    "Montana": {
+      "founded": 1864,
+      "reason_for_founding": "Created from the eastern portion of Idaho Territory to better manage the gold rush population and expand U.S. governance across the northern Rocky Mountains.",
+      "economic_focus": "Gold and silver mining, ranching, logging, railroads",
+      "cultural_religious_makeup": "Anglo-American miners and settlers, Native American tribes (e.g., Crow, Blackfeet, Assiniboine), Chinese laborers, Catholic missionaries",
+      "political_structure": "Organized U.S. territory with a federally appointed governor and territorial legislature",
+      "key_figures": ["Sidney Edgerton", "Nelson Story", "Sitting Bull"],
+      "events": [
+        {
+          "year": 1890,
+          "title": "Montana Achieves Statehood 1889",
+          "description": "Montana was admitted to the Union as the 41st state, following population growth and political organization.",
+          "coordinates": [-110.3626, 46.9219],
+          "category": "political"
+        }
+      ]
+    },
+    "Washington": {
+      "founded": 1853,
+      "reason_for_founding": "Created from the northern portion of the Oregon Territory to provide more localized governance for settlers north of the Columbia River as the region's population increased.",
+      "economic_focus": "Logging, fishing, agriculture, fur trade, maritime commerce",
+      "cultural_religious_makeup": "Anglo-American Protestant settlers, Native American tribes (e.g., Duwamish, Yakama, Nez Perce), Chinese laborers, and remaining French-Canadian trappers",
+      "political_structure": "Organized U.S. territory with federally appointed governors and a territorial legislature",
+      "key_figures": ["Isaac Stevens", "Chief Seattle", "George B. McClellan"],
+      "events": [
+        {
+          "year": 1890,
+          "title": "Washington Statehood 1889",
+          "description": "Washington was admitted to the Union as the 42nd state following rapid population growth and settlement.",
+          "coordinates": [-122.3328, 47.0379],
+          "category": "political"
+        }
+      ]
+    },
+    "Indian Territory": {
+      "founded": 1834,
+      "reason_for_founding": "Designated by the Indian Intercourse Act as land west of the Mississippi River set aside for the forced relocation of Native American tribes under policies such as the Indian Removal Act of 1830.",
+      "economic_focus": "Subsistence farming, intertribal trade, some formal agricultural development among relocated tribes (e.g., Cherokee, Choctaw), limited commercial activity",
+      "cultural_religious_makeup": "Diverse Native American nations including the Five Civilized Tribes (Cherokee, Chickasaw, Choctaw, Creek, and Seminole), Plains tribes (e.g., Kiowa, Comanche), with religious diversity including traditional Indigenous beliefs and Christianity",
+      "political_structure": "Not an organized U.S. territory; tribes governed themselves under treaties with the U.S. government; U.S. Indian agents and military forts enforced federal oversight",
+      "key_figures": [
+        "John Ross",
+        "Pushmataha",
+        "Major Ridge",
+        "Andrew Jackson"
+      ],
+      "events": [
+        {
+          "year": 1866,
+          "title": "Post–Civil War Treaties",
+          "description": "New treaties required tribes to cede parts of their land and accept formerly enslaved people as tribal citizens.",
+          "coordinates": [-97.2129, 35.5889],
+          "category": "political"
+        },
+        {
+          "year": 1887,
+          "title": "Dawes Act",
+          "description": "Broke up tribal lands into individual allotments, undermining tribal governance and opening 'surplus' lands to settlers.",
+          "coordinates": [-97.2129, 35.5889],
+          "category": "political"
+        }
+      ]
+    },
+    "Oklahoma Territory": {
+      "founded": 1890,
+      "reason_for_founding": "Formed from the western part of Indian Territory and the newly opened Unassigned Lands to provide formal governance for non-Native settlers following the Land Run of 1889.",
+      "economic_focus": "Agriculture (wheat, cotton), cattle ranching, land speculation, railroads, and early oil exploration",
+      "cultural_religious_makeup": "Primarily Protestant Anglo-American settlers (many from the South and Midwest), Native American tribes in neighboring Indian Territory, Black freedmen, and European immigrants",
+      "political_structure": "Organized U.S. territory with a federally appointed governor and a territorial legislature; coexisted alongside Indian Territory until statehood",
+      "key_figures": [
+        "George Washington Steele",
+        "David L. Payne",
+        "William H. Murray"
+      ],
+      "events": [
+        {
+          "year": 1890,
+          "title": "Oklahoma Land Run 1889",
+          "description": "The first major land run opened the Unassigned Lands to white settlers, leading to rapid population growth and calls for territorial status.",
+          "coordinates": [-97.5348, 35.4676],
+          "category": "political"
+        },
+        {
+          "year": 1890,
+          "title": "Oklahoma Territory Established",
+          "description": "Congress formally created the Oklahoma Territory from the western portion of Indian Territory, setting up a territorial government.",
+          "coordinates": [-97.5348, 35.4676],
+          "category": "political"
+        },
+        {
+          "year": 1905,
+          "title": "Sequoyah Statehood Proposal Rejected",
+          "description": "Tribal leaders in Indian Territory proposed a separate Native American state, but Congress declined, paving the way for unified statehood with Oklahoma Territory.",
+          "coordinates": [-97.5348, 35.4676],
+          "category": "political"
+        }
+      ]
+    },
+    "Oklahoma": {
+      "founded": 1834,
+      "reason_for_founding": "Designated by the Indian Intercourse Act as land west of the Mississippi River set aside for the forced relocation of Native American tribes under policies such as the Indian Removal Act of 1830.",
+      "economic_focus": "Subsistence farming, intertribal trade, some formal agricultural development among relocated tribes (e.g., Cherokee, Choctaw), limited commercial activity",
+      "cultural_religious_makeup": "Diverse Native American nations including the Five Civilized Tribes (Cherokee, Chickasaw, Choctaw, Creek, and Seminole), Plains tribes (e.g., Kiowa, Comanche), with religious diversity including traditional Indigenous beliefs and Christianity",
+      "political_structure": "Not an organized U.S. territory; tribes governed themselves under treaties with the U.S. government; U.S. Indian agents and military forts enforced federal oversight",
+      "key_figures": [
+        "John Ross",
+        "Pushmataha",
+        "Major Ridge",
+        "Andrew Jackson"
+      ],
+      "events": [
+        {
+          "year": 1910,
+          "title": "Oklahoma achieves Statehood of 1907",
+          "description": "Indian Territory was dissolved and combined with Oklahoma Territory to form the state of Oklahoma, ending formal tribal land sovereignty in the region.",
+          "coordinates": [-97.5348, 35.4676],
+          "category": "political"
+        }
+      ]
+    },
+    "Oregon": {
+      "founded": 1848,
+      "reason_for_founding": "Pacific Northwest expansion",
+      "economic_focus": "Agriculture, lumber, trade",
+      "cultural_religious_makeup": "Protestant, diverse settlers",
+      "political_structure": "Oregon Territory, then state",
+      "key_figures": ["Joseph Lane", "John Whiteaker"],
+      "events": [
+        {
+          "year": 1860,
+          "title": "Oregon Becomes 33rd State 1859",
+          "description": "Oregon Territory becomes a state.",
+          "coordinates": [-122.0542, 43.8041],
+          "category": "political"
+        }
+      ]
+    },
+    "Kansas Territory": {
+      "founded": 1854,
+      "reason_for_founding": "Organization of central plains under Kansas-Nebraska Act",
+      "economic_focus": "Agriculture, cattle, settlement",
+      "cultural_religious_makeup": "Protestant, pro and anti-slavery settlers",
+      "political_structure": "Federal territory",
+      "key_figures": ["Andrew Reeder", "Samuel Crawford"],
+      "events": [
+        {
+          "year": 1860,
+          "title": "Kansas Territory Created 1854",
+          "description": "Kansas Territory organized under Kansas-Nebraska Act.",
+          "coordinates": [-99.7063, 38.5266],
+          "category": "political"
+        },
+        {
+          "year": 1861,
+          "title": "Bleeding Kansas",
+          "description": "Bleeding Kansas refers to a violent period of conflict in the Kansas Territory from 1854 to 1861, stemming from the Kansas-Nebraska Act's controversial popular sovereignty provision regarding slavery. This act allowed residents of Kansas to decide for themselves whether to permit slavery, leading to fierce clashes between pro-slavery and anti-slavery settlers. The intense violence and political tensions during this era foreshadowed the larger conflict of the Civil War.",
+          "coordinates": [-99.7063, 38.5266],
+          "category": "conflict"
+        }
+      ]
+    },
+    "Kansas": {
+      "founded": 1854,
+      "reason_for_founding": "Central plains settlement and slavery debate",
+      "economic_focus": "Agriculture, cattle, wheat",
+      "cultural_religious_makeup": "Protestant, diverse settlers",
+      "political_structure": "Kansas Territory, then state",
+      "key_figures": ["Charles Robinson", "Samuel Crawford"],
+      "events": [
+        {
+          "year": 1870,
+          "title": "Kansas Becomes 34th State in 1861",
+          "description": "Kansas Territory becomes a free state.",
+          "coordinates": [-99.7063, 38.5266],
+          "category": "political"
+        }
+      ]
+    },
+    "Nebraska Territory": {
+      "founded": 1854,
+      "reason_for_founding": "Organization of central plains under Kansas-Nebraska Act",
+      "economic_focus": "Agriculture, ranching, settlement",
+      "cultural_religious_makeup": "Protestant, diverse settlers",
+      "political_structure": "Federal territory",
+      "key_figures": ["Francis Burt", "Alvin Saunders"],
+      "events": [
+        {
+          "year": 1860,
+          "title": "Nebraska Territory Created 1854",
+          "description": "Nebraska Territory organized under Kansas-Nebraska Act.",
+          "coordinates": [-101.4018, 41.4925],
+          "category": "political"
+        }
+      ]
+    },
+    "Nebraska": {
+      "founded": 1854,
+      "reason_for_founding": "Central plains settlement and agriculture",
+      "economic_focus": "Agriculture, ranching, railroads",
+      "cultural_religious_makeup": "Protestant, diverse settlers",
+      "political_structure": "Nebraska Territory, then state",
+      "key_figures": ["David Butler", "Alvin Saunders"],
+      "events": [
+        {
+          "year": 1870,
+          "title": "Nebraska Becomes 37th State in 1867",
+          "description": "Nebraska Territory becomes a state.",
+          "coordinates": [-101.4018, 41.4925],
+          "category": "political"
+        }
+      ]
+    },
+    "Nevada": {
+      "founded": 1861,
+      "reason_for_founding": "Mining boom and western expansion",
+      "economic_focus": "Silver mining, ranching",
+      "cultural_religious_makeup": "Protestant, diverse miners and settlers",
+      "political_structure": "Nevada Territory, then state",
+      "key_figures": ["Henry Blasdel", "James W. Nye"],
+      "events": [
+        {
+          "year": 1870,
+          "title": "Nevada Becomes 36th State 1864",
+          "description": "Nevada territory created in 1861 from Utah territory,was seperated to form the state of Nevada.",
+          "coordinates": [-118.5554, 39.8283],
+          "category": "political"
+        }
+      ]
+    },
+    "Colorado Territory": {
+      "founded": 1861,
+      "reason_for_founding": "Gold rush and mining development",
+      "economic_focus": "Gold mining, silver mining, ranching",
+      "cultural_religious_makeup": "Protestant, diverse miners and settlers",
+      "political_structure": "Federal territory",
+      "key_figures": ["William Gilpin", "John Evans"],
+      "events": [
+        {
+          "year": 1870,
+          "title": "Colorado Territory Created 1861",
+          "description": "Colorado Territory organized from parts of Kansas, Nebraska, Utah, and New Mexico territories.",
+          "coordinates": [-106.8178, 39.0598],
+          "category": "political"
+        }
+      ]
+    },
+    "Dakota Territory": {
+      "founded": 1861,
+      "reason_for_founding": "Created to govern the northern portion of the former Nebraska Territory as settlement expanded into the northern Great Plains following westward migration, gold discoveries, and railroad development.",
+      "economic_focus": "Fur trade, farming, ranching, mining, railroad expansion",
+      "cultural_religious_makeup": "Sioux and other Plains tribes, Protestant Anglo-American settlers, German and Scandinavian immigrants, Catholic missionaries",
+      "political_structure": "Organized U.S. territory with federally appointed governors and a territorial legislature",
+      "key_figures": [
+        "William Jayne",
+        "Sitting Bull",
+        "George Armstrong Custer"
+      ],
+      "events": [
+        {
+          "year": 1860,
+          "title": "Dakota Territory Created",
+          "description": "Carved out of the northern part of the Nebraska Territory, Dakota Territory originally included present-day North Dakota, South Dakota, and parts of Montana and Wyoming.",
+          "coordinates": [-101.599, 47.0527],
+          "category": "political"
+        },
+        {
+          "year": 1862,
+          "title": "Dakota War of 1862",
+          "description": "Conflict between the Dakota (Sioux) and settlers in Minnesota and the Dakota Territory following broken treaties and food shortages.",
+          "coordinates": [-96.1859, 44.9537],
+          "category": "military"
+        },
+        {
+          "year": 1874,
+          "title": "Black Hills Gold Rush",
+          "description": "Discovery of gold in the Black Hills led to a rush of settlers and conflict with the Lakota Sioux, violating the Treaty of Fort Laramie.",
+          "coordinates": [-105.271, 44.0805],
+          "category": "social"
+        }
+      ]
+    },
+    "North Dakota": {
+      "founded": 1889,
+      "reason_for_founding": "Admitted to the Union when Dakota Territory was divided into North and South Dakota to manage population growth and political balance in the Upper Plains.",
+      "economic_focus": "Wheat farming, railroads, cattle ranching, and milling",
+      "cultural_religious_makeup": "German and Scandinavian immigrants, Native American tribes (e.g., Lakota, Dakota, Mandan), Protestant and Catholic settlers",
+      "political_structure": "Formed as a U.S. state from the northern portion of Dakota Territory with its own elected government and constitution",
+      "key_figures": ["John Miller", "Theodore Roosevelt", "Sitting Bull"],
+      "events": [
+        {
+          "year": 1890,
+          "title": "North Dakota Achieves Statehood 1889",
+          "description": "North Dakota was admitted to the Union as the 39th state, along with South Dakota, from the division of Dakota Territory.",
+          "coordinates": [-102.2837, 47.8083],
+          "category": "political"
+        }
+      ]
+    },
+    "South Dakota": {
+      "founded": 1889,
+      "reason_for_founding": "Formed from the southern half of Dakota Territory due to regional population growth, political pressure for statehood, and the desire for better governance and representation.",
+      "economic_focus": "Wheat and corn farming, ranching, mining (especially in the Black Hills), railroads",
+      "cultural_religious_makeup": "German, Irish, and Scandinavian immigrants, Native American tribes (e.g., Lakota, Yankton Sioux), Protestant and Catholic communities",
+      "political_structure": "Formed as a U.S. state from the southern portion of Dakota Territory with a state constitution and elected leadership",
+      "key_figures": [
+        "Arthur C. Mellette",
+        "Red Cloud",
+        "George Armstrong Custer"
+      ],
+      "events": [
+        {
+          "year": 1890,
+          "title": "South Dakota Achieves Statehood 1889",
+          "description": "South Dakota was admitted to the Union as the 40th state, simultaneous with North Dakota, marking the end of Dakota Territory.",
+          "coordinates": [-101.4018, 44.2998],
+          "category": "political"
+        }
+      ]
+    },
+    "District of Columbia": {
+      "founded": 1790,
+      "reason_for_founding": "Established as the permanent national capital of the United States, intended to be independent from any state to avoid political bias and ensure federal control over national governance.",
+      "economic_focus": "Federal government administration, public services, lobbying, tourism, and education",
+      "cultural_religious_makeup": "Diverse population including African Americans, European Americans, and immigrants; religiously pluralistic with Protestant, Catholic, and other faith traditions",
+      "political_structure": "Federal district governed by Congress under Article I, Section 8 of the U.S. Constitution; limited home rule with no voting representation in Congress",
+      "key_figures": [
+        "George Washington",
+        "Pierre Charles L'Enfant",
+        "Benjamin Banneker",
+        "Eleanor Holmes Norton"
+      ],
+      "events": [
+        {
+          "year": 1800,
+          "title": "Residence Act Passed 1790",
+          "description": "Congress passed the Residence Act, establishing a federal district along the Potomac River as the permanent capital of the United States.",
+          "coordinates": [-78.5369, 38.9072],
+          "category": "political"
+        },
+        {
+          "year": 1800,
+          "title": "Federal Government Moves to D.C.",
+          "description": "The federal government officially relocated from Philadelphia to Washington, D.C., marking the beginning of D.C. as the functioning U.S. capital.",
+          "coordinates": [-78.5369, 38.9072],
+          "category": "political"
+        },
+        {
+          "year": 1871,
+          "title": "Consolidation of D.C. Government",
+          "description": "Congress created a unified territorial government for the entire District, replacing separate local governments for Washington City, Georgetown, and Washington County.",
+          "coordinates": [-78.5369, 38.9072],
+          "category": "political"
+        },
+        {
+          "year": 1961,
+          "title": "23rd Amendment Ratified",
+          "description": "Granted D.C. residents the right to vote in presidential elections for the first time.",
+          "coordinates": [-78.5369, 38.9072],
+          "category": "political"
+        },
+        {
+          "year": 1973,
+          "title": "Home Rule Act Passed",
+          "description": "Granted D.C. limited self-governance, including an elected mayor and council, though Congress retains oversight.",
+          "coordinates": [-78.5369, 38.9072],
+          "category": "political"
+        }
+      ]
+    },
+    "Wyoming Territory": {
+      "founded": 1868,
+      "reason_for_founding": "Formed from portions of the Dakota, Utah, and Idaho Territories to provide local governance for growing frontier settlements, especially along the Union Pacific Railroad.",
+      "economic_focus": "Cattle ranching, railroads, coal mining, agriculture",
+      "cultural_religious_makeup": "Anglo-American settlers, Native American tribes (e.g., Cheyenne, Arapaho, Shoshone), Chinese railroad workers, Mormon communities",
+      "political_structure": "Organized U.S. territory with a federally appointed governor and territorial legislature",
+      "key_figures": [
+        "John A. Campbell",
+        "Sacajawea (historic symbol)",
+        "Esther Hobart Morris"
+      ],
+      "events": [
+        {
+          "year": 1870,
+          "title": "Wyoming Territory Established 1868",
+          "description": "Congress created the Wyoming Territory from parts of Dakota, Utah, and Idaho Territories to organize the sparsely settled frontier area.",
+          "coordinates": [-108.8025, 42.7475],
+          "category": "political"
+        },
+        {
+          "year": 1870,
+          "title": "Women's Suffrage Enacted 1869",
+          "description": "Wyoming became the first U.S. territory to grant women the right to vote, setting a national precedent for suffrage and equality.",
+          "coordinates": [-106.3197, 41.14],
+          "category": "political"
+        }
+      ]
+    },
+    "Wyoming": {
+      "founded": 1868,
+      "reason_for_founding": "Formed from portions of the Dakota, Utah, and Idaho Territories to provide local governance for growing frontier settlements, especially along the Union Pacific Railroad.",
+      "economic_focus": "Cattle ranching, railroads, coal mining, agriculture",
+      "cultural_religious_makeup": "Anglo-American settlers, Native American tribes (e.g., Cheyenne, Arapaho, Shoshone), Chinese railroad workers, Mormon communities",
+      "political_structure": "Organized U.S. territory with a federally appointed governor and territorial legislature",
+      "key_figures": [
+        "John A. Campbell",
+        "Sacajawea (historic symbol)",
+        "Esther Hobart Morris"
+      ],
+      "events": [
+        {
+          "year": 1890,
+          "title": "Wyoming Achieves Statehood",
+          "description": "Wyoming was admitted to the Union as the 44th state, known as the 'Equality State' for its early support of women's rights.",
+          "coordinates": [-108.8025, 42.7475],
+          "category": "political"
+        }
+      ]
+    },
+    "New Mexico Territory": {
+      "founded": 1850,
+      "reason_for_founding": "Established as part of the Compromise of 1850 to organize land acquired in the Mexican Cession and provide a territorial government over the former Mexican provinces of New Mexico and parts of present-day Arizona, Colorado, and Nevada.",
+      "economic_focus": "Ranching, small-scale farming, trade, and military outposts",
+      "cultural_religious_makeup": "Hispanic (Nuevo Mexicano) Catholics, Native American tribes (Navajo, Apache, Pueblo), Anglo-American settlers",
+      "political_structure": "Organized U.S. territory with a federally appointed governor and territorial legislature",
+      "key_figures": ["James S. Calhoun", "Kit Carson", "Manuel Armijo"],
+      "events": [
+        {
+          "year": 1850,
+          "title": "Territory Established",
+          "description": "The U.S. Congress formally organized the New Mexico Territory as part of the Compromise of 1850.",
+          "coordinates": [-107.7484, 34.8405],
+          "category": "political"
+        }
+      ]
+    },
+    "New Mexico": {
+      "founded": 1850,
+      "reason_for_founding": "Formed from the land acquired through the Mexican Cession following the Treaty of Guadalupe Hidalgo, New Mexico Territory was established to govern the diverse population and strategic southwestern region.",
+      "economic_focus": "Ranching, sheep herding, agriculture, trade (especially along the Santa Fe Trail), mining",
+      "cultural_religious_makeup": "Hispanic (Nuevo Mexicano) Catholics, Native American tribes (e.g., Navajo, Apache, Pueblo), Anglo-American settlers",
+      "political_structure": "Organized U.S. territory with a federally appointed governor and legislature until statehood in 1912",
+      "key_figures": ["Manuel Armijo", "Kit Carson", "James S. Calhoun"],
+      "events": [
+        {
+          "year": 1920,
+          "title": "New Mexico Achieves Statehood 1912",
+          "description": "New Mexico was admitted to the Union as the 47th state after decades of territorial status and efforts to prove loyalty to the U.S.",
+          "coordinates": [-107.7484, 34.8405],
+          "category": "political"
+        }
+      ]
+    },
+    "Arizona Territory": {
+      "founded": 1863,
+      "reason_for_founding": "Separated from the western half of the New Mexico Territory to improve governance and respond to growing settlement, military needs during the Civil War, and geographic challenges.",
+      "economic_focus": "Mining (especially silver and copper), cattle ranching, farming (with irrigation), and military outposts",
+      "cultural_religious_makeup": "Native American tribes (e.g., Apache, Navajo, Yavapai), Mexican-American Catholics, Anglo-American settlers, and some African American and European migrants",
+      "political_structure": "Organized U.S. territory with a federally appointed governor and territorial legislature; strong military and federal presence due to conflicts with Native tribes and Civil War tensions",
+      "key_figures": ["John N. Goodwin", "Cochise", "Geronimo"],
+      "events": [
+        {
+          "year": 1870,
+          "title": "Arizona Territory Created 1863",
+          "description": "Congress officially separated Arizona from New Mexico Territory during the Civil War to improve federal control and administration.",
+          "coordinates": [-112.9312, 34.0489],
+          "category": "political"
+        }
+      ]
+    },
+    "Arizona": {
+      "founded": 1863,
+      "reason_for_founding": "Separated from the western half of the New Mexico Territory to improve governance and respond to growing settlement, military needs during the Civil War, and geographic challenges.",
+      "economic_focus": "Mining (especially silver and copper), cattle ranching, farming (with irrigation), and military outposts",
+      "cultural_religious_makeup": "Native American tribes (e.g., Apache, Navajo, Yavapai), Mexican-American Catholics, Anglo-American settlers, and some African American and European migrants",
+      "political_structure": "Organized U.S. territory with a federally appointed governor and territorial legislature; strong military and federal presence due to conflicts with Native tribes and Civil War tensions",
+      "key_figures": ["John N. Goodwin", "Cochise", "Geronimo"],
+      "events": [
+        {
+          "year": 1920,
+          "title": "Statehood 1912",
+          "description": "Arizona was admitted to the Union as the 48th state, completing the contiguous U.S.",
+          "coordinates": [-112.9312, 34.0489],
+          "category": "political"
+        }
+      ]
+    },
+    "Alaska Territory": {
+      "founded": 1912,
+      "reason_for_founding": "Formally organized as a U.S. territory decades after its purchase from Russia to provide civil governance, promote development, and manage natural resources more effectively.",
+      "economic_focus": "Fur trade, fishing, gold and mineral mining, later oil exploration, and military installations",
+      "cultural_religious_makeup": "Indigenous Alaskan groups (e.g., Inupiat, Yupik, Aleut, Tlingit), Russian Orthodox legacy communities, Anglo-American settlers, military personnel",
+      "political_structure": "Organized U.S. territory with a governor appointed by the President and a territorial legislature; under limited self-rule until statehood",
+      "key_figures": [
+        "William H. Seward",
+        "James Wickersham",
+        "Ernest Gruening"
+      ],
+      "events": [
+        {
+          "year": 1880,
+          "title": "Alaska Purchase of 1867",
+          "description": "The United States purchased Alaska from Russia for $7.2 million, a move later nicknamed 'Seward's Folly.'",
+          "coordinates": [-153.7782, 64.0685],
+          "category": "political"
+        },
+        {
+          "year": 1912,
+          "title": "Alaska Becomes an Organized Territory 1912",
+          "description": "Congress granted Alaska territorial status, giving it limited self-government for the first time.",
+          "coordinates": [-151.3544, 64.0685],
+          "category": "political"
+        },
+        {
+          "year": 1959,
+          "title": "Alaska Achieves Statehood",
+          "description": "Alaska was admitted to the Union as the 49th state, prompted by Cold War strategy, economic development, and long-standing demands for representation.",
+          "coordinates": [-151.3544, 64.0685],
+          "category": "political"
+        }
+      ]
+    },
+    "Hawaii Territory": {
+      "founded": 1900,
+      "reason_for_founding": "Established following the annexation of the Republic of Hawaii to formalize U.S. governance in the islands after the overthrow of the Hawaiian Kingdom. The U.S. sought economic and strategic advantages in the Pacific.",
+      "economic_focus": "Sugar plantations, pineapple farming, tourism, and military installations (especially Pearl Harbor)",
+      "cultural_religious_makeup": "Native Hawaiians, Asian immigrant laborers (Japanese, Chinese, Filipino, Korean), American and European settlers, Protestant missionaries, Catholic and Native Hawaiian spiritual traditions",
+      "political_structure": "Organized U.S. territory with a governor appointed by the U.S. President and a territorial legislature; Native Hawaiians lost sovereignty, and political control shifted to settler elites and U.S. interests",
+      "key_figures": [
+        "Queen Liliʻuokalani",
+        "King Kamehameha I",
+        "Sanford B. Dole",
+        "Prince Jonah Kūhiō Kalanianaʻole"
+      ],
+      "events": [
+        {
+          "year": 1900,
+          "title": "Unification of the Hawaiian Islands 1795",
+          "description": "King Kamehameha I unified the Hawaiian Islands into a single kingdom, establishing the Kingdom of Hawaii as a sovereign monarchy.",
+          "coordinates": [-157.0828, 19.8968],
+          "category": "political"
+        },
+        {
+          "year": 1900,
+          "title": "Bayonet Constitution 1887",
+          "description": "Under pressure from American and European settlers, King Kalākaua was forced to sign a constitution that drastically reduced the power of the monarchy and disenfranchised many Native Hawaiians.",
+          "coordinates": [-159.3583, 21.3099],
+          "category": "political"
+        },
+        {
+          "year": 1900,
+          "title": "Overthrow of the Hawaiian Kingdom 1893",
+          "description": "Queen Liliʻuokalani was overthrown by a group of American businessmen and sugar planters backed by U.S. Marines. This marked the end of Hawaii's monarchy and began the push for U.S. annexation.",
+          "coordinates": [-159.3583, 21.3099],
+          "category": "political"
+        },
+        {
+          "year": 1900,
+          "title": "Republic of Hawaii Declared 1894",
+          "description": "Led by Sanford B. Dole, the Provisional Government declared the Republic of Hawaii, excluding Native Hawaiians from power and resisting restoration of the monarchy.",
+          "coordinates": [-159.3583, 21.3099],
+          "category": "political"
+        },
+        {
+          "year": 1900,
+          "title": "Annexation by the United States 1898",
+          "description": "The United States annexed Hawaii through a joint resolution (Newlands Resolution), during the Spanish-American War, valuing its strategic location in the Pacific.",
+          "coordinates": [-159.3583, 21.3099],
+          "category": "political"
+        },
+        {
+          "year": 1900,
+          "title": "Hawaii Becomes a U.S. Territory",
+          "description": "The Organic Act made Hawaii an official U.S. territory, replacing the republic with a territorial government under federal authority.",
+          "coordinates": [-159.3583, 21.3099],
+          "category": "political"
+        },
+        {
+          "year": 1959,
+          "title": "Hawaii Achieves Statehood",
+          "description": "Hawaii was admitted to the Union as the 50th state after a popular vote, although Native Hawaiian sovereignty movements continue to seek recognition and justice.",
+          "coordinates": [-159.3583, 21.3099],
+          "category": "political"
+        }
+      ]
+    },
+    "Hawaii": {
+      "founded": 1900,
+      "reason_for_founding": "Established following the annexation of the Republic of Hawaii to formalize U.S. governance in the islands after the overthrow of the Hawaiian Kingdom. The U.S. sought economic and strategic advantages in the Pacific.",
+      "economic_focus": "Sugar plantations, pineapple farming, tourism, and military installations (especially Pearl Harbor)",
+      "cultural_religious_makeup": "Native Hawaiians, Asian immigrant laborers (Japanese, Chinese, Filipino, Korean), American and European settlers, Protestant missionaries, Catholic and Native Hawaiian spiritual traditions",
+      "political_structure": "Organized U.S. territory with a governor appointed by the U.S. President and a territorial legislature; Native Hawaiians lost sovereignty, and political control shifted to settler elites and U.S. interests",
+      "key_figures": [
+        "Queen Liliʻuokalani",
+        "King Kamehameha I",
+        "Sanford B. Dole",
+        "Prince Jonah Kūhiō Kalanianaʻole"
+      ],
+      "events": [
+        {
+          "year": 1960,
+          "title": "Hawaii Achieves Statehood 1959",
+          "description": "Hawaii was admitted to the Union as the 50th state after a popular vote, although Native Hawaiian sovereignty movements continue to seek recognition and justice.",
+          "coordinates": [-159.3583, 21.3099],
+          "category": "political"
+        }
+      ]
+    },
+    "Utah Territory": {
+      "founded": 1850,
+      "reason_for_founding": "Created as part of the Compromise of 1850 to organize the central portion of the land acquired from Mexico; also established to provide governance for the growing population of Mormon settlers seeking religious autonomy.",
+      "economic_focus": "Agriculture, irrigation development, self-sufficient Mormon settlements, trade along emigrant trails",
+      "cultural_religious_makeup": "Primarily members of The Church of Jesus Christ of Latter-day Saints (Mormons), along with smaller numbers of Native American tribes and non-Mormon settlers",
+      "political_structure": "Organized U.S. territory with a federally appointed governor and territorial legislature; significant autonomy claimed by Mormon settlers",
+      "key_figures": [
+        "Brigham Young",
+        "Stephen A. Douglas",
+        "Millard Fillmore"
+      ],
+      "events": [
+        {
+          "year": 1850,
+          "title": "Utah Territory Established",
+          "description": "Congress created the Utah Territory as part of the Compromise of 1850, encompassing land from present-day Utah, Nevada, Colorado, and Wyoming.",
+          "coordinates": [-113.391, 39.321],
+          "category": "political"
+        },
+        {
+          "year": 1857,
+          "title": "Utah War",
+          "description": "Conflict between Mormon settlers and the U.S. government, which sent troops to assert federal authority in the territory.",
+          "coordinates": [-113.391, 39.321],
+          "category": "military"
+        }
+      ]
+    },
+    "Colorado": {
+      "founded": 1861,
+      "reason_for_founding": "Mining boom and western expansion",
+      "economic_focus": "Mining, ranching, agriculture",
+      "cultural_religious_makeup": "Protestant, diverse settlers",
+      "political_structure": "Colorado Territory, then state",
+      "key_figures": ["John Routt", "John Evans"],
+      "events": [
+        {
+          "year": 1880,
+          "title": "Colorado Becomes 38th State 1876",
+          "description": "Colorado Territory becomes the 'Centennial State.'",
+          "coordinates": [-106.8178, 39.0598],
+          "category": "political"
+        }
+      ]
+    }
+  },
+  "categories": {
+    "settlement": {
+      "color": "#16a34a"
+    },
+    "political": {
+      "color": "#2563eb"
+    },
+    "military": {
+      "color": "#dc2626"
+    },
+    "conflict": {
+      "color": "#e11d48"
+    },
+    "religious": {
+      "color": "#9333ea"
+    },
+    "social": {
+      "color": "#ea580c"
+    },
+    "protest": {
+      "color": "#e11d48"
+    }
+  }
+}

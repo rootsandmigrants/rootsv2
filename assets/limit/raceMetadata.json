@@ -1,0 +1,157 @@
+{
+  "1790": {
+    "fullCount": true,
+    "raceLimited": true,
+    "sample": false,
+    "note": "First U.S. Census with basic racial categories: Free White, Other Free Persons, Slaves. Native Americans not systematically counted unless taxed.",
+    "source": ""
+  },
+  "1800": {
+    "fullCount": true,
+    "raceLimited": true,
+    "sample": false,
+    "note": "Same racial categories as 1790. Continued exclusion of untaxed Native Americans.",
+    "source": ""
+  },
+  "1810": {
+    "fullCount": true,
+    "raceLimited": true,
+    "sample": false,
+    "note": "Maintained racial classification from prior censuses. Still no enumeration of untaxed Native Americans.",
+    "source": ""
+  },
+  "1820": {
+    "fullCount": true,
+    "raceLimited": true,
+    "sample": false,
+    "note": "Added age and occupational distinctions but race categories remained basic: White, Free Colored, Slaves.",
+    "source": ""
+  },
+  "1830": {
+    "fullCount": true,
+    "raceLimited": true,
+    "sample": false,
+    "note": "Race categories unchanged. Some improvements in enumeration methodology.",
+    "source": ""
+  },
+  "1840": {
+    "fullCount": true,
+    "raceLimited": true,
+    "sample": false,
+    "note": "Increased questions on disabilities and occupation; racial categories still limited.",
+    "source": ""
+  },
+  "1850": {
+    "fullCount": true,
+    "raceLimited": true,
+    "sample": false,
+    "note": "Expanded racial categories include White, Black (free and slave), Biracial people. Native American populations largely excluded unless in settled communities.",
+    "source": ""
+  },
+  "1860": {
+    "fullCount": true,
+    "raceLimited": true,
+    "sample": false,
+    "note": "Similar racial categories to 1850. Intensified enumeration challenges due to pre-Civil War tensions.",
+    "source": ""
+  },
+  "1870": {
+    "fullCount": true,
+    "raceLimited": true,
+    "sample": false,
+    "note": "First post-emancipation census. Categories: White, Black, Biracial people, Chinese, Indian. Significant enumeration challenges in post-Civil War South.",
+    "source": ""
+  },
+  "1880": {
+    "fullCount": true,
+    "raceLimited": true,
+    "sample": false,
+    "note": "Continued use of racial categories: White, Black, Mulatto, Chinese, and Indian. 'Mulatto' was used inconsistently. Enumerators often made subjective judgments on race. Included more detailed socio-economic questions, but racial data remained constrained by 19th-century biases. Alaska Territory used different census questionnaires than the contiguous US.",
+    "source": ""
+  },
+
+  "1890": {
+    "fullCount": true,
+    "raceLimited": true,
+    "sample": false,
+    "note": "Peak 19th-century racial classification complexity. Categories included White, Black, Biracial people, Quadroon, Octoroon, Chinese, Japanese, Indian. Mixed-race classifications problematic by modern standards. Alaska Territory used different census questionnaires than the contiguous US.",
+    "source": ""
+  },
+  "1900": {
+    "fullCount": true,
+    "raceLimited": true,
+    "sample": false,
+    "note": "Simplified racial categories: White, Black, Chinese, Japanese, Indian. Beginning of more systematic enumeration of Asian populations. Alaska Territory used different census questionnaires than the contiguous US while Hawaii Territory used a different racial classifcation system",
+    "source": ""
+  },
+  "1910": {
+    "fullCount": true,
+    "raceLimited": true,
+    "sample": false,
+    "note": "Refined Asian classifications (e.g., Filipino, Hindu). Continued detailed tracking of Black and mixed-race individuals. Alaska Territory used different census questionnaires than the contiguous US while Hawaii Territory used a different racial classifcation system.",
+    "source": ""
+  },
+  "1920": {
+    "fullCount": true,
+    "raceLimited": true,
+    "sample": false,
+    "note": "Focus on immigrant populations. Race classifications largely unchanged but included nativity and mother tongue. Alaska Territory used different census questionnaires than the contiguous US while Hawaii Territory used a different racial classifcation system.",
+    "source": ""
+  },
+  "1930": {
+    "fullCount": true,
+    "raceLimited": true,
+    "sample": false,
+    "note": "Added Mexican as a racial category (later reclassified). Limited recognition of racial diversity within broad categories. Alaska Territory used different census questionnaires than the contiguous US while Hawaii Territory used a different racial classifcation system.",
+    "source": ""
+  },
+  "1940": {
+    "fullCount": false,
+    "raceLimited": false,
+    "sample": true,
+    "note": "First census with statistical sampling for detailed racial characteristics. Mexican reclassified as White unless obviously Indian or other non-White race. Alaska Territory used different census questionnaires than the contiguous US while Hawaii Territory used a different racial classifcation system.",
+    "source": ""
+  },
+  "1950": {
+    "fullCount": false,
+    "raceLimited": false,
+    "sample": true,
+    "note": "Enhanced racial classification with 20% sample. Improved Asian subcategory recognition but limited Latino/Hispanic identification. Alaska Territory used different census questionnaires than the contiguous US while Hawaii Territory used a different racial classifcation system.",
+    "source": ""
+  },
+  "1960": {
+    "fullCount": true,
+    "raceLimited": false,
+    "sample": true,
+    "note": "First census allowing self-identification of race. Continued sampling for detailed racial data. Beginning recognition of need for Hispanic/Latino ethnic category separate from race.",
+    "source": ""
+  },
+  "1970": {
+    "fullCount": false,
+    "raceLimited": false,
+    "sample": true,
+    "note": " Major methodological improvement in racial classification accuracy.",
+    "source": ""
+  },
+  "1980": {
+    "fullCount": false,
+    "raceLimited": false,
+    "sample": true,
+    "note": "Introduction of Hispanic origin question separate from race. Significant improvement in Latino/Hispanic population measurement.",
+    "source": ""
+  },
+  "1990": {
+    "fullCount": false,
+    "raceLimited": false,
+    "sample": true,
+    "note": "Expanded racial categories and improved Hispanic classification. Beginning awareness of multiracial identity issues.",
+    "source": ""
+  },
+  "2000": {
+    "fullCount": true,
+    "raceLimited": false,
+    "sample": true,
+    "note": "First census allowing respondents to identify with more than one race. Major step toward inclusive racial identity representation.",
+    "source": ""
+  }
+}

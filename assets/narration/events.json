@@ -1,0 +1,435 @@
+[
+  {
+    "year": 1607,
+    "description": "Arrival of the British",
+    "story": "In 1607, the English established their first permanent settlement in North America at Jamestown, Virginia. The colony was funded by the Virginia Company of London, a joint-stock company granted a charter by King James I to explore and colonize the New World.In December 1606, three ships—the Susan Constant, Godspeed, and Discovery—set sail from England, carrying 104 men and boys. After a long voyage across the Atlantic, they arrived in the Chesapeake Bay in April 1607 and explored the area before selecting a site along the James River. They named the settlement Jamestown in honor of their king",
+    "images": [
+      "img/arrival.jpg",
+      "img/james.jpg",
+      "img/may.jpg",
+      "img/colonies.png"
+    ],
+    "video": "https://www.youtube-nocookie.com/embed/cr7oCIuscfw?si=voQJ5r891YektNSr",
+    "resources": [
+      {
+        "label": "A Jamestown settler's Story",
+        "url": "https://www.gilderlehrman.org/history-resources/spotlight-primary-source/jamestown-settler-describes-life-virginia-1622"
+      }
+    ],
+    "category": "historical"
+  },
+  {
+    "year": 1609,
+    "description": "Indian War",
+    "story": "The Indian Wars of the early 17th century were a series of conflicts between European colonists and Native American tribes as Europeans expanded into North America. In 1609, tensions rose in the Virginia Colony, where English settlers at Jamestown clashed with the Powhatan Confederacy, led by Chief Powhatan. The English, struggling with starvation and disease, relied on Native trade for survival but often resorted to violence to secure resources. Relations soured as the English demanded food and land, leading to skirmishes. The Powhatan launched attacks, and the English retaliated, marking the beginning of the First Anglo-Powhatan War (1609–1614). The war intensified during the Starving Time (1609–1610), when the colonists, desperate for food, raided Native villages. The conflict ended in 1614 with the marriage of Pocahontas, Powhatan’s daughter, to Englishman John Rolfe, temporarily easing tensions. However, hostilities resumed in later years as settlers continued expanding into Native lands.",
+    "images": [],
+    "video": "https://www.youtube-nocookie.com/embed/qc1WLxJzjQ0?si=qE4yC0wcveCujZMy",
+    "category": "historical"
+  },
+  {
+    "year": 1620,
+    "description": "Puritans",
+    "story": "The Puritans were a religious group who sought to purify the Church of England and fled persecution by migrating to the American colonies in the early 1600s. In 1620, a group of Separatist Puritans known as the Pilgrims sailed on the Mayflower and established Plymouth Colony to practice their faith freely.",
+    "images": [],
+    "video": "https://www.youtube-nocookie.com/embed/2-MwP-6MyYM?si=QLmUWLpCeWPnHSUq",
+    "category": "historical"
+  },
+  {
+    "year": 1763,
+    "description": "War to Revolution",
+    "story": "The French and Indian War (1754-1763) was the North American front of the Seven Years War (1756-1763), a global conflict between Britain and France. Britain’s victory gave it control of French territories in North America but left it in massive debt. To recover, Britain imposed taxes on American colonists, leading to growing resentment. The Proclamation of 1763 further angered colonists by restricting westward expansion. These tensions directly fueled the American Revolution (1775-1783), making the war a key cause of U.S. independence. These tensions escalated over the next decade, ultimately igniting the American Revolution in 1775.",
+    "images": [],
+    "video": "",
+    "category": "historical"
+  },
+  {
+    "year": 1775,
+    "description": "The American Revolution",
+    "story": "The American Revolution (1775-1783) was a fight led by George Washington for independence between the Thirteen Colonies and Britain, driven by taxation, governance disputes, and the desire for self-rule. In 1776, the Second Continental Congress adopted the Declaration of Independence, authored primarily by Thomas Jefferson, officially severing ties with Britain. The document proclaimed the colonies’ right to self-governance and established the principles of liberty and equality. After years of war, the Treaty of Paris (1783) confirmed the United States as a sovereign nation.",
+    "images": ["img/revolution.jpeg"],
+    "video": "https://www.youtube-nocookie.com/embed/gzALIXcY4pg?si=-o0PyRoARhTGlxQk",
+    "category": "historical"
+  },
+
+  {
+    "year": 1776,
+    "description": "Independence",
+    "story": "The Declaration of Independence, adopted on July 4, 1776, is a foundational document in American history. It announced the thirteen American colonies' decision to break free from British rule. This document marked the beginning of the United States as an independent nation.",
+    "images": ["img/declare.jpg"],
+    "video": "https://www.youtube-nocookie.com/embed/WVUd_p0oIWY?si=QbPRWhf3WVwm-U5F",
+    "category": "historical"
+  },
+  {
+    "year": 1786,
+    "description": "Indian Reservations",
+    "story": "In 1786, the United States began treating Native American tribes as sovereign nations, establishing a new policy of formal treaty-making and laying the groundwork for the federal reservation system. That same year, the U.S. signed one of its first tribal agreements—the Treaty with the Choctaw (1786)—recognizing tribal autonomy and establishing peaceful land boundaries. Meanwhile, the Brotherton Indians, a Lenape community living on the Brotherton Reservation (established in 1758 by the British colonial government in New Jersey), petitioned to sell their land and relocate due to worsening conditions. They accepted an invitation from the Oneida Nation to move to New Stockbridge, New York, and by 1802, most had resettled there, eventually becoming part of the Stockbridge-Munsee Community.",
+
+    "images": [],
+    "video": "https://www.youtube-nocookie.com/embed/yIjnxwi79hc?si=op-XtuWbWSbjpDQ2",
+    "resources": [
+      {
+        "label": "Choctaw Treaties",
+        "url": "https://www.choctawnation.com/about/history/historical-documents/"
+      },
+      {
+        "label": "Native Lands",
+        "url": "https://native-land.ca/"
+      },
+      {
+        "label": "Indian Reservations",
+        "url": "https://www.bia.gov/sites/default/files/dup/assets/bia/ots/webteam/pdf/idc1-028635.pdf"
+      },
+      {
+        "label": "Elder Ann-Marie Sayers of Ohlone tribe",
+        "url": "https://www.youtube-nocookie.com/embed/qYgZ1Pxw6aI?si=gEMatpLOrSl1KMzr"
+      }
+    ],
+    "category": "migration"
+  },
+  {
+    "year": 1790,
+    "description": "Second Great Awakening Begins",
+    "story": "The Second Great Awakening was a widespread Protestant religious revival that began in the 1790s and peaked during the early 19th century. It emphasized personal salvation, emotional religious experiences, and the idea that individuals could improve both themselves and society through faith and moral reform. A defining moment came in 1801 at the Cane Ridge Revival in Kentucky, where over 20,000 people gathered in one of the largest religious meetings in American history. The movement led to explosive growth in Baptist and Methodist denominations and inspired major social reform movements such as abolition, temperance, and women’s rights. By the 1840s, the revival spirit declined as reform efforts took on more political and institutional forms.",
+    "images": [],
+    "video": "https://www.youtube-nocookie.com/embed/jXK3J4b_Jrs",
+
+    "category": "historical"
+  },
+  {
+    "year": 1803,
+    "description": "Louisiana Purchase",
+    "story": "The Louisiana Purchase was a land deal between the United States and France. It doubled the size of the US and opened up the land for settlement.",
+    "images": ["img/Louisiana-Purchase.png"],
+    "video": "https://www.youtube-nocookie.com/embed/TN4bFvwW8h4",
+    "category": "historical"
+  },
+  {
+    "year": 1810,
+    "description": "The Second Middle Passage",
+    "story": "Between 1810 and 1860, more than one million enslaved African Americans were forcibly relocated from the Upper South to the Deep South. This internal slave trade, often called the Second Middle Passage, supplied labor for the booming cotton economy. Enslaved people were sold, marched in coffles, and transported by river and rail to new plantations in Alabama, Mississippi, Louisiana, and beyond. This migration transformed the Deep South into the center of U.S. slavery and cotton production.",
+    "images": [],
+    "video": "https://www.youtube.com/embed/Rr6nqrfzFRA?si=TwFpMzERVPwjt-m0",
+    "resources": [
+      {
+        "label": "Panorama: Forced Migration",
+        "url": "https://dsl.richmond.edu/panorama/forcedmigration/#tab=1&narratives=true&cotton=true&sugar=true&labels=false&decade=1810&county=G1303030&state=georgia&loc=6/-9.622/12.832"
+      },
+      {
+        "label": "Mingo White Interview",
+        "url": "https://www.youtube-nocookie.com/embed/sGdQTvPIOus?si=IPErEolwyBZiNU1y"
+      }
+    ],
+    "category": ["migration", "population"]
+  },
+  {
+    "year": 1812,
+    "description": "War of 1812 Begins",
+    "story": "The War of 1812 was fought between the United States and the British Empire. It was caused by issues such as trade restrictions and the impressment of American sailors.",
+    "images": ["img/war_1812.jpg"],
+    "video": "https://www.youtube-nocookie.com/embed/LahKRJKq6_w",
+    "category": "historical"
+  },
+  {
+    "year": 1820,
+    "description": "Missouri Compromise",
+    "story": "The Missouri Compromise was an agreement to regulate the extension of slavery in the US. It admitted Missouri as a slave state and Maine as a free state.",
+    "images": ["img/missouri-compromise.jpg"],
+    "video": "https://www.youtube-nocookie.com/embed/-zSnvFidl4s",
+    "category": "historical"
+  },
+  {
+    "year": 1830,
+    "description": "Indian Removal Act",
+    "story": "The Indian Removal Act was signed by President Andrew Jackson and led to the forced relocation of thousands of Native Americans to west of the Mississippi River.",
+    "images": ["img/Tear.jpg", "img/trail-tears.png"],
+
+    "video": "https://www.youtube-nocookie.com/embed/WAWyfikAndA",
+    "resources": [
+      {
+        "label": "Cherokee Nation",
+        "url": "https://americanindian.si.edu/nk360/removal-cherokee/early-history.html#section-7"
+      },
+      {
+        "label": "Navajo Nation",
+        "url": "https://storymaps.arcgis.com/stories/71ce3cb86e5442f4aeb91f198e59872c"
+      },
+      {
+        "label": "Choctaw Tribe ",
+        "url": "https://storymaps.arcgis.com/stories/b640f809d0904f67998ebf61aa082a7b"
+      },
+      {
+        "label": "Blackfeet Tribe ",
+        "url": "https://storymaps.arcgis.com/stories/725d3106ddd6435f94ef209da75ac02e"
+      },
+      {
+        "label": "Sioux Tribe (Lakota)",
+        "url": "https://storymaps.arcgis.com/stories/59b4015886fa40c3ada2e5d86b89bf6f"
+      },
+      {
+        "label": "Sioux Tribe (Dakota)",
+        "url": "https://storymaps.arcgis.com/stories/899f0a78ccdc465d9f2f5a163c2a516e"
+      },
+      {
+        "label": "Sioux Tribe (Nakota)",
+        "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/sioux-nations-nakota"
+      },
+      {
+        "label": "Apache Nation",
+        "url": "https://blog.nativehope.org/history-of-the-apache-nation"
+      }
+    ],
+    "category": "migration"
+  },
+  {
+    "year": 1830,
+    "description": "Underground Railroad",
+    "story": "The Underground Railroad was a secret network of safe houses and routes used by enslaved African Americans to escape to free states and Canada. It was supported by abolitionists and allies who helped freedom seekers along their journey to liberation.",
+    "images": ["img/railroad.jpg"],
+    "video": "https://www.youtube-nocookie.com/embed/beTd8RW0ozg?si=l9P54XILrkU_P7l0",
+    "resources": [
+      {
+        "label": "National Park Service",
+        "url": "https://www.nps.gov/subjects/undergroundrailroad/index.htm"
+      },
+      {
+        "label": "Freedom on the Move Database",
+        "url": "https://database.freedomonthemove.org/"
+      },
+      {
+        "label": "Safe House ",
+        "url": "https://storymaps.arcgis.com/stories/d8b5164c52d64a4ba43edcbfebaa9ae7"
+      }
+    ],
+    "category": "migration"
+  },
+  {
+    "year": 1840,
+    "description": "Oregon Trail",
+    "story": "The first large wave of settlers began in 1843, when hundreds of emigrants journeyed west in covered wagons along the trail.",
+    "video": "https://www.youtube-nocookie.com/embed/14wE9-kHb2M",
+    "category": "migration"
+  },
+  {
+    "year": 1840,
+    "description": "Mormon Trail",
+    "story": "The Mormon Trail was used by members of The Church of Jesus Christ of Latter-day Saints who migrated westward from Nauvoo, Illinois, to the Salt Lake Valley in Utah to escape religious persecution. Beginning in 1846, thousands of Mormon pioneers traveled over 1,300 miles through harsh terrain, establishing one of the most organized and enduring westward migrations in U.S. history.",
+    "video": "",
+    "category": "migration"
+  },
+
+  {
+    "year": 1841,
+    "description": "The California Trail",
+    "story": "During the 1820s and 1830s, California was a province of Mexico, largely ignored by Americans, and virtually all travel to and from the province was by sea. In May 1841, however, the first group of emigrants, the Bidwell-Bartleson party, met near Independence, Missouri and blazed their way west. At Fort Hall, in present-day Idaho, about half of the party opted to take the Oregon Trail, but the rest vowed to reach California. They abandoned their wagons in eastern Nevada. On horseback and on foot, the party staggered across the Fortymile Desert and entered California via the Walker River. The January 1848 discovery of gold, however, turned all eyes toward California. Soon afterward, tens of thousands of “Forty-Niners” and other emigrants rushed hastily toward the gold fields, many of them over Carson Pass.",
+    "images": [],
+    "video": "",
+    "category": "migration"
+  },
+  {
+    "year": 1846,
+    "description": "Mexican-American War Begins",
+    "story": "The Mexican-American War was a conflict between the United States and Mexico, resulting in the US acquiring large portions of Mexico's northern territories.",
+    "video": "https://www.youtube-nocookie.com/embed/mnedQZglmhM",
+    "category": "historical"
+  },
+  {
+    "year": 1848,
+    "description": "Treaty of Guadalupe",
+    "story": "The Treaty of Guadalupe Hidalgo ended the Mexican-American War. It resulted in the U.S. acquisition of a large portion of Mexican territory.",
+    "images": ["img/mexico.png"],
+    "category": "historical"
+  },
+  {
+    "year": 1848,
+    "description": "California Gold Rush",
+    "story": "The California Gold Rush began in January 1848 after gold was accidentally discovered  in 1848 at Sutter's Mill in Coloma, El Dorado . The Gold Rush transformed California and had a negative impact on Native American populations.",
+    "images": ["img/gold.jpg"],
+    "video": "https://www.youtube-nocookie.com/embed/iydRkC0gMZI",
+    "resources": "https://storymaps.arcgis.com/stories/26bc56d34e2d48b289eb894e7c3581e4",
+    "category": "migration"
+  },
+  {
+    "year": 1850,
+    "description": "End of the First Middle Passage",
+    "story": "The First Middle Passage began in 1518, when Spain authorized the direct shipment of enslaved Africans to the Americas. This marked the start of the transatlantic slave trade, where European powers transported millions of Africans across the ocean to labor on plantations in the Americas. For over 300 years, this brutal system reshaped global populations and economies. By 1850, the transatlantic trade had largely ended. The United States banned slave imports in 1808, Britain ended its trade in 1807, and Brazil—one of the last countries still involved—officially abolished the importation of enslaved Africans in 1850. Though illegal smuggling continued briefly, this year marks the effective end of the First Middle Passage.",
+    "images": [],
+    "video": "",
+    "resources": [
+      {
+        "label": "Abolition of the Transatlantic Slave Trade (LDHI)",
+        "url": "https://ldhi.library.cofc.edu/neatline/show/voyage-of-the-echo"
+      },
+      {
+        "label": "SlaveVoyages",
+        "url": "https://www.slavevoyages.org/"
+      },
+      {
+        "label": "The Atlantic Slave trade in Two Minutes ",
+        "url": "https://slate.com/news-and-politics/2021/09/atlantic-slave-trade-history-animated-interactive.html"
+      }
+    ],
+    "category": "historical"
+  },
+
+  {
+    "year": 1850,
+    "description": "Compromise of 1850",
+    "story": "The Compromise of 1850 was a package of five separate bills passed by the United States Congress in September 1850 that temporarily defused tensions between slave and free states in the years leading up to the American Civil War.",
+    "images": [],
+    "video": "",
+    "resources": "https://www.arcgis.com/apps/mapviewer/index.html?webmap=ac7d9ab129164e2990c08a9a242f8109",
+    "category": "historical"
+  },
+  {
+    "year": 1857,
+    "description": "Dred Scott Decision",
+    "story": "The Dred Scott v. Sandford decision held that the U.S. Constitution did not extend citizenship to African Americans.",
+    "images": ["img/scott.jpg"],
+    "video": "https://www.youtube-nocookie.com/embed/OML9AVR10PQ",
+    "resources": "",
+    "category": "historical"
+  },
+  {
+    "year": 1861,
+    "description": "American Civil War Begins",
+    "story": "The American Civil War began with the Confederate attack on Fort Sumter. It was a conflict between the Northern states and Southern states. It directly addressed the issue of slavery and allowed for the emancipation of enslaved African Americans through the Emancipation Proclamation, leading to a large number of Black soldiers joining the Union Army to fight for their freedom",
+    "images": ["img/civil.jpg"],
+    "video": "https://www.youtube-nocookie.com/embed/tsxmyL7TUJg?si=fZvQtODP2i9zUH5V",
+    "resources": [
+      {
+        "label": "Battles of the American Civil War",
+        "url": "https://storymaps.esri.com/stories/civilwar//"
+      },
+      {
+        "label": "Susie king taylor",
+        "url": "https://www.loc.gov/ghe/cascade/index.html?appid=5be2377c246c4b5483e32ddd51d32dc0&bookmark=Early%20Years "
+      }
+    ],
+    "category": "historical"
+  },
+  {
+    "year": 1862,
+    "description": "Homestead Act",
+    "story": "The Homestead Act encouraged western migration by providing settlers with 160 acres of land in exchange for a filing fee.",
+    "images": ["img/homestead.jpg"],
+    "video": "https://www.youtube-nocookie.com/embed/UVSLpugcWS0?si=heeOQPMtHB_FGbgB",
+    "resources": "https://dsl.richmond.edu/panorama/homesteading/map/",
+    "category": "migration"
+  },
+  {
+    "year": 1863,
+    "description": "Transcontinental Railroad",
+    "story": "The construction of the Transcontinental Railroad began in 1863, linking the eastern and western United States.",
+    "video": "https://www.youtube-nocookie.com/embed/0CdAzizWiyI",
+    "category": "migration"
+  },
+  {
+    "year": 1879,
+    "description": "Exodusters Migration",
+    "story": "In 1879, thousands of African Americans known as 'Exodusters' migrated out of the post–Reconstruction South to settle in Kansas and other parts of the western United States. Fleeing racial violence, Black Codes, and the rise of white supremacist groups like the Ku Klux Klan, they sought land, safety, and freedom in the West. Many saw themselves as part of a biblical 'Exodus' from oppression. The movement was one of the first large-scale migrations of formerly enslaved people after the Civil War. Led in part by figures like Benjamin 'Pap' Singleton, Exodusters established all-Black towns and farming communities in Kansas, Oklahoma, and beyond. While they faced harsh conditions and limited resources, the Exoduster migration marked a powerful expression of Black self-determination and resistance to Southern racism.",
+    "images": [],
+    "video": "https://www.youtube-nocookie.com/embed/-tml2ROvIPM?si=dfar5gwU0Tp---fJ",
+    "resources": [
+      {
+        "label": "The Exodusters (Kansas Historical Society)",
+        "url": "https://www.kshs.org/kansapedia/exodusters/12045"
+      }
+    ],
+    "category": "historical"
+  },
+  {
+    "year": 1910,
+    "description": "The Great Migration",
+    "story": "Relocation of hundreds of thousands of African Americans from the rural areas of the South to urban areas in the North during the years between 1910 and 1970",
+    "video": "",
+    "resources": "https://www.storymaps.com/stories/78762b8f1bb14097a07366d3f457e4ee",
+    "category": "population"
+  },
+  {
+    "year": 1917,
+    "description": "The Red Scare in America",
+    "story": "The Red Scare refers to the widespread fear of communism in the United States during the early Cold War, particularly from the late 1940s through the 1950s. Fueled by the Soviet Union's growing influence and revelations of espionage, the U.S. government, led by figures like Senator Joseph McCarthy and the FBI under J. Edgar Hoover, launched aggressive investigations into alleged communist activity. Civil rights activists—especially Black leaders advocating for desegregation and anti-lynching laws—were often falsely accused of being communist sympathizers. The NAACP, Paul Robeson, W.E.B. Du Bois, and others were targeted, and efforts to pass federal anti-lynching legislation were blocked by linking racial justice to communist subversion. The Red Scare was used as a political weapon to silence dissent and suppress movements for racial equality. Meanwhile, the Soviet Union criticized U.S. racial violence as hypocrisy, pressuring American officials to respond, while also intensifying domestic crackdowns on Black activism.",
+    "images": ["img/Brooklyn.jpg"],
+    "video": "https://www.youtube-nocookie.com/embed/IpIdBWNGM5E?si=eTYy4PSf9I9Vy4n3",
+    "resources": [
+      {
+        "label": "McCarthyism and the Red Scare (History.com)",
+        "url": "https://www.history.com/topics/cold-war/red-scare"
+      }
+    ],
+    "category": "historical",
+    "tag": "Second Red Scare / McCarthyism (1947–1957)"
+  },
+  {
+    "year": 1929,
+    "description": "The Great Depression",
+    "story": "The Great Depression was the global economic crisis that started after the U.S. stock market crash in 1929. There were mass migrations of people from badly hit areas.",
+    "category": "historical"
+  },
+  {
+    "year": 1930,
+    "description": "Dust Bowl Migration",
+    "story": "The Dust Bowl was a period of severe dust storms that damaged agriculture in the American prairies during the 1930s.",
+    "images": ["img/dust.jpg"],
+    "video": "https://www.youtube-nocookie.com/embed/iltnqoUbIik?si=BmCy0bLX0nQC-ErK",
+    "resources": "https://storymaps.arcgis.com/stories/9d576157b2154067938a60a0a90af5fc",
+    "category": "migration"
+  },
+  {
+    "year": 1940,
+    "description": "World War II",
+    "story": " The World War II period resulted in the largest number of people migrating within the United States, in the history of the country. Individuals and families relocated to industrial centers for good paying war jobs, and out of a sense of patriotic duty.Wartime labor shortages led to the Bracero Program, and Japanese Americans were forcibly relocated to internment camps",
+    "images": [],
+    "video": "",
+    "category": "historical"
+  },
+  {
+    "year": 1945,
+    "description": "Cold War",
+    "story": "The Cold War began in 1945 at the end of World War II, as tensions rose between the United States and the Soviet Union—two emerging superpowers with opposing ideologies. The U.S. promoted democracy and capitalism, while the USSR spread communism. Although they had been allies during the war, their postwar goals diverged sharply. The period from 1945 to 1960 saw the emergence of key Cold War features: the Iron Curtain dividing Europe, the Truman Doctrine and Marshall Plan, the formation of NATO, the Berlin Airlift, the Korean War, and the beginnings of the nuclear arms race. The launch of Sputnik in 1957 intensified the competition into space. By 1960, the Cold War had become a global ideological and military standoff.",
+    "images": [],
+    "video": "https://www.youtube-nocookie.com/embed/9C72ISMF_D0",
+    "resources": [
+      {
+        "label": "Cold War Overview (History.com)",
+        "url": "https://www.history.com/topics/cold-war/cold-war-history"
+      }
+    ],
+    "category": "historical"
+  },
+  {
+    "year": 1950,
+    "description": "The Creation of Suburbia",
+    "story": "After World War II, the United States experienced a massive housing boom that gave rise to suburban communities across the country. Fueled by a growing middle class, a strong postwar economy, and government-backed programs like the GI Bill, millions of Americans—especially white families—moved out of crowded cities into newly built, affordable homes in suburban neighborhoods. Developments like Levittown in New York became symbols of this era, featuring rows of nearly identical houses, car-centric layouts, and access to good schools. However, the growth of suburbia was also marked by deep racial exclusion: Black families were systematically denied access through redlining, discriminatory lending, and restrictive covenants. The federal government supported these practices, reinforcing segregation and wealth inequality that shaped American society for generations. Suburbia came to define the 'American Dream' for some, while excluding others from its benefits.",
+    "images": ["img/Red.jpg"],
+    "video": "https://www.youtube-nocookie.com/embed/nzQyKwsVWME?si=M9dz-zg6miB49MiY",
+    "resources": [
+      {
+        "label": "Redlining and Suburban Segregation (NPR)",
+        "url": "https://www.npr.org/sections/codeswitch/2018/04/11/601494521/a-realtors-confession-of-redlining"
+      },
+      {
+        "label": "Redlining (Mapping Inequality)",
+        "url": "https://dsl.richmond.edu/panorama/redlining/"
+      }
+    ],
+    "category": "historical"
+  },
+
+  {
+    "year": 1965,
+    "description": "Immigration and Nationality Act",
+    "story": " This law ended restrictive quotas and allowed for a dramatic increase in immigration from Asia, Africa, and Latin America. It transformed the U.S. into one of the most ethnically diverse nations in the world",
+    "images": [],
+    "video": "",
+    "category": "historical"
+  },
+  {
+    "year": 1994,
+    "description": "North American Free Trade Agreement",
+    "story": " The North American Free Trade Agreement (NAFTA) created a nonimmigrant visa program for professionals from Canada and Mexico to work in the United States. However, NAFTA also led to a large increase in Mexican migration to the U.S., much of it undocumented",
+    "images": [],
+    "video": "",
+    "category": "historical"
+  }
+]

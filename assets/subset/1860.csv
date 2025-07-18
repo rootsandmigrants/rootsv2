@@ -1,0 +1,44 @@
+STATENAM,Percent-White,Percent-Black,Percent-Free,Percent-Slave,Percent-AI,Percent-Asian
+Maine,99.8,0.2,0.2,0,0,0
+New Hampshire,99.8,0.2,0.2,0,0,0
+Vermont,99.8,0.2,0.2,0,0,0
+Massachusetts,99.2,0.8,0.8,0,0,0
+Rhode Island,97.7,2.3,2.3,0,0,0
+Connecticut,98.1,1.9,1.9,0,0,0
+New York,98.7,1.3,1.3,0,0,0
+New Jersey,96.2,3.8,3.8,0,0,0
+Pennsylvania,98,2,2,0,0,0
+Ohio,98.4,1.6,1.6,0,0,0
+Indiana,99.1,0.8,0.8,0,0,0
+Illinois,99.6,0.4,0.4,0,0,0
+Michigan,98.3,0.9,0.9,0,0.8,0
+Wisconsin,99.7,0.2,0.2,0,0.1,0
+Minnesota,98.5,0.2,0.2,0,1.4,0
+Iowa,99.8,0.2,0.2,0,0,0
+Missouri,90,10,0.3,9.7,0,0
+Dakota Territory,53.3,0,0,0,46.7,0
+Nebraska Territory,99.5,0.3,0.2,0.1,0.2,0
+Kansas Territory,99.2,0.6,0.6,0,0.2,0
+Delaware,80.7,19.3,17.7,1.6,0,0
+Maryland,75.1,24.9,12.2,12.7,0,0
+District of Columbia,80.9,19.1,14.8,4.2,0,0
+North Carolina,63.5,36.4,3.1,33.4,0.1,0
+South Carolina,41.4,58.6,1.4,57.2,0,0
+Georgia,55.9,44,0.3,43.7,0,0
+Florida,55.4,44.6,0.7,44,0,0
+Kentucky,79.6,20.4,0.9,19.5,0,0
+Tennessee,74.5,25.5,0.7,24.8,0,0
+Alabama,54.6,45.4,0.3,45.1,0,0
+Mississippi,44.7,55.3,0.1,55.2,0,0
+Arkansas,74.4,25.6,-,25.5,0,0
+Louisiana,50.5,49.5,2.6,46.9,0,0
+Texas,69.7,30.3,0.1,30.2,0.1,0
+Colorado,99.9,0.1,0.1,0,0,0
+Arizona,37.3,0.3,0.3,0,62.3,0
+Utah Territory,99.6,0.1,0.1,0.1,0.2,0
+Nevada,99.3,0.7,0.7,0,0,0
+Oregon,99.4,0.2,0.2,0,0.3,0
+California,85,1.1,1.1,0,4.7,9.2
+Virginia,65.6,34.4,3.6,30.7,0,0
+New Mexico Territory,88.7,0.1,0.1,0,11.2,0
+Washington Territory,96.1,0.3,0.3,0,3.7,0

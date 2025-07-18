@@ -1,0 +1,74 @@
+.nav-tabs {
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  background-color: #353a3f;
+  padding: 0 20px;
+  height: 50px;
+  border-bottom: 1px solid #2a2e33;
+}
+
+.nav-tabs .nav-item .nav-link {
+  color: #dfe8ee;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  padding: 15px 20px;
+  margin: 0;
+  background-color: transparent;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  box-sizing: border-box;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.nav-tabs .nav-item .nav-link:hover {
+  color: #ffffff;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item.ml-auto {
+  margin-left: auto;
+  display: flex;
+  gap: 10px;
+  padding-right: 10px; /* This adds space to the entire right section */
+}
+
+.nav-item.ml-auto .logo:last-child {
+  margin-right: 0;
+}
+/* Logo on the top right of nav-bar */
+.logo {
+  height: 30px;
+  margin-right: 10px;
+  z-index: 10;
+}
+
+ul.nav-tabs {
+  border-bottom: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+ul.nav-tabs li.nav-item {
+  margin-bottom: 0;
+}
+
+ul.nav-tabs li.nav-item a.nav-link {
+  border: none;
+}

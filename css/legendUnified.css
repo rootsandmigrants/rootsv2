@@ -1,0 +1,176 @@
+/* ============================================================================
+   UNIFIED LEGEND STYLES - Year positioned in title between icons
+   ============================================================================ */
+
+/* === RESPONSIVE LEGEND POSITIONING === */
+.legend-container {
+  position: absolute;
+  top: 10px;
+  right: 90px;
+  width: 400px; /* ✅ Wider for longer bars */
+  max-width: 30vw; /* ✅ Allow more space */
+  min-width: 240px;
+  padding: 12px; /* ✅ More padding */
+  background-color: transparent;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  z-index: 10;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* === MOBILE RESPONSIVE === */
+@media (max-width: 768px) {
+  .legend-container {
+    position: fixed;
+    top: 60px;
+    right: 60px;
+    width: 280px; /* ✅ Wider on mobile too */
+    max-width: calc(100vw - 80px);
+    font-size: 12px;
+    padding: 10px; /* ✅ More padding on mobile */
+  }
+
+  .legend-value-unified {
+    font-size: 10px;
+  }
+
+  /* Smaller year text on mobile */
+  .legend-year-in-title {
+    font-size: 10px !important;
+  }
+}
+
+/* Main legend container */
+.legend-unified {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 5px; /* ✅ More internal padding */
+  background: rgba(250, 247, 247, 0.95);
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Title styling with info and warning icons AND year */
+.legend-title-unified {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 10px; /* ✅ More space below title */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px; /* ✅ More gap between title and icons */
+}
+
+/* NEW: Year styling when positioned in title */
+.legend-year-in-title {
+  font-size: 12px;
+  color: #444;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 2px 6px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  min-width: 60px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+/* Info icon styling */
+.legend-title-unified .info-icon {
+  color: #0066cc;
+  text-decoration: none;
+  font-size: 13px; /* ✅ Slightly larger */
+}
+
+.legend-title-unified .info-icon:hover {
+  color: #004499;
+}
+
+/* Warning icon styling */
+.legend-title-unified .warning-icon {
+  font-size: 13px; /* ✅ Slightly larger */
+  cursor: pointer;
+}
+
+.legend-title-unified .warning-icon:hover .text-danger {
+  color: #b02a37 !important;
+}
+
+/* Bar container - NO YEAR HERE ANYMORE */
+.legend-bar-row-unified {
+  display: flex;
+  align-items: center;
+  gap: 6px; /* ✅ More gap between elements */
+  margin-bottom: 8px; /* ✅ More space below bar row */
+  width: 100%;
+}
+
+/* REMOVED: .legend-year-unified - not needed anymore since year is in title */
+
+/* Main gradient bar - LONGER! (takes more space since no year) */
+.legend-bar-unified {
+  flex: 1;
+  height: 22px; /* ✅ Taller bars */
+  border: 1px solid #000;
+  border-radius: 2px;
+  min-width: 200px; /* ✅ Even longer now that year is not here */
+}
+
+/* Null/missing data container */
+.legend-null-container-unified {
+  position: relative;
+  flex-shrink: 0;
+  margin-left: 8px; /* ✅ More separation from main bar */
+}
+
+/* Null/missing data box - LONGER to match! */
+.legend-null-unified {
+  width: 45px; /* ✅ Wider to match longer bars */
+  height: 22px; /* ✅ Taller to match bars */
+  border: 1px solid #000;
+  border-radius: 2px;
+  position: relative;
+}
+
+/* Null label - BETTER POSITIONING & SIZE */
+.legend-null-label-unified {
+  position: absolute;
+  bottom: -15px; /* ✅ More space above */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 11px; /* ✅ Larger, more readable */
+  color: #1b1a1a;
+  white-space: nowrap;
+  font-weight: 500; /* ✅ Slightly bolder */
+}
+
+/* Values container */
+.legend-values-container-unified {
+  position: relative;
+  width: 100%;
+  height: 18px;
+  margin-top: -8px; /* ✅ NEGATIVE MARGIN - brings values UP closer */
+}
+
+/* Individual legend values */
+.legend-value-unified {
+  position: absolute;
+  transform: translateX(-50%);
+  font-size: 11px; /* ✅ Larger, more readable */
+  white-space: nowrap;
+  color: #000;
+  top: 0;
+  font-weight: 500; /* ✅ Slightly bolder */
+}
+
+/* Hide old conflicting styles */
+.legend-unified .legend-values,
+.legend-unified .legend-values-density,
+.legend-unified .legend-values-netflow-alt,
+.legend-unified .legend-values-race {
+  display: none !important;
+}

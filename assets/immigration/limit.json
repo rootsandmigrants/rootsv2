@@ -1,0 +1,108 @@
+{
+  "1850": {
+    "fullCount": true,
+    "raceLimited": false,
+    "sample": true,
+    "note": "Data is aggregated at varying geographic levels (continental, common language, regional, and national), affecting consistency and comparison.",
+    "source": "1850 Census - Population, Agriculture & Other Data (NHGIS Code: 1850_sPAX, Dataset ID: ds12)"
+  },
+  "1860": {
+    "fullCount": true,
+    "raceLimited": false,
+    "sample": true,
+    "note": "Data is aggregated at varying geographic levels (continental, common language, regional, and national), affecting consistency and comparison.",
+    "source": "1860 Census - Population, Agriculture & Other Data (NHGIS Code: 1860_sPAX, Dataset ID: ds15)"
+  },
+  "1870": {
+    "fullCount": true,
+    "raceLimited": true,
+    "sample": false,
+    "note": "Data is aggregated at varying geographic levels (continental, common language, regional, and national), affecting consistency and comparison.",
+    "source": "1870 Census - Population, Agriculture & Other Data (NHGIS Code: 1870_cPAX, Dataset ID: ds17)"
+  },
+  "1880": {
+    "fullCount": true,
+    "raceLimited": true,
+    "sample": false,
+    "note": "Data is aggregated at varying geographic levels (continental, common language, regional, and national), affecting consistency and comparison.",
+    "source": "1880 Census - Population, Agriculture & Other Data (NHGIS Code: 1880_cPAX, Dataset ID: ds23)"
+  },
+
+  "1890": {
+    "fullCount": true,
+    "raceLimited": true,
+    "sample": false,
+    "note": "Data is aggregated at varying geographic levels (continental, common language, regional, and national), affecting consistency and comparison.",
+    "source": "1890 Census: Population, Housing & Agriculture Data (NHGIS Code: 1890_sPHA, Dataset ID: ds29)"
+  },
+  "1900": {
+    "fullCount": true,
+    "raceLimited": true,
+    "sample": false,
+    "note": "The 1900 U.S. Census included country of birth data, but with significant limitations in geographic specificity and representation. Only select countries were listed individually—mostly from Europe, Canada, China, Japan, and Mexico—while many others were grouped under vague or aggregated categories. 'Asia (except China)' and 'Asia (country unspecified)' include individuals from regions like India, Korea, and Southeast Asia, but without detailed breakdowns. Africa was entirely omitted as a place of birth, likely due to low recorded immigrant counts and  census practices. Similarly, regions such as the Middle East, most of the Caribbean, and Sub-Saharan Africa were absent or lumped under 'Other countries', 'West Indies', or 'Born in other countries'. These gaps reflect both the immigration patterns and the logic of enumeration at the time. Therefore, null values or generalized labels in this dataset should be interpreted as limitations of the original source, not evidence of absence. Data is aggregated at varying geographic levels (continental, common language, regional, and national), affecting consistency and comparison.",
+    "source": "1900 Census: Population, Housing, Agriculture & Manufacturing Data (NHGIS Code: 1900_cPHAM, Dataset ID: ds31)"
+  },
+  "1910": {
+    "fullCount": true,
+    "raceLimited": true,
+    "sample": false,
+    "note": "This dataset is derived from the 1910 U.S. Census which includes only the foreign-born White population by country of birth. Foreign-born individuals who were not classified as White—such as Black, Asian, Indigenous, or other racialized groups—were entirely excluded from this table. As a result, countries and regions associated with non-European migration (e.g., parts of Africa, Asia, and the Caribbean) are underrepresented, aggregated under vague labels like 'Africa (country unspecified)', or 'West Indies', or omitted altogether. Data is recorded by language differences. For example, Canada is separated into 'Canada (English)' and 'Canada (French)', acknowledging cultural and linguistic differences within Canadian immigrants.",
+    "source": "1910 Census: Population, Housing & Agriculture Data (NHGIS Code: 1910_cPHA, Dataset ID: ds37)"
+  },
+  "1920": {
+    "fullCount": true,
+    "raceLimited": true,
+    "sample": false,
+    "note": "This dataset is derived from the 1920 U.S. Census which includes only the foreign-born White population by country of birth. Foreign-born individuals who were not classified as White—such as Black, Asian, Indigenous, or other racialized groups—were entirely excluded from this table. As a result, countries and regions associated with non-European migration (e.g., parts of Africa, Asia, and the Caribbean) are underrepresented, aggregated under vague labels like 'Africa (country unspecified)', or 'West Indies', or omitted altogether.",
+    "source": "1920 Census: Population, Housing, Agriculture & Manufacturing Data (NHGIS Code: 1920_cPHAM, Dataset ID: ds43)"
+  },
+  "1930": {
+    "fullCount": true,
+    "raceLimited": true,
+    "sample": false,
+    "note": "This dataset is derived from the 1930 U.S. Census which includes only the foreign-born White population by country of birth. Foreign-born individuals who were not classified as White—such as Black, Asian, Indigenous, or other racialized groups—were entirely excluded from this table. As a result, countries and regions associated with non-European migration (e.g., parts of Africa, Asia, and the Caribbean) are underrepresented, aggregated under vague labels like 'Africa (country unspecified)', or 'West Indies', or omitted altogether.",
+    "source": "1930 Census: Population, Agriculture & Economic Data (NHGIS Code: 1930_cPAE, Dataset ID: ds54)"
+  },
+  "1940": {
+    "fullCount": true,
+    "raceLimited": false,
+    "sample": true,
+    "note": "This dataset is derived from the 1940 U.S. Census which includes only the foreign-born White population by country of birth. Foreign-born individuals who were not classified as White—such as Black, Asian, Indigenous, or other racialized groups—were entirely excluded from this table. As a result, countries and regions associated with non-European migration (e.g., parts of Africa, Asia, and the Caribbean) are underrepresented, aggregated under vague labels like 'Africa (country unspecified)', or 'West Indies', or omitted altogether. Data is recorded by language differences. For example, Canada is separated into 'Canada (French)' and 'Canada (Other)', acknowledging cultural and linguistic differences within Canadian immigrants.",
+    "source": "1940 Census: Population, Housing, Agriculture & Economic Data (NHGIS Code: 1940_cPHAE, Dataset ID: ds78)"
+  },
+  "1950": {
+    "fullCount": false,
+    "raceLimited": false,
+    "sample": true,
+    "note": "This dataset is derived from the 1950 U.S. Census which includes only the foreign-born White population by country of birth. Foreign-born individuals who were not classified as White—such as Black, Asian, Indigenous, or other racialized groups—were entirely excluded from this table. As a result, countries and regions associated with non-European migration (e.g., parts of Africa, Asia, and the Caribbean) are underrepresented, aggregated under vague labels like 'Africa (country unspecified)', or 'West Indies', or omitted altogether. Data is recorded by language differences. For example, Canada is separated into 'Canada (French)' and 'Canada (Other)', acknowledging cultural and linguistic differences within Canadian immigrants.",
+    "source": "1950 Census: Population, Housing & Agriculture Data (NHGIS Code: 1950_cPHA, Dataset ID: ds84)"
+  },
+  "1960": {
+    "fullCount": true,
+    "raceLimited": false,
+    "sample": true,
+    "note": "This dataset is derived from the 1960 U.S. Census which includes only the foreign-born White population by country of birth. Foreign-born individuals who were not classified as White—such as Black, Asian, Indigenous, or other racialized groups—were entirely excluded from this table. As a result, countries and regions associated with non-European migration (e.g., parts of Africa, Asia, and the Caribbean) are underrepresented, aggregated under vague labels like 'Africa (country unspecified)', or 'West Indies', or omitted altogether. Data is recorded by language differences. For example, Canada is separated into 'Canada (French)' and 'Canada (Other)', acknowledging cultural and linguistic differences within Canadian immigrants.",
+    "source": "1960 Census: Population Data (NHGIS Code: 1960_cPop, Dataset ID: ds91)"
+  },
+  "1970": {
+    "fullCount": false,
+    "raceLimited": false,
+    "sample": true,
+    "note": "Data is aggregated at varying geographic levels (continental, common language, regional, and national), affecting consistency and comparison. This dataset is derived from sample-based population data collected by the U.S. Census, not a full count of all individuals. From 1940 onwards, detailed characteristics like country of birth were often gathered using a representative sample of households rather than from the entire population. As a result, some reported figures are subject to sampling variability and may not precisely reflect true population counts. Smaller population groups or less common countries of origin may be underrepresented or statistically unstable. Caution should be used when interpreting or comparing small values, and totals should be understood as estimates rather than exact figures.",
+    "source": "1970 Census: Count 4Pb - Sample-Based Population Data with Race/Ethnicity  (NHGIS Code: 1970_Cnt4Pb, Dataset ID: ds99)"
+  },
+  "1980": {
+    "fullCount": false,
+    "raceLimited": false,
+    "sample": true,
+    "note": "Data is aggregated at varying geographic levels (continental, common language, regional, and national), affecting consistency and comparison. This dataset is derived from sample-based population data collected by the U.S. Census, not a full count of all individuals. From 1940 onwards, detailed characteristics like country of birth were often gathered using a representative sample of households rather than from the entire population. As a result, some reported figures are subject to sampling variability and may not precisely reflect true population counts. Smaller population groups or less common countries of origin may be underrepresented or statistically unstable. Caution should be used when interpreting or comparing small values, and totals should be understood as estimates rather than exact figures.",
+    "source": "1980 Census: STF 4Pa - Sample-Based Detailed Population Data  (NHGIS Code: 1980_STF4Pa, Dataset ID: ds110)"
+  },
+  "1990": {
+    "fullCount": false,
+    "raceLimited": false,
+    "sample": true,
+    "note": "Data is aggregated at varying geographic levels (continental, common language, regional, and national), affecting consistency and comparison. This dataset is derived from sample-based population data collected by the U.S. Census, not a full count of all individuals. From 1940 onwards, detailed characteristics like country of birth were often gathered using a representative sample of households rather than from the entire population. As a result, some reported figures are subject to sampling variability and may not precisely reflect true population counts. Smaller population groups or less common countries of origin may be underrepresented or statistically unstable. Caution should be used when interpreting or comparing small values, and totals should be understood as estimates rather than exact figures.",
+    "source": "1990 Census: STF 4a - Sample-Based Detailed Data (NHGIS Time Series)"
+  }
+}

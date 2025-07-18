@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:," />
+    <title>Roots & Migrants</title>
+    <!-- Google tag -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=GT-WPDGVFT5"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "GT-WPDGVFT5");
+    </script>
+    <link rel="icon" type="image/png" sizes="180x180" href="favicon.ico" />
+
+    <link
+      href="https://unpkg.com/maplibre-gl@5.5.0/dist/maplibre-gl.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css"
+    />
+    <script src="https://unpkg.com/maplibre-gl@5.5.0/dist/maplibre-gl.js"></script>
+    <!-- <script>
+      window.module = window.module || { exports: {} };
+    </script>
+    <script src="https://unpkg.com/@mapbox/mapbox-gl-sync-move@0.3.1"></script> -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Inconsolata"
+    />
+    <script src="https://d3js.org/d3-quadtree.v1.min.js"></script>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/timeline.css" />
+    <link rel="stylesheet" href="css/magnific.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="css/maplibre-compare/maplibre-gl-compare.css"
+    /> -->
+    <link rel="stylesheet" href="css/modal.css" />
+    <link rel="stylesheet" href="css/navigation.css" />
+    <!-- <link rel="stylesheet" href="css/legend.css" /> -->
+    <link rel="stylesheet" href="css/legendUnified.css" />
+
+    <link rel="stylesheet" href="css/slider.css" />
+    <link rel="stylesheet" href="css/historylayer.css" />
+    <link rel="stylesheet" href="css/layer.css" />
+    <link rel="stylesheet" href="css/overlayhistory.css" />
+    <link rel="stylesheet" href="css/overlaypop.css" />
+    <link rel="stylesheet" href="css/compare.css" />
+    <link rel="stylesheet" href="css/immigration.css" />
+    <link rel="stylesheet" href="css/chart.css" />
+
+    <script src="https://d3js.org/colorbrewer.v1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-statistics@7.8.1/dist/simple-statistics.min.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid p-0">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+          <span id="roots" onclick="showVideoTutorial()">Roots&Migrants</span>
+        </li>
+
+        <li class="nav-item">
+          <a
+            class="nav-link active"
+            id="animation-tab"
+            data-toggle="tab"
+            data-tab="historical"
+            href="#animation-content"
+            role="tab"
+            aria-controls="animation-content"
+            aria-selected="true"
+            >History</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            id="population-tab"
+            data-toggle="tab"
+            data-tab="population"
+            href="#population-content"
+            role="tab"
+            aria-controls="population-content"
+            aria-selected="false"
+            >Population</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            id="migration-tab"
+            data-toggle="tab"
+            data-tab="migration"
+            href="#migration-content"
+            role="tab"
+            aria-controls="migration-content"
+            aria-selected="false"
+            >Migration</a
+          >
+        </li>
+
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            id="immigration-tab"
+            href="#immigration-content"
+            data-toggle="tab"
+            role="tab"
+            aria-controls="immigration-content"
+            aria-selected="false"
+            >Immigration</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            id="compare-tab"
+            href="#compare-content"
+            data-toggle="tab"
+            role="tab"
+            aria-controls="compare-content"
+            aria-selected="false"
+            >Compare Tool</a
+          >
+        </li>
+
+        <!-- <li class="nav-item">
+          <a
+            class="nav-link"
+            id="contactLink"
+            data-toggle="modal"
+            data-target="#contactModal"
+            role="tab"
+            aria-selected="false"
+            >Contact</a
+          >
+        </li> -->
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            id="aboutLink"
+            data-toggle="modal"
+            data-target="#aboutModal"
+            role="tab"
+            aria-selected="false"
+            >About</a
+          >
+        </li>
+        <!-- <li class="nav-item ml-auto">
+          <a href="https://www.geo-social.com/" target="_blank">
+            <img src="img/geosocialLogo.png" alt="Logo" class="logo" />
+          </a>
+
+          <a href="https://uiowa.edu/" target="_blank">
+            <img src="img/logo_uiowa.png" alt="Logo" class="logo" />
+          </a>
+          <a
+            href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2215568"
+            target="_blank"
+          >
+            <img src="img/nsf.jpg" alt="Logo" class="logo" />
+          </a>
+        </li> -->
+      </ul>
+    </div>
+    <!-- Contact Modal -->
+    <div
+      class="modal fade"
+      id="contactModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="contactModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title" id="contactModalLabel">Contact Email</h1>
+            <button
+              type="button"
+              class="custom-close-btn"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p><strong>Email:</strong> geo-social@uiowa.edu</p>
+            <p>
+              Please contact us for any help using Roots&Migrants. Here are some
+              example feedback:
+            </p>
+            <ul>
+              <li>
+                Tell us about any bugs or problems you experienced with the
+                interface and interactions.
+              </li>
+              <li>Suggest new additions to Roots&Migrants.</li>
+              <li>
+                We are happy to hear any feedback and looking forward to
+                improving your experience with Roots&Migrants.
+              </li>
+            </ul>
+            <p>
+              <strong>Website:</strong>
+              <!-- HTML -->
+              <a
+                href="https://www.geo-social.com"
+                target="_blank"
+                class="custom-link"
+              >
+                www.geo-social.com
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About Modal -->
+    <div
+      class="modal fade"
+      id="aboutModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="aboutModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title" id="aboutModalLabel">
+              About Roots&Migrants
+            </h1>
+            <button
+              type="button"
+              class="custom-close-btn"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p><strong>Version:</strong> 1.0</p>
+            <!-- <p><strong>Developers:</strong> Loretta Nwajiaku (2024)</p> -->
+            <!-- <p><strong>Contributors:</strong></p> -->
+            <!-- <ul>
+              <li>
+                <strong>The Geo-Social Lab:</strong> Jinyi Cai, Maryam
+                Torkashvand, Chuan Hang Chan, Liz Hollingworth.
+              </li>
+              <li>
+                <strong>High School Teachers:</strong> Gineal Schrunk, Stacey
+                Strief, Amy Jones, Megan Johnson-Gott, Scott Jespersen, Zachary
+                Ficken, Rodney Egel, Jennifer Wallace, Michael Mettenburg,
+                Jessica Mehegan.
+              </li>
+              <li>
+                <strong>High School Students:</strong> Ariana Luan, Sumin Bae,
+                Devesh Aggarwal, Jenny Huang, Rithik Vir, Zihan Zhou.
+              </li>
+            </ul> -->
+            <!-- <p><strong>Supervisor/Developer:</strong> Caglar Koylu</p> -->
+            <!-- <p>
+              <strong>Citation:</strong> Please cite the reference below if you
+              use Roots & Migrants in a manuscript or any form of publication
+            </p> -->
+            <!-- <p>Article Reference</p> -->
+            <p>
+              <strong>Notice:</strong> Historical boundaries and data such as
+              native lands are not intended to represent legal or official data.
+              While the historical information contained in this story map
+              application has been thoroughly researched from credible sources,
+              users are encouraged to independently verify its accuracy and
+              relevance to their specific context. Users are also encourgaed to
+              add similar disclaimer while referencing sources or data from this
+              story map application.
+            </p>
+            <p><!-- References --></p>
+            <p>
+              <strong>Data Sources:</strong> You can download the full list of
+              references from this PDF:
+              <!-- HTML -->
+              <a
+                href="assets/Map_References.pdf"
+                target="_blank"
+                class="custom-link"
+              >
+                Sources
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Tabs Content -->
+    <div class="tab-content" id="myTabContent">
+      <div
+        class="tab-pane fade show active"
+        id="animation-content"
+        role="tabpanel"
+        aria-labelledby="animation-tab"
+      >
+        <div id="container">
+          <div class="story-modal">
+            <button class="toggle-timeline">_</button>
+            <!-- Button to toggle collapse/expand -->
+
+            <p class="timeline-heading">MAJOR EVENTS</p>
+            <div class="timeline"></div>
+            <!-- The Modal -->
+          </div>
+          <div class="story-pop-up">
+            <p class="story">Story</p>
+
+            <span class="close-pop-up">&times;</span>
+            <!-- Close button for the pop-up -->
+          </div>
+          <div id="map">
+            <div
+              id="north-arrow"
+              class="north-arrow"
+              style="
+                background: url('img/northarrow.svg') no-repeat center center;
+                background-size: contain;
+              "
+            ></div>
+
+            <!-- Layer Icon -->
+            <div
+              id="layer-icon-container-animation"
+              class="layer-icon-container"
+            >
+              <img
+                id="layer-icon-animation"
+                src="img/layericon.png"
+                alt="Layer Icon"
+                class="layer-icon"
+              />
+              <!-- Layer Control Toggle -->
+              <div
+                id="layer-toggle-animation"
+                class="layer-toggle"
+                style="display: none"
+              >
+                <img src="img/layericon.png" alt="Toggle Layers" width="20" />
+              </div>
+
+              <!-- Layer Control Panel (initially hidden) -->
+              <div
+                id="layer-control-animation"
+                class="layer-control"
+                style="display: none"
+              >
+                <div class="layer-subgroup-title">Indigenous Lands</div>
+
+                <div class="layer-checkbox">
+                  <input type="checkbox" id="toggleNativeTerritories" />
+                  Native Lands
+                </div>
+                <div class="layer-group">
+                  <div class="layer-group-title">Land Acquisitions</div>
+                  <div class="layer-subgroup-title">By Treaties</div>
+                  <div class="layer-checkbox">
+                    <input type="checkbox" id="Arizona-NewMexico" />
+                    New Mexico Territory (1848)
+                  </div>
+                  <div class="layer-checkbox">
+                    <input type="checkbox" id="Oregon" /> Oregon Treaty (1846)
+                  </div>
+                  <div class="layer-checkbox">
+                    <input type="checkbox" id="Mexican" /> Mexican cession
+                    (1848)
+                  </div>
+                  <div class="layer-checkbox">
+                    <input type="checkbox" id="florida" /> Adam-Onis Treaty
+                    (1819)
+                  </div>
+                  <div class="layer-subgroup-title">By Purchase</div>
+
+                  <div class="layer-checkbox">
+                    <input type="checkbox" id="purchase" /> Louisiana purchase
+                    (1803)
+                  </div>
+                  <div class="layer-checkbox">
+                    <input type="checkbox" id="Gadsden" /> Gadsden Purchase
+                    (1854)
+                  </div>
+                  <div class="layer-subgroup-title">By Annexation</div>
+
+                  <div class="layer-checkbox">
+                    <input type="checkbox" id="Texas" /> Texas Annexation (1845)
+                  </div>
+                </div>
+                <!-- NEW SECTION: Historical Trails -->
+                <div class="layer-group">
+                  <div class="layer-group-title">Historical Trails</div>
+                  <div class="layer-subgroup-title">Migration Routes</div>
+                  <div class="layer-checkbox">
+                    <input type="checkbox" id="OregonTrail" />
+                    Oregon Trail (1840)
+                  </div>
+                  <div class="layer-checkbox">
+                    <input type="checkbox" id="mormon" />
+                    Mormon Trail (1840)
+                  </div>
+                  <div class="layer-checkbox">
+                    <input type="checkbox" id="cali-trails" />
+                    California Trail (1841)
+                  </div>
+
+                  <div class="layer-subgroup-title">Trade Routes</div>
+                  <div class="layer-checkbox">
+                    <input type="checkbox" id="sante-fe-trail" />
+                    Santa Fe Trail (1820)
+                  </div>
+                  <div class="layer-subgroup-title">Forced Migration</div>
+                  <div class="layer-checkbox">
+                    <input type="checkbox" id="tears" />
+                    Trail of Tears (1830)
+                  </div>
+                </div>
+
+                <!-- Story/Narrative Option at the bottom -->
+                <hr />
+                <div class="layer-checkbox">
+                  <input type="checkbox" id="toggleNarrative" />
+                  Show Historical Narrative
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-event">
+          <div class="modal-content-wrapper">
+            <span class="close-modal">&times;</span>
+            <div class="modals-content"></div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="tab-pane fade"
+        id="population-content"
+        role="tabpanel"
+        aria-labelledby="population-tab"
+      >
+        <div id="container">
+          <div class="story-modal">
+            <p class="timeline-heading">MAJOR EVENTS</p>
+            <div class="timeline"></div>
+            <!-- The Modal -->
+          </div>
+          <div class="story-pop-up">
+            <p class="story">Story</p>
+            <span class="close-pop-up">&times;</span>
+            <!-- Close button for the pop-up -->
+          </div>
+          <div id="mapDen">
+            <div
+              id="norths-arrow"
+              class="north-arrow"
+              style="
+                background: url('img/northarrow.svg') no-repeat center center;
+                background-size: contain;
+              "
+            ></div>
+            <div
+              id="layer-icon-container-population"
+              class="layer-icon-container"
+            >
+              <!-- Layer Icon -->
+              <img
+                id="layer-icon-population"
+                src="img/layericon.png"
+                alt="Layer Icon"
+                class="layer-icon"
+              />
+
+              <!-- Layer Control Toggle -->
+              <div
+                id="layer-toggle-population"
+                class="layer-toggle"
+                style="display: none"
+              >
+                <img src="img/layericon.png" alt="Toggle Layers" width="20" />
+              </div>
+
+              <!-- Layer Control Panel -->
+              <div
+                id="layer-control-population"
+                class="layer-control"
+                style="display: none"
+              >
+                <!-- Movements Section -->
+                <div id="trail-rail-checkboxes">
+                  <!-- Infrastructure Section -->
+                  <div class="layer-group">
+                    <div class="layer-group-title">Infrastructure</div>
+                    <div class="layer-subgroup-title">By Transportation</div>
+                    <div class="layer-checkbox">
+                      <input type="checkbox" id="railroads" /> Railroads
+                    </div>
+                  </div>
+
+                  <!-- ✅ Erie Canal placed outside to avoid being affected -->
+                  <div class="layer-group">
+                    <div class="layer-group-title">Waterways</div>
+                    <div class="layer-checkbox">
+                      <input type="checkbox" id="erie-canal" /> Erie Canal
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Population Subset Section -->
+                <div class="layer-group">
+                  <div class="layer-group-title">Population Data</div>
+                  <!-- Add the Population Density checkbox as default option -->
+                  <div class="layer-checkbox default-option">
+                    <input
+                      type="radio"
+                      id="population-density"
+                      name="population-layer"
+                      class="density-checkbox"
+                      checked
+                    />
+                    <label for="population-density">Population Density</label>
+                  </div>
+
+                  <div class="layer-subgroup-title">By Race/Ethnicity</div>
+                  <div class="layer-checkbox">
+                    <input
+                      type="radio"
+                      id="Percent-White"
+                      name="population-layer"
+                      class="race-checkbox"
+                    />
+                    White
+                  </div>
+                  <div class="layer-checkbox">
+                    <input
+                      type="radio"
+                      id="Percent-Black"
+                      name="population-layer"
+                      class="race-checkbox"
+                    />
+                    African-American
+                  </div>
+                  <div class="layer-checkbox">
+                    <input
+                      type="radio"
+                      id="Percent-Hispanic"
+                      name="population-layer"
+                      class="race-checkbox"
+                    />
+                    Hispanic (All Races)
+                  </div>
+                  <div class="layer-checkbox">
+                    <input
+                      type="radio"
+                      id="Percent-Asian"
+                      name="population-layer"
+                      class="race-checkbox"
+                    />
+                    Asian
+                  </div>
+                  <div class="layer-checkbox">
+                    <input
+                      type="radio"
+                      id="Percent-AI"
+                      name="population-layer"
+                      class="race-checkbox"
+                    />
+                    American Indian
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- County Search UI -->
+            <div id="search-wrapper">
+              <button id="county-search-icon-button">
+                <i class="bi bi-search"></i>
+              </button>
+              <input
+                id="county-search-input"
+                placeholder="Search for a county"
+                autocomplete="off"
+              />
+              <ul id="county-suggestions"></ul>
+            </div>
+          </div>
+          <!-- Density Legend -->
+          <div class="legend-container" id="density-legend">
+            <p class="legend-title">
+              Population Density (per Sq. km)
+              <a href="#" id="populationDensityInfo" class="info-icon"
+                ><i class="bi bi-info-circle"></i
+              ></a>
+            </p>
+            <p id="legend-year-density">1800-1809</p>
+          </div>
+          <div id="no-data-popup-custom" class="popup-custom">
+            <div class="popup-content-custom">
+              <span class="close-button-custom">&times;</span>
+              <p>No data for this year</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-event">
+          <div class="modal-content-wrapper">
+            <span class="close-modal">&times;</span>
+            <div class="modals-content"></div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="tab-pane fade"
+        id="migration-content"
+        role="tabpanel"
+        aria-labelledby="migration-tab"
+      >
+        <div id="container">
+          <div class="story-modal">
+            <p class="timeline-heading">MAJOR EVENTS</p>
+            <div class="timeline"></div>
+          </div>
+          <div class="story-pop-up">
+            <p class="story">Story</p>
+            <span class="close-pop-up">&times;</span>
+            <!-- Close button for the pop-up -->
+          </div>
+          <div id="mapMig">
+            <div
+              id="north-arrows"
+              class="north-arrow"
+              style="
+                background: url('img/northarrow.svg') no-repeat center center;
+                background-size: contain;
+              "
+            ></div>
+            <!-- <div
+              id="layer-icon-container-migration"
+              class="layer-icon-container"
+            >
+              <img
+                id="layer-icon-migration"
+                src="img/layericon.png"
+                alt="Layer Icon"
+                class="layer-icon"
+              />
+            </div> -->
+          </div>
+          <!-- Migration Legend -->
+          <div id="maps-legends" class="legend-container">
+            <p class="legend-title">
+              Net Flow Ratio(%)
+              <a href="#" id="netFlowInfo" class="info-icon"
+                ><i class="bi bi-info-circle"></i
+              ></a>
+            </p>
+            <p id="legends-year">1790-1799</p>
+            <!-- Gradient Bar & Missing Data Box Container -->
+            <div class="legend-bar-container">
+              <div class="legend-bar-netflow"></div>
+              <div class="missing-data-box"></div>
+            </div>
+            <!-- Values Below the Gradient -->
+            <div class="legend-values-netflow-alt">
+              <span class="legend-value-alt">-30</span>
+              <span class="legend-value-alt">-15</span>
+              <span class="legend-value-alt">0</span>
+              <span class="legend-value-alt">15</span>
+              <span class="legend-value-alt">30</span>
+              <span class="legend-value-alt">>70</span>
+
+              <span class="missing-text">No Data</span>
+              <!-- Label for missing data -->
+            </div>
+          </div>
+        </div>
+        <!-- The Modal -->
+        <div class="modal-event">
+          <div class="modal-content-wrapper">
+            <span class="close-modal">&times;</span>
+            <div class="modals-content"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="tab-pane fade"
+      id="immigration-content"
+      role="tabpanel"
+      aria-labelledby="immigration-tab"
+    >
+      <div id="container">
+        <div class="legend-immi-container" id="immigrationLegend">
+          <div class="legend-header">
+            <!-- Collapse Button remains outside -->
+            <button
+              class="legend-collapse-btn"
+              id="collapseLegendBtn"
+              title="Minimize legend"
+            >
+              <i class="bi bi-arrow-bar-right"></i>
+            </button>
+          </div>
+
+          <div class="legend-content" id="legendContent">
+            <div class="circles-container">
+              <!-- Title and metadata at the top of the white box -->
+              <div class="legend-title-content">
+                <span>Immigration by State</span>
+                <a href="#" id="immigrationStateInfo" class="info-icon">
+                  <i class="bi bi-info-circle"></i>
+                </a>
+                <span id="legend-year-value">1850</span>
+                <span
+                  id="legend-warning-flag"
+                  class="warning-flag"
+                  style="display: none"
+                >
+                  <i class="bi bi-flag-fill text-danger"></i>
+                </span>
+              </div>
+
+              <!-- Circle items below the title -->
+              <div class="circle-items-wrapper">
+                <div class="circle-item">
+                  <div class="circle circle-1"></div>
+                  <div class="circle-label">&lt;50</div>
+                </div>
+                <div class="circle-item">
+                  <div class="circle circle-2"></div>
+                  <div class="circle-label">50–499</div>
+                </div>
+                <div class="circle-item">
+                  <div class="circle circle-3"></div>
+                  <div class="circle-label">500–4,999</div>
+                </div>
+                <div class="circle-item">
+                  <div class="circle circle-4"></div>
+                  <div class="circle-label">5,000–49,999</div>
+                </div>
+                <div class="circle-item">
+                  <div class="circle circle-5"></div>
+                  <div class="circle-label">50,000+</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="mapImmigration"></div>
+
+        <!-- UPDATED: Chart with expand button in HTML -->
+        <div id="immi-chart" class="immi-chart-modal">
+          <!-- Expand button at very top-right -->
+          <button
+            id="expandChartBtn"
+            class="chart-expand-btn"
+            title="Expand chart"
+          >
+            <i class="bi bi-arrows-angle-expand"></i>
+          </button>
+
+          <div class="chart-content">
+            <!-- Chart Header Section -->
+            <div class="chart-header">
+              <h3 class="chart-title">IMMIGRATION</h3>
+              <button
+                id="collapseChartBtn"
+                class="chart-collapse-btn"
+                title="Minimize chart"
+              >
+                <i class="bi bi-chevron-down"></i>
+              </button>
+            </div>
+
+            <!-- Chart Controls Section -->
+            <div class="controls">
+              <div class="control-group">
+                <label for="chartYearSelect">Year:</label>
+                <select id="chartYearSelect" class="chart-year-select">
+                  <option value="1850">1850</option>
+                  <option value="1860">1860</option>
+                  <option value="1870">1870</option>
+                  <option value="1880">1880</option>
+                  <option value="1890">1890</option>
+                  <option value="1900">1900</option>
+                  <option value="1910">1910</option>
+                  <option value="1920">1920</option>
+                  <option value="1930">1930</option>
+                  <option value="1940">1940</option>
+                  <option value="1950">1950</option>
+                  <option value="1960">1960</option>
+                  <option value="1970">1970</option>
+                  <option value="1980">1980</option>
+                  <option value="1990">1990</option>
+                </select>
+              </div>
+
+              <div class="control-group">
+                <label for="chartStateSearch">State:</label>
+                <div class="search-dropdown-container">
+                  <input
+                    type="text"
+                    id="chartStateSearch"
+                    class="chart-state-search"
+                    placeholder="All States Combined"
+                    value="All States Combined"
+                    autocomplete="off"
+                  />
+                  <div id="stateSearchResults" class="search-results">
+                    <!-- Results populated by JavaScript -->
+                  </div>
+                </div>
+              </div>
+
+              <div class="control-group">
+                <label for="topCountries">Show Top:</label>
+                <select id="topCountries" class="chart-top-countries">
+                  <option value="10">10 Countries</option>
+                  <option value="20">20 Countries</option>
+                  <option value="all" selected>All Countries</option>
+                </select>
+              </div>
+
+              <div class="control-group">
+                <button
+                  id="showHistoryBtn"
+                  class="chart-history-button"
+                  onclick="window.ImmigrationMap.showHistoricalContext()"
+                >
+                  📚 Historical Context
+                </button>
+              </div>
+            </div>
+
+            <!-- Chart Statistics Section -->
+            <div class="stats-summary">
+              <h3>Overview</h3>
+              <div class="stats-grid">
+                <div class="stat-item">
+                  <div class="stat-value" id="totalImmigrants">0</div>
+                  <div class="stat-label">Total Immigrants</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-value" id="topCountry">-</div>
+                  <div class="stat-label">Top Source Country</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-value" id="countryCount">0</div>
+                  <div class="stat-label">Countries Represented</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-value" id="topCountryPercent">0%</div>
+                  <div class="stat-label">Top Country Share</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Chart Canvas Section -->
+            <div class="chart-container">
+              <canvas id="immigrationChart"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <div id="no-flow-data-modal" class="modal-immigration">
+          <div class="modal-content-immigration">
+            <span class="close-button-immigration">&times;</span>
+            <p>
+              Although immigration occurred during this period, no
+              location-specific flow data is available for the selected year,
+              territory, or state. Select another year or state.
+            </p>
+          </div>
+        </div>
+
+        <!-- Year Slider -->
+        <div id="year-slider-immigration">
+          <input
+            type="range"
+            id="slider-immigration"
+            min="1850"
+            max="1990"
+            step="10"
+            value="1850"
+          />
+          <!-- Ticks & Labels inside the same container -->
+
+          <div id="slider-ticks-container" class="slider-ticks-container"></div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="tab-pane fade"
+      id="compare-content"
+      role="tabpanel"
+      aria-labelledby="compare-tab"
+    >
+      <div id="container-compare">
+        <div id="map1">
+          <div class="control-box">
+            <button id="toggle-control-box">
+              <i class="bi bi-arrow-bar-left"></i>
+            </button>
+
+            <div id="control-box-content" class="control-box-content">
+              <div class="inline-group">
+                <label for="map1-select">Map 1:</label>
+                <select id="map1-select" class="custom-select custom-dropdown">
+                  <option value="Select">Select a Topic</option>
+                  <option value="Population">Population Density</option>
+                  <option value="Migration">Internal Migration</option>
+                  <option value="Foreign-Born">Foreign Born</option>
+                  <option value="Native-Land">Native Land</option>
+                </select>
+              </div>
+
+              <label for="map1-slider"
+                >Year : <span id="map1-year">1790</span>
+              </label>
+              <input
+                type="range"
+                id="map1-slider"
+                min="1790"
+                max="1990"
+                value="1790"
+                step="10"
+                class="slider-compare"
+              />
+              <div class="inline-group">
+                <label for="map2-select">Map 2:</label>
+                <select id="map2-select" class="custom-select custom-dropdown">
+                  <option value="Select a Topic">Select a Topic</option>
+                  <option value="Population">Population Density</option>
+                  <option value="Migration">Internal Migration</option>
+                  <option value="Foreign-Born">Foreign Born Population</option>
+                  <option value="Native-Land">Native Land</option>
+                </select>
+              </div>
+              <label for="map2-slider"
+                >Year : <span id="map2-year">1790</span>
+              </label>
+              <input
+                type="range"
+                id="map2-slider"
+                min="1790"
+                max="1990"
+                value="1790"
+                step="10"
+                class="slider"
+              />
+              <button id="hide-table" class="btn btn-secondary">
+                Hide Attribute Table
+              </button>
+              <button
+                id="show-table"
+                class="btn btn-primary"
+                style="display: none"
+              >
+                Show Attribute Table
+              </button>
+            </div>
+          </div>
+          <div id="map1-info" class="info-box"></div>
+          <!--  Legend for map 1-->
+
+          <div class="legend-container-absolute">
+            <div id="legend-container-map1" class="legend-wrapper"></div>
+          </div>
+        </div>
+        <div id="map2">
+          <div id="map2-info" class="info-box"></div>
+          <!-- Legend for map 2-->
+          <div class="legend-container-absolute">
+            <div id="legend-container-map2" class="legend-wrapper"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- MOVED INSIDE compare-content: Tables container -->
+      <div id="tables-container" style="display: none">
+        <div class="table-container" id="table1-container">
+          <table id="table1" class="display">
+            <thead>
+              <tr id="table1-header"></tr>
+            </thead>
+            <tbody id="table1-body"></tbody>
+          </table>
+        </div>
+        <div class="table-container" id="table2-container">
+          <table id="table2" class="display">
+            <thead>
+              <tr id="table2-header"></tr>
+            </thead>
+            <tbody id="table2-body"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Modal for Missing Map Data -->
+      <div id="map-not-available-modal" class="modal-immigration">
+        <div class="modal-content-immigration">
+          <span class="close-button-compare">&times;</span>
+          <p id="modal-compare-message"></p>
+        </div>
+      </div>
+    </div>
+    <!-- Slider Control -->
+
+    <div id="slider-container">
+      <input
+        type="range"
+        id="slider"
+        min="1607"
+        max="1999"
+        step="1"
+        value="1607"
+      />
+
+      <div class="tick-container"></div>
+
+      <!-- Inline hover label -->
+
+      <div class="year-labels"></div>
+
+      <div class="button-container">
+        <button id="toggle-button" class="btn btn-light">
+          <i id="toggle-icon" class="bi bi-play-fill"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Tooltip -->
+    <div id="tooltip" class="tooltip"></div>
+    <div id="tooltip-migration" class="tooltip"></div>
+
+    <div id="race-overlay-tooltip"></div>
+    <!-- Tab Info Modal -->
+    <div id="tabInfoModal" class="modal fade" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 id="tabInfoTitle" class="modal-title">Title</h5>
+            <button type="button" id="CloseTabInfoBtn" class="custom-close-btn">
+              X
+            </button>
+          </div>
+          <div class="modal-body">
+            <p id="tabInfoBody">Description goes here...</p>
+            <div class="form-check mt-3">
+              <input
+                type="checkbox"
+                id="Info-checkbox-remove"
+                class="form-check-input"
+              />
+              <label for="Info-checkbox-remove" class="form-check-label"
+                >Don't show again
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Welcome Popup -->
+    <div class="modal-blur-overlay" id="blur-overlay"></div>
+
+    <!-- 🔸 Your actual modal -->
+    <div
+      id="Welcome-Block"
+      class="info-blocks white-popup mfp-with-anim mfp-hide"
+      style="width: 65%; height: 65%; top: 0"
+    >
+      <div id="popup-content">
+        <img
+          id="WelcomeBackground-Img"
+          src="img/WelcomeBackground.png"
+          alt="Welcome"
+          style="width: 100%; height: 100%"
+        />
+        <button id="GetStarted-Btn" class="btn btn-primary" style="z-index: 1">
+          Get Started
+        </button>
+        <button
+          id="SkipTutorial-Btn"
+          class="btn btn-primary"
+          style="z-index: 1"
+        >
+          Skip Tutorial
+        </button>
+      </div>
+    </div>
+    <!-- Video Tutorial Popup Content (Initially Hidden) -->
+    <div
+      id="VideoTutorial-Block"
+      class="info-blocks white-popup mfp-with-anim mfp-hide InfoBoxes"
+    >
+      <!-- Manual Close Button -->
+      <button type="button" class="mfp-close" title="Close (Esc)">×</button>
+
+      <h1 class="text-left">Video Tutorial</h1>
+      <iframe
+        title="Tutorial video"
+        style="width: 100%; height: 70vh"
+        src="https://www.youtube.com/embed/w_UbZE5HgxM"
+        allow="fullscreen"
+      ></iframe>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+    <script src="https://unpkg.com/@turf/turf/turf.min.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/topojson.v3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+
+    <!-- Custom Scripts -->
+    <script src="js/index.js"></script>
+    <script src="js/slider.js"></script>
+
+    <script src="js/tutorial.js"></script>
+    <script src="js/legendManager.js"></script>
+
+    <script src="js/timeline.js"></script>
+    <script src="js/colonyPopup.js"></script>
+
+    <script src="js/history.js"></script>
+
+    <script src="js/density.js"></script>
+    <script src="js/poplayer.js"></script>
+    <script src="js/migration.js"></script>
+    <script src="js/compare.js"></script>
+    <script src="js/layer.js"></script>
+    <script src="js/historylayer.js"></script>
+    <script src="js/raceOverlay.js"></script>
+    <script src="js/tabinfo.js"></script>
+    <script src="js/magnifier.js"></script>
+    <script src="js/immigration.js"></script>
+    <script src="js/modal.js"></script>
+  </body>
+</html>

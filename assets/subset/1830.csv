@@ -1,0 +1,29 @@
+STATENAM,Percent-White,Percent-Black,Percent-Free,Percent-Slave
+Maine,99.7,0.3,0.3,0
+New Hampshire,99.8,0.2,0.2,0
+Vermont,99.7,0.3,0.3,0
+Massachusetts,98.8,1.2,1.2,0
+Rhode Island,96.3,3.7,3.7,0
+Connecticut,97.3,2.7,2.7,0
+New York,97.7,2.3,2.3,0
+New Jersey,93.6,6.4,5.7,0.7
+Pennsylvania,97.2,2.8,2.8,0
+Ohio,99.0,1.0,1.0,0
+Indiana,98.9,1.1,1.1,0
+Illinois,98.5,1.5,1.0,0.5
+Missouri,81.7,18.3,0.4,17.9
+Delaware,75.1,24.9,20.7,4.3
+Maryland,65.1,34.9,11.8,23.0
+North Carolina,64.1,35.9,2.6,33.3
+South Carolina,44.4,55.6,1.4,54.3
+Georgia,57.4,42.6,0.5,42.1
+Florida Territory,52.9,47.1,2.4,44.6
+Kentucky,75.3,24.7,0.7,24.0
+Tennessee,78.6,21.4,0.7,20.8
+Alabama,61.5,38.5,0.5,38.0
+Mississippi,51.6,48.4,0.4,48.1
+Arkansas Territory,84.5,15.5,0.5,15.1
+Louisiana,41.5,58.5,7.7,50.8
+Michigan Territory,99.1,0.9,0.8,0.1
+District of Columbia,69.2,30.8,15.4,15.4
+Virginia,57.3,42.7,3.9,38.8

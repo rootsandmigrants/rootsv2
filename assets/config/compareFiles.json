@@ -1,0 +1,368 @@
+[
+  {
+    "name": "PopDensity 1790",
+    "file": "assets/POP_JSON/choropleth_1790.geojson",
+    "topic": "Population",
+    "legend": "density"
+  },
+  {
+    "name": "PopDensity 1800",
+    "file": "assets/POP_JSON/choropleth_1800.geojson",
+    "topic": "Population",
+    "legend": "density"
+  },
+  {
+    "name": "PopDensity 1810",
+    "file": "assets/POP_JSON/choropleth_1810.geojson",
+    "topic": "Population",
+    "legend": "density"
+  },
+  {
+    "name": "PopDensity 1820",
+    "file": "assets/POP_JSON/choropleth_1820.geojson",
+    "topic": "Population",
+    "legend": "density"
+  },
+  {
+    "name": "PopDensity 1830",
+    "file": "assets/POP_JSON/choropleth_1830.geojson",
+    "topic": "Population",
+    "legend": "density"
+  },
+  {
+    "name": "PopDensity 1840",
+    "file": "assets/POP_JSON/choropleth_1840.geojson",
+    "topic": "Population",
+    "legend": "density"
+  },
+  {
+    "name": "PopDensity 1850",
+    "file": "assets/POP_JSON/choropleth_1850.geojson",
+    "topic": "Population",
+    "legend": "density"
+  },
+  {
+    "name": "PopDensity 1860",
+    "file": "assets/POP_JSON/choropleth_1860.geojson",
+    "topic": "Population",
+    "legend": "density"
+  },
+  {
+    "name": "PopDensity 1870",
+    "file": "assets/POP_JSON/choropleth_1870.geojson",
+    "topic": "Population",
+    "legend": "density"
+  },
+  {
+    "name": "PopDensity 1880",
+    "file": "assets/POP_JSON/choropleth_1880.geojson",
+    "topic": "Population",
+    "legend": "density"
+  },
+  {
+    "name": "PopDensity 1890",
+    "file": "assets/POP_JSON/choropleth_1890.geojson",
+    "topic": "Population",
+    "legend": "density"
+  },
+  {
+    "name": "PopDensity 1900",
+    "file": "assets/POP_JSON/choropleth_1900.geojson",
+    "topic": "Population",
+    "legend": "density"
+  },
+  {
+    "name": "PopDensity 1910",
+    "file": "assets/POP_JSON/choropleth_1910.geojson",
+    "topic": "Population",
+    "legend": "density"
+  },
+  {
+    "name": "PopDensity 1920",
+    "file": "assets/POP_JSON/choropleth_1920.geojson",
+    "topic": "Population",
+    "legend": "density"
+  },
+  {
+    "name": "PopDensity 1930",
+    "file": "assets/POP_JSON/choropleth_1930.geojson",
+    "topic": "Population",
+    "legend": "density"
+  },
+  {
+    "name": "PopDensity 1940",
+    "file": "assets/POP_JSON/choropleth_1940.geojson",
+    "topic": "Population",
+    "legend": "density"
+  },
+  {
+    "name": "PopDensity 1950",
+    "file": "assets/POP_JSON/choropleth_1950.geojson",
+    "topic": "Population",
+    "legend": "density"
+  },
+  {
+    "name": "PopDensity 1960",
+    "file": "assets/POP_JSON/choropleth_1960.geojson",
+    "topic": "Population",
+    "legend": "density"
+  },
+  {
+    "name": "PopDensity 1970",
+    "file": "assets/POP_JSON/choropleth_1970.geojson",
+    "topic": "Population",
+    "legend": "density"
+  },
+  {
+    "name": "PopDensity 1980",
+    "file": "assets/POP_JSON/choropleth_1980.geojson",
+    "topic": "Population",
+    "legend": "density"
+  },
+  {
+    "name": "PopDensity 1990",
+    "file": "assets/POP_JSON/choropleth_1990.geojson",
+    "topic": "Population",
+    "legend": "density"
+  },
+  {
+    "name": "Migration 1790",
+    "file": "assets/mig/migration_1790.geojson",
+    "topic": "Migration",
+    "legend": "migration"
+  },
+  {
+    "name": "Migration 1800",
+    "file": "assets/mig/migration_1800.geojson",
+    "topic": "Migration",
+    "legend": "migration"
+  },
+  {
+    "name": "Migration 1810",
+    "file": "assets/mig/migration_1810.geojson",
+    "topic": "Migration",
+    "legend": "migration"
+  },
+  {
+    "name": "Migration 1820",
+    "file": "assets/mig/migration_1820.geojson",
+    "topic": "Migration",
+    "legend": "migration"
+  },
+  {
+    "name": "Migration 1830",
+    "file": "assets/mig/migration_1830.geojson",
+    "topic": "Migration",
+    "legend": "migration"
+  },
+  {
+    "name": "Migration 1840",
+    "file": "assets/mig/migration_1840.geojson",
+    "topic": "Migration",
+    "legend": "migration"
+  },
+  {
+    "name": "Migration 1850",
+    "file": "assets/mig/migration_1850.geojson",
+    "topic": "Migration",
+    "legend": "migration"
+  },
+  {
+    "name": "Migration 1860",
+    "file": "assets/mig/migration_1860.geojson",
+    "topic": "Migration",
+    "legend": "migration"
+  },
+  {
+    "name": "Migration 1870",
+    "file": "assets/mig/migration_1870.geojson",
+    "topic": "Migration",
+    "legend": "migration"
+  },
+  {
+    "name": "Migration 1880",
+    "file": "assets/mig/migration_1880.geojson",
+    "topic": "Migration",
+    "legend": "migration"
+  },
+  {
+    "name": "Migration 1890",
+    "file": "assets/mig/migration_1890.geojson",
+    "topic": "Migration",
+    "legend": "migration"
+  },
+  {
+    "name": "Migration 1900",
+    "file": "assets/mig/migration_1900.geojson",
+    "topic": "Migration",
+    "legend": "migration"
+  },
+  {
+    "name": "Migration 1910",
+    "file": "assets/mig/migration_1910.geojson",
+    "topic": "Migration",
+    "legend": "migration"
+  },
+  {
+    "name": "Migration 1920",
+    "file": "assets/mig/migration_1920.geojson",
+    "topic": "Migration",
+    "legend": "migration"
+  },
+  {
+    "name": "Migration 1930",
+    "file": "assets/mig/migration_1930.geojson",
+    "topic": "Migration",
+    "legend": "migration"
+  },
+  {
+    "name": "Migration 1940",
+    "file": "assets/mig/migration_1940.geojson",
+    "topic": "Migration",
+    "legend": "migration"
+  },
+  {
+    "name": "Migration 1950",
+    "file": "assets/mig/migration_1950.geojson",
+    "topic": "Migration",
+    "legend": "migration"
+  },
+  {
+    "name": "Migration 1960",
+    "file": "assets/mig/migration_1960.geojson",
+    "topic": "Migration",
+    "legend": "migration"
+  },
+  {
+    "name": "ForeignBorn 1790",
+    "file": "",
+    "topic": "foreign/Foreign-Born",
+    "legend": "foreign"
+  },
+  {
+    "name": "ForeignBorn 1800",
+    "file": "",
+    "topic": "foreign/Foreign-Born",
+    "legend": "foreign"
+  },
+  {
+    "name": "ForeignBorn 1810",
+    "file": "",
+    "topic": "Foreign-Born",
+    "legend": "foreign"
+  },
+  {
+    "name": "ForeignBorn 1820",
+    "file": "",
+    "topic": "Foreign-Born",
+    "legend": "foreign"
+  },
+  {
+    "name": "ForeignBorn 1830",
+    "file": "",
+    "topic": "Foreign-Born",
+    "legend": "foreign"
+  },
+  {
+    "name": "ForeignBorn 1840",
+    "file": "",
+    "topic": "foreign/Foreign-Born",
+    "legend": "foreign"
+  },
+  {
+    "name": "ForeignBorn 1850",
+    "file": "assets/foreign/FOREIGN1850.geojson",
+    "topic": "Foreign-Born",
+    "legend": "foreign"
+  },
+  {
+    "name": "ForeignBorn 1860",
+    "file": "assets/foreign/FOREIGN1860.geojson",
+    "topic": "Foreign-Born",
+    "legend": "foreign"
+  },
+  {
+    "name": "ForeignBorn 1870",
+    "file": "assets/foreign/FOREIGN1870.geojson",
+    "topic": "Foreign-Born",
+    "legend": "foreign"
+  },
+  {
+    "name": "ForeignBorn 1880",
+    "file": "assets/foreign/FOREIGN1880.geojson",
+    "topic": "Foreign-Born",
+    "legend": "foreign"
+  },
+  {
+    "name": "ForeignBorn 1890",
+    "file": "assets/foreign/FOREIGN1890.geojson",
+    "topic": "Foreign-Born",
+    "legend": "foreign"
+  },
+  {
+    "name": "ForeignBorn 1900",
+    "file": "assets/foreign/FOREIGN1900.geojson",
+    "topic": "Foreign-Born",
+    "legend": "foreign"
+  },
+  {
+    "name": "ForeignBorn 1910",
+    "file": "assets/foreign/FOREIGN1910.geojson",
+    "topic": "Foreign-Born",
+    "legend": "foreign"
+  },
+  {
+    "name": "ForeignBorn 1920",
+    "file": "assets/foreign/FOREIGN1920.geojson",
+    "topic": "Foreign-Born",
+    "legend": "foreign"
+  },
+  {
+    "name": "ForeignBorn 1930",
+    "file": "assets/foreign/FOREIGN1930.geojson",
+    "topic": "Foreign-Born",
+    "legend": "foreign"
+  },
+  {
+    "name": "ForeignBorn 1940",
+    "file": "assets/foreign/FOREIGN1940.geojson",
+    "topic": "Foreign-Born",
+    "legend": "foreign"
+  },
+  {
+    "name": "ForeignBorn 1950",
+    "file": "assets/foreign/FOREIGN1950.geojson",
+    "topic": "Foreign-Born",
+    "legend": "foreign"
+  },
+  {
+    "name": "ForeignBorn 1960",
+    "file": "assets/foreign/FOREIGN1960.geojson",
+    "topic": "Foreign-Born",
+    "legend": "foreign"
+  },
+  {
+    "name": "ForeignBorn 1970",
+    "file": "assets/foreign/FOREIGN1970.geojson",
+    "topic": "Foreign-Born",
+    "legend": "foreign"
+  },
+  {
+    "name": "ForeignBorn 1980",
+    "file": "assets/foreign/FOREIGN1980.geojson",
+    "topic": "Foreign-Born",
+    "legend": "foreign"
+  },
+  {
+    "name": "ForeignBorn 1990",
+    "file": "assets/foreign/FOREIGN1990.geojson",
+    "topic": "Foreign-Born",
+    "legend": "foreign"
+  },
+  {
+    "name": "NativeLand 1990",
+    "file": "states/us_territories.geojson",
+    "topic": "Native-Land",
+    "legend": "Native"
+  }
+]

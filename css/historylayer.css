@@ -1,0 +1,9 @@
+#layer-toggle-animation {
+  display: none;
+}
+
+#layer-control-animation {
+  display: none;
+  top: 1px;
+  right: 1px; /* Adjust this value to move it further to the right */
+}

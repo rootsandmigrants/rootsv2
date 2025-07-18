@@ -1,0 +1,52 @@
+STATENAM,Percent-White,Percent-Black,Percent-AIEA,Percent-API,Percent-Other
+Maine,99.3,0.3,0.2,0.1,0.1
+New Hampshire,99.4,0.3,0,0.2,0.1
+Vermont,99.6,0.2,0.1,0.1,0.1
+Massachusetts,96.3,3.1,0.1,0.4,0.2
+Rhode Island,96.6,2.7,0.1,0.4,0.2
+Connecticut,93.5,6,0.1,0.2,0.2
+New York,86.8,11.9,0.2,0.7,0.4
+New Jersey,88.6,10.7,0.1,0.3,0.3
+Pennsylvania,91,8.6,0,0.2,0.1
+Ohio,90.6,9.1,0.1,0.2,0.1
+Indiana,92.8,6.9,0.1,0.1,0.1
+Illinois,86.4,12.8,0.1,0.4,0.2
+Michigan,88.3,11.2,0.2,0.2,0.2
+Wisconsin,96.4,2.9,0.4,0.2,0.1
+Minnesota,98.2,0.9,0.6,0.2,0.1
+Iowa,98.5,1.2,0.1,0.1,0.1
+Missouri,89.3,10.3,0.1,0.2,0.1
+North Dakota,97,0.4,2.3,0.1,0.1
+South Dakota,94.7,0.2,4.9,0.1,0.1
+Nebraska,96.6,2.7,0.4,0.2,0.1
+Kansas,94.5,4.8,0.4,0.2,0.2
+Delaware,85.1,14.3,0.1,0.3,0.2
+Maryland,81.5,17.8,0.1,0.5,0.1
+District of Columbia,27.7,71.1,0.1,0.7,0.4
+Virginia,80.9,18.5,0.1,0.3,0.1
+West Virginia,95.9,3.9,0,0.1,0.1
+North Carolina,76.8,22.2,0.9,0.1,0.1
+South Carolina,69.3,30.5,0.1,0.1,0.1
+Georgia,73.9,25.9,0.1,0.1,0.1
+Florida,84.2,15.3,0.1,0.2,0.1
+Kentucky,92.6,7.2,0,0.1,0.1
+Tennessee,83.9,15.8,0.1,0.1,0
+Alabama,73.6,26.2,0.1,0.1,0
+Mississippi,62.8,36.8,0.2,0.1,0
+Arkansas,81.4,18.3,0.1,0.1,0.1
+Louisiana,69.8,29.8,0.1,0.1,0.1
+Oklahoma,89.1,6.7,3.8,0.1,0.2
+Texas,86.8,12.5,0.2,0.2,0.4
+Montana,95.5,0.3,3.9,0.2,0.1
+Idaho,98.1,0.3,0.9,0.5,0.2
+Wyoming,97.2,0.8,1.5,0.3,0.2
+Colorado,95.7,3,0.4,0.5,0.4
+New Mexico,90.1,1.9,7.2,0.2,0.6
+Arizona,90.6,3,5.4,0.5,0.5
+Utah,97.4,0.6,1.1,0.6,0.2
+Nevada,91.7,5.7,1.6,0.7,0.3
+Washington,95.4,2.1,1,1.3,0.3
+Oregon,97.2,1.3,0.6,0.7,0.2
+California,89,7,0.5,2.8,0.7
+Alaska,78.8,3,16.9,0.9,0.4
+Hawaii,38.8,1,0.1,57.7,2.4

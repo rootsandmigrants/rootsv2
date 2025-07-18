@@ -1,0 +1,48 @@
+STATENAM,Percent-White,Percent-Black,Percent-AI,Percent-Asian
+Maine,99.7,0.3,0.1,0
+New Hampshire,99.8,0.2,0,0
+Vermont,99.7,0.3,0,0
+Massachusetts,99,1,0,0
+Rhode Island,97.6,2.3,0.1,0
+Connecticut,98.2,1.8,0,0
+New York,98.8,1.2,0,0
+New Jersey,96.6,3.4,0,0
+Pennsylvania,98.1,1.9,0,0
+Ohio,97.6,2.4,0,0
+Indiana,98.5,1.5,0,0
+Illinois,98.9,1.1,0,0
+Michigan,98.6,1,0.4,0
+Wisconsin,99.7,0.2,0.1,0
+Minnesota,99.7,0.2,0.2,0
+Iowa,99.5,0.5,0,0
+Missouri,93.1,6.9,0,0
+Nebraska,99.3,0.6,0.1,0
+Kansas,95.1,4.7,0.3,0
+Delaware,81.8,18.2,0,0
+Maryland,77.5,22.5,0,0
+District of Columbia,67,33,0,0
+Virginia,58.1,41.9,0,0
+West Virginia,95.9,4.1,0,0
+North Carolina,63.3,36.6,0.1,0
+South Carolina,41.1,58.9,0,0
+Georgia,54,46,0,0
+Florida,51.2,48.8,0,0
+Kentucky,83.2,16.8,0,0
+Tennessee,74.4,25.6,0,0
+Alabama,52.3,47.7,0,0
+Mississippi,46.2,53.7,0.1,0
+Arkansas,74.7,25.2,0,0
+Louisiana,49.8,50.1,0.1,0
+Texas,69,31,0,0
+Montana Territory,88.9,0.9,0.8,9.5
+Idaho Territory,70.8,0.4,0.3,28.5
+Wyoming Territory,95.7,2,0.7,1.6
+Colorado Territory,98.4,1.1,0.5,0
+New Mexico Territory,98.4,0.2,1.4,0
+Arizona Territory,99.2,0.3,0.3,0.2
+Washington Territory,92.7,0.9,5.5,1
+Oregon,95.6,0.4,0.3,3.7
+California,89.1,0.8,1.3,8.8
+Dakota Territory,90.9,0.7,8.5,0
+Utah Territory,99.1,0.1,0.2,0.5
+Nevada,91.7,0.8,0.1,7.4

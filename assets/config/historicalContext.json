@@ -1,0 +1,510 @@
+{
+  "_README": "Complete historical context JSON using simplified multimedia structure. All multimedia fields (video, images, resources) are completely optional.",
+
+  "USA": {
+    "1850": {
+      "title": "California Gold Rush Era (1849-1855)",
+      "story": "The discovery of gold in California in 1848 triggered one of the largest voluntary migrations in human history. People from around the world flocked to California, transforming it from a sparsely populated territory to a booming state. This period saw massive international immigration as people sought fortune in the 'Golden State.'",
+      "impact": "Established California as America's gateway for Pacific immigration and created the first truly multicultural American communities with significant populations from China, Chile, Mexico, and Europe.",
+      "video": "https://www.youtube-nocookie.com/embed/iydRkC0gMZI",
+      "images": ["img/gold.jpg"],
+      "resources": [
+        {
+          "label": "California Gold Rush ",
+          "url": "https://storymaps.arcgis.com/stories/26bc56d34e2d48b289eb894e7c3581e4"
+        }
+      ]
+    },
+    "1860": {
+      "title": "Transcontinental Railroad Planning & Civil War Immigration",
+      "story": "As America planned the transcontinental railroad and fought the Civil War, immigration patterns shifted dramatically. The federal government actively recruited foreign workers for railroad construction while the war created labor shortages that drew more international workers.",
+      "impact": "Immigration became essential to American infrastructure development and industrial growth during the nation's most challenging period."
+    },
+    "1870": {
+      "title": "Post-Civil War Immigration Boom",
+      "story": "Following the Civil War, America experienced unprecedented economic growth and westward expansion. The Homestead Act continued to attract international settlers, while industrial growth in the Northeast drew millions of immigrants to American cities.",
+      "impact": "Immigration helped rebuild and expand America after the Civil War, contributing to rapid industrialization and westward settlement."
+    },
+    "1880": {
+      "title": "Peak of the 'Old Immigration' Era",
+      "story": "The 1880s marked the height of immigration from Northern and Western Europe, while also seeing the beginning of 'New Immigration' from Southern and Eastern Europe. This decade saw some of the highest immigration numbers in American history relative to population.",
+      "impact": "Immigration fundamentally transformed American society, making it increasingly diverse and urban while fueling unprecedented economic growth."
+    },
+    "1890": {
+      "title": "Ellis Island Opens & 'New Immigration' Surge",
+      "story": "Ellis Island opened in 1892 as America's primary immigration station, processing over 12 million immigrants through 1954. This period marked the shift from 'Old Immigration' (Northern/Western Europe) to 'New Immigration' (Southern/Eastern Europe).",
+      "impact": "Ellis Island became the symbol of American immigration, while new immigrant groups from Italy, Poland, Russia, and other Eastern European countries transformed American cities and culture.",
+      "video": "https://www.youtube-nocookie.com/embed/bDNKHWzQiz8?si=WXyuqOIGSQz_CfTA",
+      "images": [],
+      "resources": [
+        {
+          "label": "Ellis Island Immigration Museum",
+          "url": "https://www.libertyellisfoundation.org/"
+        },
+        {
+          "label": "Ellis Island Immigration Records",
+          "url": "https://www.ancestry.com/search/collections/7488/"
+        }
+      ]
+    },
+    "1900": {
+      "title": "Peak Immigration Decade",
+      "story": "The first decade of the 20th century saw the highest levels of immigration in American history, with over 8 million people arriving. Industrial growth, urban expansion, and relatively open immigration policies combined to create unprecedented demographic change.",
+      "impact": "This decade permanently transformed American society, creating the diverse, urban, industrial nation that would dominate the 20th century."
+    },
+    "1910": {
+      "title": "Angel Island & Pacific Immigration",
+      "story": "Angel Island Immigration Station opened in 1910 in San Francisco Bay, processing immigrants from Asia and the Pacific. Unlike Ellis Island's relatively quick processing, Angel Island often detained immigrants for weeks or months, reflecting America's discriminatory policies toward Asian immigrants.",
+      "impact": "Angel Island highlighted the racial discrimination in American immigration policy while serving as the entry point for Asian immigrants who would significantly contribute to West Coast development."
+    },
+    "1920": {
+      "title": "Post-WWI Immigration Restrictions Begin",
+      "story": "World War I fundamentally changed American attitudes toward immigration. Anti-German sentiment during the war, combined with the Red Scare and economic fears, led to the first major restrictions on European immigration in American history.",
+      "impact": "This marked the end of America's era of relatively open immigration and the beginning of restrictive policies that would dominate for the next four decades."
+    }
+  },
+
+  "Policy": {
+    "1875": {
+      "title": "Page Act of 1875",
+      "story": "The Page Act was the first federal immigration law to exclude a specific group of people. It prohibited the entry of immigrants considered 'undesirable,' including forced laborers from Asia and women suspected of prostitution. The law disproportionately affected Chinese women and established precedent for federal immigration restrictions.",
+      "impact": "Established the federal government's authority to exclude specific categories of immigrants and began the legal framework for discriminatory immigration policies."
+    },
+    "1882": {
+      "title": "Chinese Exclusion Act",
+      "story": "The Chinese Exclusion Act became the first significant law restricting immigration based on race or nationality. It prohibited Chinese laborers from immigrating to the United States and prevented Chinese residents from becoming American citizens. The law was initially intended to last 10 years but was repeatedly renewed and expanded.",
+      "impact": "Established precedent for race-based immigration restrictions and fundamentally changed America from a nation of relatively open immigration to one with selective exclusions.",
+      "video": "",
+      "images": [],
+      "resources": [
+        {
+          "label": "",
+          "url": ""
+        }
+      ]
+    },
+    "1917": {
+      "title": "Immigration Act of 1917 (Asiatic Barred Zone Act)",
+      "story": "This comprehensive immigration law created a literacy test for immigrants over 16, expanded the list of 'undesirable' immigrants, and established the 'Asiatic Barred Zone' that prohibited immigration from most of Asia and the Pacific Islands. The law also increased the head tax on immigrants.",
+      "impact": "Significantly restricted immigration from Asia and established literacy requirements that reduced immigration from Southern and Eastern Europe."
+    },
+    "1921": {
+      "title": "Emergency Quota Act of 1921",
+      "story": "Also known as the Emergency Immigration Act, this law established the first numerical limits on immigration from Europe. It limited immigration from any country to 3% of the number of foreign-born persons from that country living in the United States in 1910, with a total cap of about 350,000 immigrants per year.",
+      "impact": "Marked the beginning of the national origins quota system and dramatically reduced immigration from Southern and Eastern Europe while favoring Northern and Western European immigrants."
+    },
+    "1924": {
+      "title": "Johnson-Reed Act (National Origins Act)",
+      "story": "This law established permanent immigration quotas based on 2% of each nationality's population in the 1890 census, effectively reducing immigration from Southern and Eastern Europe to a trickle while maintaining higher quotas for Northern and Western European countries. It also completely banned immigration from Asia.",
+      "impact": "Created the most restrictive immigration policy in American history, reducing total immigration by over 80% and establishing the national origins quota system that remained largely unchanged until 1965."
+    }
+  },
+
+  "National": {
+    "1850": {
+      "title": "Compromise of 1850 & Territory Immigration",
+      "story": "The Compromise of 1850, which addressed the expansion of slavery into new territories, also affected immigration patterns. California's admission as a free state attracted more international immigrants, while the Fugitive Slave Act created tensions that influenced where immigrants chose to settle.",
+      "impact": "National political decisions about slavery and territorial expansion directly influenced immigration patterns and settlement choices."
+    },
+    "1862": {
+      "title": "Homestead Act & Pacific Railway Act",
+      "story": "The Homestead Act offered 160 acres of free land to anyone willing to live on it for five years, while the Pacific Railway Act authorized construction of the transcontinental railroad. Both laws attracted massive international immigration as people sought land ownership and employment opportunities.",
+      "impact": "These acts fundamentally shaped American settlement patterns and made the federal government an active promoter of immigration for the first time."
+    },
+    "1890": {
+      "title": "Frontier Declared 'Closed'",
+      "story": "The 1890 Census declared that the American frontier was officially 'closed,' meaning there was no longer a clear line between settled and unsettled territory. This milestone coincided with increasing urbanization and changing immigration patterns as fewer immigrants became farmers.",
+      "impact": "The end of the frontier era shifted immigration from primarily agricultural settlement to urban industrial employment, changing the character of American immigration."
+    }
+  },
+
+  "IRELAND": {
+    "1847": {
+      "title": "Black '47 - Worst Year of the Great Famine",
+      "story": "1847, known as 'Black '47,' was the worst year of the Irish Potato Famine. Mass starvation reached its peak, and coffin ships carried thousands of desperate Irish immigrants to America. Many arrived sick, poor, and traumatized by the journey and the famine experience.",
+      "impact": "This year alone saw over 100,000 Irish immigrants arrive in America, fundamentally changing the demographic composition of American cities like Boston, New York, and Philadelphia.",
+      "images": [],
+      "resources": [
+        {
+          "label": "Irish Famine Documentation Project",
+          "url": "https://www.irishcentral.com/roots/history/irish-potato-famine"
+        }
+      ]
+    },
+    "1850": {
+      "title": "The Great Irish Famine (1845-1852)",
+      "story": "The Irish Potato Famine, also known as the Great Hunger, drove over 1 million Irish people to emigrate to America. The potato blight destroyed the primary food source for Irish peasants, leading to mass starvation and death. Many Irish immigrants arrived in dire conditions, often settling in port cities before moving inland.",
+      "impact": "Irish immigrants made up nearly 50% of all immigration to many states during this period."
+    },
+    "1860": {
+      "title": "Post-Famine Irish Immigration",
+      "story": "Even after the famine ended, economic hardship and British land policies continued to push Irish families to America. Many worked on railroads and in factories, helping to build America's industrial infrastructure.",
+      "impact": "Irish communities became established in major cities, influencing American politics and culture."
+    }
+  },
+
+  "IRELAND-EIRE": {
+    "1850": {
+      "title": "The Great Irish Famine (1845-1852)",
+      "story": "The Irish Potato Famine, also known as the Great Hunger, drove over 1 million Irish people to emigrate to America. The potato blight destroyed the primary food source for Irish peasants, leading to mass starvation and death. Many Irish immigrants arrived in dire conditions, often settling in port cities before moving inland.",
+      "impact": "Irish immigrants made up nearly 50% of all immigration to many states during this period."
+    }
+  },
+
+  "IRISH-FREESTATE": {
+    "1920": {
+      "title": "Irish Independence Era Immigration",
+      "story": "During Ireland's struggle for independence and the subsequent civil war, many Irish continued to emigrate to America seeking stability and economic opportunities away from the political turmoil.",
+      "impact": "These immigrants often brought strong nationalist sentiments and helped shape Irish-American political identity."
+    }
+  },
+
+  "GERMANY": {
+    "1848": {
+      "title": "German Revolutions of 1848 ('Forty-Eighters')",
+      "story": "The failed German revolutions of 1848 sent political refugees known as 'Forty-Eighters' to America. These were often educated intellectuals, professionals, and political activists who brought democratic ideals and European revolutionary concepts to America.",
+      "impact": "Forty-Eighters significantly influenced American intellectual and political life, particularly in the Midwest, bringing progressive ideas about education, labor rights, and democratic governance.",
+      "video": "",
+      "images": []
+    },
+    "1850": {
+      "title": "German Economic Migration Surge",
+      "story": "Following the political upheavals of 1848, economic hardship drove even more Germans to America. German immigrants often had more resources than other groups and frequently moved to farming areas in the Midwest, establishing substantial German-speaking communities.",
+      "impact": "Germans established farming communities and brought brewing, education, and cultural traditions that shaped American Midwest culture."
+    },
+    "1871": {
+      "title": "Post-Unification German Immigration",
+      "story": "Following German unification in 1871, economic changes and military conscription drove continued emigration to America. Many Germans sought to avoid military service in the new German Empire while pursuing economic opportunities in America's expanding industrial economy.",
+      "impact": "These immigrants often settled in established German communities, strengthening German-American cultural institutions and maintaining the German language in American communities."
+    },
+    "1880": {
+      "title": "Peak German Immigration",
+      "story": "This period saw the largest wave of German immigration. Economic opportunities in America and increasing industrialization in German states created push-pull factors. Many Germans settled in Wisconsin, Minnesota, and other Midwest states.",
+      "impact": "German became the second most spoken language in many American communities."
+    }
+  },
+
+  "CHINA": {
+    "1849": {
+      "title": "California Gold Rush Begins for Chinese",
+      "story": "News of the California Gold Rush reached China in 1849, and thousands of Chinese immigrants began the journey to 'Gam Saan' (Gold Mountain). Most were young men from Guangdong Province who planned to strike it rich and return home, but many ended up staying and building communities.",
+      "impact": "Chinese miners faced severe discrimination and violence from white miners, leading many to abandon mining for other occupations like laundry, cooking, and eventually railroad construction."
+    },
+    "1860": {
+      "title": "Chinese Gold Rush & Railroad Workers",
+      "story": "Chinese immigrants came seeking gold and economic opportunities, earning the name 'Gold Mountain' for California. Many later worked on the transcontinental railroad, facing dangerous conditions and discrimination.",
+      "impact": "Chinese workers were essential to completing the western portion of the transcontinental railroad."
+    },
+    "1865": {
+      "title": "Chinese Workers on Central Pacific Railroad",
+      "story": "In 1865, the Central Pacific Railroad began hiring Chinese workers in large numbers for the transcontinental railroad. Over 10,000 Chinese workers blasted through the Sierra Nevada mountains using dangerous explosives and hand tools, facing extreme weather and dangerous conditions.",
+      "impact": "Chinese railroad workers proved essential to completing America's transcontinental railroad, though they faced discrimination and were paid less than white workers.",
+      "video": "",
+      "images": [
+        "img/chinese-railroad-workers.jpg",
+        "img/sierra-nevada-construction.jpg",
+        "img/transcontinental-railroad-completion.jpg"
+      ],
+      "resources": [
+        {
+          "label": "Chinese Railroad Workers Project - Stanford",
+          "url": "https://web.stanford.edu/group/chineserailroad/"
+        },
+        {
+          "label": "Building the Transcontinental Railroad - NPS",
+          "url": "https://www.nps.gov/articles/000/chinese-american-contribution-to-transcontinental-railroad.htm"
+        }
+      ]
+    },
+    "1870": {
+      "title": "Chinese Railroad Construction Boom",
+      "story": "Thousands of Chinese workers laid tracks through the dangerous Sierra Nevada mountains. Despite facing prejudice and lower wages than white workers, they demonstrated exceptional skill and perseverance.",
+      "impact": "Chinese communities formed in Western cities, establishing Chinatowns that exist today."
+    }
+  },
+
+  "ITALY": {
+    "1890": {
+      "title": "Southern Italian Economic Migration",
+      "story": "Economic hardship in southern Italy and Sicily drove massive emigration. Many Italian immigrants were young men hoping to earn money and return home, though many ultimately stayed and brought their families.",
+      "impact": "Italian immigrants concentrated in northeastern cities, contributing to construction and small businesses."
+    },
+    "1900": {
+      "title": "Peak Italian Immigration Wave",
+      "story": "Over 2 million Italians immigrated between 1900-1910. Most came from impoverished southern regions seeking economic opportunities in America's growing industrial cities.",
+      "impact": "Italian neighborhoods transformed American food culture and urban communities."
+    }
+  },
+
+  "NORWAY": {
+    "1870": {
+      "title": "Scandinavian Homestead Migration",
+      "story": "The Homestead Act of 1862 attracted many Norwegians to claim free land in Minnesota, Wisconsin, and the Dakotas. They brought farming expertise suited to cold climates and established tight-knit communities.",
+      "impact": "Scandinavian immigrants shaped the culture of the Upper Midwest with their Lutheran faith and cooperative traditions."
+    }
+  },
+
+  "SWEDEN": {
+    "1880": {
+      "title": "Swedish Economic Migration",
+      "story": "Economic depression and limited land in Sweden drove many to America. Swedish immigrants often moved to areas with similar climates and established farming and logging communities.",
+      "impact": "Swedish immigrants contributed to agriculture and lumber industries in the Midwest and Pacific Northwest."
+    }
+  },
+
+  "POLAND": {
+    "1900": {
+      "title": "Polish Industrial Workers",
+      "story": "Polish immigrants, many from areas controlled by Russia, Austria, and Prussia, came seeking economic opportunities and religious freedom. Many worked in steel mills, coal mines, and factories.",
+      "impact": "Polish communities formed in industrial cities like Chicago, Pittsburgh, and Detroit."
+    }
+  },
+
+  "RUSSIA": {
+    "1900": {
+      "title": "Russian Jews Fleeing Persecution",
+      "story": "Violent pogroms and discriminatory laws drove Jewish families from the Russian Empire to America. They often settled in urban areas and worked in garment industries and small businesses.",
+      "impact": "Russian Jewish immigrants significantly influenced American culture, business, and intellectual life."
+    }
+  },
+
+  "ENGLAND": {
+    "1850": {
+      "title": "English Industrial Workers & Skilled Craftsmen",
+      "story": "Many English immigrants were skilled workers seeking better opportunities in America's growing industrial economy. Unlike other groups fleeing persecution or famine, English immigrants often came by choice with existing skills.",
+      "impact": "English immigrants brought industrial expertise and helped establish manufacturing in American cities."
+    }
+  },
+
+  "SCOTLAND": {
+    "1870": {
+      "title": "Scottish Highland Clearances & Economic Migration",
+      "story": "The Highland Clearances forced many Scottish farmers from their land, while industrial workers sought better wages in America. Scottish immigrants often brought skills in engineering, education, and agriculture.",
+      "impact": "Scottish immigrants founded many American universities and contributed to engineering projects."
+    }
+  },
+
+  "GREAT BRITAIN": {
+    "1860": {
+      "title": "British Industrial & Professional Migration",
+      "story": "Skilled British workers, including miners, textile workers, and professionals, emigrated to take advantage of America's industrial expansion and higher wages.",
+      "impact": "British immigrants helped transfer industrial technology and management practices to America."
+    }
+  },
+
+  "FRANCE": {
+    "1850": {
+      "title": "French Political Refugees & Gold Seekers",
+      "story": "Political upheaval in France after 1848 and the California Gold Rush attracted French immigrants. Many were skilled artisans, professionals, or political refugees seeking new opportunities.",
+      "impact": "French immigrants contributed to American cuisine, arts, and established communities in California and Louisiana."
+    }
+  },
+
+  "NETHERLANDS": {
+    "1870": {
+      "title": "Dutch Religious Freedom Seekers",
+      "story": "Many Dutch immigrants came seeking religious freedom and economic opportunities. They often settled in farming communities in Michigan, Iowa, and other Midwest states, maintaining strong cultural traditions.",
+      "impact": "Dutch immigrants established thriving agricultural communities and maintained distinctive cultural and religious practices."
+    }
+  },
+
+  "HOLLAND": {
+    "1870": {
+      "title": "Dutch Religious Freedom Seekers",
+      "story": "Many Dutch immigrants came seeking religious freedom and economic opportunities. They often settled in farming communities in Michigan, Iowa, and other Midwest states, maintaining strong cultural traditions.",
+      "impact": "Dutch immigrants established thriving agricultural communities and maintained distinctive cultural and religious practices."
+    }
+  },
+
+  "AUSTRIA": {
+    "1880": {
+      "title": "Austrian Economic & Political Migration",
+      "story": "Economic hardship and political tensions in the Austro-Hungarian Empire drove many Austrians to America. They often settled in industrial cities and farming communities.",
+      "impact": "Austrian immigrants contributed to American music, craftsmanship, and intellectual life."
+    }
+  },
+
+  "HUNGARY": {
+    "1900": {
+      "title": "Hungarian Economic Migration",
+      "story": "Economic depression and limited opportunities in Hungary drove many to America. Hungarian immigrants often worked in heavy industry and established ethnic communities in industrial cities.",
+      "impact": "Hungarian immigrants contributed to steel production and maintained rich cultural traditions in American cities."
+    }
+  },
+
+  "CZECHOSLOVAKIA": {
+    "1920": {
+      "title": "Czech & Slovak Independence Era Migration",
+      "story": "Following World War I and the creation of Czechoslovakia, many Czechs and Slovaks continued to emigrate seeking economic opportunities and escaping political instability.",
+      "impact": "Czech and Slovak immigrants established vibrant communities and contributed to American manufacturing and brewing industries."
+    }
+  },
+
+  "FINLAND": {
+    "1900": {
+      "title": "Finnish Economic & Political Migration",
+      "story": "Economic hardship and Russian political control drove many Finns to America. They often worked in logging, mining, and farming, particularly in the Great Lakes region.",
+      "impact": "Finnish immigrants established cooperative movements and contributed to labor organizing in America."
+    }
+  },
+
+  "DENMARK": {
+    "1880": {
+      "title": "Danish Agricultural Migration",
+      "story": "Economic challenges in Danish agriculture and opportunities under the American Homestead Act attracted many Danish farmers to the Midwest.",
+      "impact": "Danish immigrants established successful farming communities and introduced modern agricultural techniques."
+    }
+  },
+
+  "BELGIUM": {
+    "1850": {
+      "title": "Belgian Industrial & Religious Migration",
+      "story": "Economic opportunities and religious freedom attracted Belgian immigrants to America. Many were skilled in textiles, glassmaking, and other industrial crafts.",
+      "impact": "Belgian immigrants contributed to American industrial development and established Catholic communities."
+    }
+  },
+
+  "SWITZERLAND": {
+    "1860": {
+      "title": "Swiss Agricultural & Economic Migration",
+      "story": "Limited land and economic opportunities in Switzerland drove many to seek farming opportunities in America, particularly in Wisconsin and other Midwest states.",
+      "impact": "Swiss immigrants established dairy farming communities and contributed to American cheesemaking traditions."
+    }
+  },
+
+  "PORTUGAL": {
+    "1880": {
+      "title": "Portuguese Maritime & Agricultural Migration",
+      "story": "Portuguese immigrants, many from the Azores, came seeking opportunities in fishing, whaling, and agriculture, particularly in New England and California.",
+      "impact": "Portuguese immigrants established fishing communities and contributed to American maritime industries."
+    }
+  },
+
+  "SPAIN": {
+    "1870": {
+      "title": "Spanish Economic & Political Migration",
+      "story": "Political instability and economic challenges in Spain drove immigration to America. Many Spanish immigrants settled in the Southwest and worked in mining and agriculture.",
+      "impact": "Spanish immigrants contributed to southwestern American culture and maintained strong cultural traditions."
+    }
+  },
+
+  "GREECE": {
+    "1900": {
+      "title": "Greek Economic Migration",
+      "story": "Economic hardship and limited opportunities in Greece drove many young men to America seeking work. Many planned to return but often stayed and brought their families.",
+      "impact": "Greek immigrants established restaurants, small businesses, and maintained strong cultural and religious communities."
+    }
+  },
+
+  "ROMANIA": {
+    "1900": {
+      "title": "Romanian Economic & Religious Migration",
+      "story": "Economic hardship and religious persecution drove many Romanians to America. They often worked in heavy industry and established Orthodox Christian communities.",
+      "impact": "Romanian immigrants contributed to American industrial labor and maintained distinctive cultural traditions."
+    }
+  },
+
+  "BULGARIA": {
+    "1900": {
+      "title": "Bulgarian Economic Migration",
+      "story": "Economic challenges and political instability in Bulgaria drove immigration to America. Many Bulgarian immigrants worked in industrial jobs and farming.",
+      "impact": "Bulgarian immigrants established small but vibrant communities and contributed to American agriculture and industry."
+    }
+  },
+
+  "TURKEY": {
+    "1900": {
+      "title": "Turkish & Armenian Migration",
+      "story": "Political persecution and economic hardship in the Ottoman Empire drove many Turks and Armenians to America seeking safety and opportunities.",
+      "impact": "Turkish immigrants established communities in industrial cities and contributed to American cultural diversity."
+    }
+  },
+
+  "YUGOSLAVIA": {
+    "1920": {
+      "title": "Yugoslav Post-War Migration",
+      "story": "Following World War I and the creation of Yugoslavia, many South Slavs continued to emigrate seeking economic opportunities and escaping political instability.",
+      "impact": "Yugoslav immigrants established communities in industrial cities and contributed to American manufacturing."
+    }
+  },
+
+  "LITHUANIA": {
+    "1900": {
+      "title": "Lithuanian Independence Seekers",
+      "story": "Russian oppression and economic hardship drove many Lithuanians to America. They often worked in industrial jobs and maintained strong Catholic communities.",
+      "impact": "Lithuanian immigrants established vibrant communities and contributed to American labor movements."
+    }
+  },
+
+  "LATVIA": {
+    "1900": {
+      "title": "Latvian Economic & Political Migration",
+      "story": "Russian control and economic challenges drove many Latvians to seek opportunities in America. They often settled in industrial cities and farming communities.",
+      "impact": "Latvian immigrants maintained cultural traditions and contributed to American agriculture and industry."
+    }
+  },
+
+  "ESTONIA": {
+    "1900": {
+      "title": "Estonian Freedom Seekers",
+      "story": "Russian oppression and economic hardship drove Estonian immigration to America. They often sought opportunities in agriculture and industry.",
+      "impact": "Estonian immigrants established small but cohesive communities and contributed to American cultural diversity."
+    }
+  },
+
+  "UKRAINE": {
+    "1900": {
+      "title": "Ukrainian Agricultural Migration",
+      "story": "Russian and Austrian oppression, combined with economic hardship, drove many Ukrainians to seek farming opportunities in America, particularly in the Great Plains.",
+      "impact": "Ukrainian immigrants established farming communities and maintained strong Orthodox and Catholic religious traditions."
+    }
+  },
+
+  "MEXICO": {
+    "1920": {
+      "title": "Mexican Revolutionary Era Migration",
+      "story": "The Mexican Revolution (1910-1920) and economic instability drove many Mexicans north seeking safety and work opportunities in American agriculture and industry.",
+      "impact": "Mexican immigrants established communities throughout the Southwest and contributed significantly to American agriculture."
+    }
+  },
+
+  "CANADA": {
+    "1880": {
+      "title": "Canadian Economic Migration",
+      "story": "Economic opportunities and family connections drew many Canadians south to America. Many were skilled workers or farmers seeking better prospects.",
+      "impact": "Canadian immigrants easily integrated into American society while maintaining connections to their homeland."
+    }
+  },
+
+  "JAPAN": {
+    "1900": {
+      "title": "Japanese Agricultural & Labor Migration",
+      "story": "Economic opportunities and the Meiji Restoration's changes drove Japanese immigration to Hawaii and the West Coast. Many worked in agriculture and fishing.",
+      "impact": "Japanese immigrants established successful farming communities and contributed to West Coast agriculture before facing severe discrimination."
+    }
+  },
+
+  "KOREA": {
+    "1900": {
+      "title": "Korean Independence Seekers",
+      "story": "Japanese occupation and political oppression drove many Koreans to seek refuge in America. They often worked in agriculture and small businesses.",
+      "impact": "Korean immigrants established communities on the West Coast and maintained strong cultural and political identity."
+    }
+  },
+
+  "PHILIPPINES": {
+    "1920": {
+      "title": "Filipino Colonial Era Migration",
+      "story": "Following American colonization of the Philippines, many Filipinos came to America as students and workers, particularly in agriculture and domestic service.",
+      "impact": "Filipino immigrants established communities on the West Coast and contributed to American agriculture and service industries."
+    }
+  },
+
+  "INDIA": {
+    "1900": {
+      "title": "Indian Student & Professional Migration",
+      "story": "Small numbers of Indians, often students and professionals, came to America seeking education and opportunities during the British colonial period.",
+      "impact": "Early Indian immigrants contributed to American intellectual life and established foundations for later immigration waves."
+    }
+  }
+}

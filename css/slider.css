@@ -1,0 +1,322 @@
+/* Clean slider container - slimmed down */
+#slider-container {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%; /* Responsive width */
+  background: white;
+  padding: 12px; /* Reduced from 20px */
+  border-radius: 6px; /* Slightly smaller */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); /* Reduced shadow */
+  z-index: 2000; /* Above map controls */
+  background: rgba(255, 255, 255, 0.15); /* translucent white */
+  backdrop-filter: blur(10px); /* frosted glass effect */
+  -webkit-backdrop-filter: blur(10px); /* for Safari */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* subtle border */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25); /* Reduced shadow */
+}
+
+/* Current year display */
+.current-year {
+  text-align: center;
+  font-size: 14px; /* Reduced from 18px */
+  font-weight: 600;
+  color: #5c5a5a;
+  margin-bottom: 8px; /* Reduced from 15px */
+}
+
+/* Main slider */
+#slider {
+  width: 100%;
+  height: 10px; /* Reduced from 6px */
+  background: #eeeded;
+  border-radius: 2px; /* Reduced from 3px */
+  outline: none;
+  appearance: none;
+  cursor: pointer;
+  margin-bottom: 3px; /* Reduced from 5px */
+  position: relative;
+}
+#slider:focus {
+  outline: none; /* Removes the outline */
+}
+
+#slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px; /* Reduced from 15px */
+  height: 18px; /* Reduced from 25px */
+  background: #545353;
+  cursor: pointer;
+  border-radius: 40%;
+  position: relative;
+  /* >>> THIS IS THE KEY FOR CHROME <<< */
+  outline: none; /* Remove the blue outline when the thumb is clicked/focused */
+  box-shadow: none; /* Also good to explicitly remove any default shadows */
+  border: none; /* Ensure no default border */
+}
+/* Optional: Add a custom focus/active style for the Webkit thumb for accessibility */
+#slider::-webkit-slider-thumb:focus,
+#slider::-webkit-slider-thumb:active {
+  outline: none; /* Ensure it stays off even when active */
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5); /* Example: a custom blue glow */
+  /* You could also change background or border here if you like */
+}
+
+#slider::-moz-range-thumb {
+  width: 16px; /* Reduced from 20px */
+  height: 16px; /* Reduced from 20px */
+  background: #007bff;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); /* Reduced shadow */
+  position: relative;
+}
+
+/* Firefox track styling */
+#slider::-moz-range-track {
+  height: 4px; /* Reduced from 6px */
+  background: #ddd;
+  border-radius: 2px; /* Reduced from 3px */
+  border: none;
+}
+
+/* Tick container */
+.tick-container {
+  position: relative;
+  width: 100%;
+  height: 12px; /* Reduced from 20px */
+  margin-bottom: 3px; /* Reduced from 5px */
+  /* Account for thumb width to align ticks properly */
+  padding: 0 6px; /* Half of thumb width (12px/2) */
+  box-sizing: border-box;
+}
+
+/* Tick wrapper */
+.tick-wrapper {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateX(-50%);
+}
+
+/* Tick styles */
+.tick {
+  width: 1px;
+  background-color: #999;
+  margin-bottom: 1px; /* Reduced from 2px */
+}
+
+.tick.major {
+  height: 10px; /* Reduced from 12px */
+  background-color: #252525;
+  width: 2px;
+}
+
+.tick.minor {
+  height: 5px; /* Reduced from 6px */
+  background-color: #a8a2a2;
+}
+
+/* Year labels for ticks */
+.tick-wrapper .year {
+  font-size: 10px; /* Reduced from 10px */
+  color: #666;
+  margin-top: 1px; /* Reduced from 2px */
+  white-space: nowrap;
+}
+
+/* Simple year labels (start/end) */
+.year-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px; /* Reduced from 12px */
+  color: #666;
+  margin-top: 3px; /* Reduced from 5px */
+}
+
+/* Zoom controls */
+.zoom-controls {
+  position: absolute;
+  top: 10px; /* Reduced from 15px */
+  left: 10px; /* Reduced from 15px */
+  display: flex;
+  gap: 3px; /* Reduced from 5px */
+}
+
+.zoom-controls button {
+  width: 24px; /* Reduced from 30px */
+  height: 24px; /* Reduced from 30px */
+  border-radius: 3px; /* Reduced from 4px */
+  border: 1px solid #ddd;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 12px; /* Reduced from 14px */
+  font-weight: bold;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Reduced shadow */
+  transition: all 0.2s ease;
+}
+
+.zoom-controls button:hover {
+  background: #f8f9fa;
+  transform: scale(1.05);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15); /* Reduced shadow */
+}
+
+.zoom-controls button:active {
+  transform: scale(0.95);
+}
+
+/* Button container */
+.button-container {
+  position: absolute;
+  top: 10px; /* Reduced from 15px */
+  right: 10px; /* Reduced from 15px */
+}
+
+#toggle-button {
+  width: 28px; /* Reduced from 35px */
+  height: 28px; /* Reduced from 35px */
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Reduced shadow */
+  transition: all 0.2s ease;
+}
+
+#toggle-button:hover {
+  background: #f8f9fa;
+  transform: scale(1.05);
+}
+
+#toggle-icon {
+  font-size: 14px; /* Reduced from 16px */
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  #slider-container {
+    width: 90%;
+    padding: 10px; /* Reduced from 15px */
+    bottom: 15px; /* Reduced from 20px */
+  }
+
+  .tick-wrapper .year {
+    font-size: 7px; /* Reduced from 9px */
+  }
+
+  .tick.major {
+    height: 6px; /* Reduced from 10px */
+  }
+
+  .tick.minor {
+    height: 3px; /* Reduced from 5px */
+  }
+
+  #toggle-button {
+    width: 24px; /* Reduced from 30px */
+    height: 24px; /* Reduced from 30px */
+    top: 8px; /* Reduced from 10px */
+    right: 8px; /* Reduced from 10px */
+  }
+
+  #toggle-icon {
+    font-size: 12px; /* Reduced from 14px */
+  }
+
+  .zoom-controls {
+    top: 8px;
+    left: 8px;
+  }
+
+  .zoom-controls button {
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+  }
+}
+/* ============================================================================
+   SLIDER UNAVAILABLE YEARS STYLING
+   ============================================================================ */
+
+/* Base styles for unavailable tick marks */
+.tick.unavailable {
+  background-color: #ccc !important;
+  opacity: 0.5;
+  cursor: not-allowed !important;
+}
+
+/* Major tick marks when unavailable */
+.tick.major.unavailable {
+  background-color: #999 !important;
+  opacity: 0.5;
+  cursor: not-allowed !important;
+}
+
+/* Year labels when unavailable */
+.year.unavailable {
+  color: #ccc !important;
+  opacity: 0.6;
+  cursor: not-allowed !important;
+}
+
+/* Hover effects for unavailable ticks - slightly darker but still disabled */
+.tick.unavailable:hover {
+  background-color: #bbb !important;
+  opacity: 0.7;
+}
+
+.tick.major.unavailable:hover {
+  background-color: #888 !important;
+  opacity: 0.7;
+}
+
+/* Year labels hover when unavailable */
+.year.unavailable:hover {
+  color: #bbb !important;
+  opacity: 0.8;
+}
+
+/* Ensure unavailable ticks don't get pointer cursor */
+.tick.unavailable,
+.tick.major.unavailable {
+  pointer-events: auto; /* Keep events for tooltips */
+}
+
+/* Optional: Add a subtle strikethrough effect for unavailable years */
+.year.unavailable {
+  position: relative;
+}
+
+.year.unavailable::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 1px;
+  background-color: #999;
+  opacity: 0.7;
+}
+/* Ensure unavailable styling works on mobile */
+@media (max-width: 768px) {
+  .tick.unavailable,
+  .tick.major.unavailable {
+    opacity: 0.4; /* More obvious on smaller screens */
+  }
+
+  .year.unavailable {
+    opacity: 0.5;
+    font-size: 0.9em; /* Slightly smaller to indicate unavailability */
+  }
+}

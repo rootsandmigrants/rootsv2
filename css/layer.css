@@ -1,0 +1,116 @@
+.layer-icon-container {
+  position: absolute;
+  top: 15px; /* Moved further down by increasing the top value */
+  right: 1%; /* Position adjusted for left movement */
+  z-index: 1000;
+  background-color: transparent; /* Ensure the background is transparent */
+}
+
+.layer-icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  background-color: transparent; /* Ensure the background is transparent */
+}
+.layer-toggle {
+  position: absolute;
+  top: 10px;
+  right: 60px;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.layer-control {
+  position: absolute;
+  top: 50px;
+  right: 60px;
+  z-index: 999;
+
+  /* Glassmorphism styles */
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  width: 220px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+
+  /* Scrollable but hidden scrollbar */
+  max-height: 300px;
+  overflow-y: auto;
+
+  /* Hide scrollbar */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+.layer-control::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+
+.layer-group {
+  margin-bottom: 10px;
+}
+
+.layer-group-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.layer-subgroup-title {
+  margin-left: 5px;
+  font-weight: bold; /* Makes text bold */
+  font-style: normal; /* Removes italics if needed */
+  margin-bottom: 5px;
+}
+
+.layer-checkbox {
+  margin-left: 5px;
+  margin-bottom: 2px; /* Adds spacing between checkboxes */
+}
+#layer-toggle-population {
+  display: none;
+}
+
+#layer-control-population {
+  display: none;
+  top: 1px;
+  right: 1px; /* Adjust this value to move it further to the right */
+}
+.race-checkbox {
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+}
+
+.race-checkbox:checked {
+  border-color: #1b1c1c;
+  background-color: #1b1c1c;
+}
+/* Your existing CSS plus these additions */
+.density-checkbox {
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+}
+
+.density-checkbox:checked {
+  border-color: #1b1c1c;
+  background-color: #1b1c1c;
+}
+
+.default-option {
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+}
